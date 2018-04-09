@@ -21,10 +21,10 @@ $( document ).ready(function() {
 
     searchMenu.on('click', () => {
         openSearch();
-    })
-
-    content.on('click', () => {
-      closeSearch();
+        content.on('click', () => {
+          closeSearch();
+          content.off('click');
+        })
     })
 
     searchClose.on('click', () => {
