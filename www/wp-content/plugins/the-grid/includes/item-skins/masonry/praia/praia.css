@@ -1,0 +1,242 @@
+.praia a,
+.praia a:active,
+.praia a:focus,
+.praia .tg-share-icons i {
+	text-decoration: none;
+    border: none;
+	-webkit-box-shadow: none;
+    box-shadow: none;
+	-webkit-transition: opacity 0.25s ease, color 0.25s ease;
+	-moz-transition: opacity 0.25s ease, color 0.25s ease;
+	-ms-transition: opacity 0.25s ease, color 0.25s ease;
+	-o-transition: opacity 0.25s ease, color 0.25s ease;
+	transition: opacity 0.25s ease, color 0.25s ease;
+}
+.praia .tg-media-button:hover,
+.praia a:not(.mejs-volume-slider):hover {
+	opacity: 0.85 !important;
+}
+.praia *:not(.mejs-controls) {
+	-webkit-transition: -webkit-transform 0.8s cubic-bezier(.17,.73,.66,.99) 0s, z-index 0s step-end, opacity 0.4s ease !important;
+    -moz-transition: -moz-transforms 0.8s cubic-bezier(.17,.73,.66,.99) 0s, z-index 0s step-end, opacity 0.4s ease !important;
+    -ms-transition: -ms-transform 0.8s cubic-bezier(.17,.73,.66,.99) 0s, z-index 0s step-end, opacity 0.4s ease !important;
+    -o-transition: -o-transform 0.8s cubic-bezier(.17,.73,.66,.99) 0s, z-index 0s step-end, opacity 0.4s ease !important;
+    transition: transform 0.8s cubic-bezier(.17,.73,.66,.99) 0s, z-index 0s step-end, opacity 0.4s ease !important;
+}
+.praia.tg-force-play *:not(.mejs-controls),
+.praia.tg-is-playing *:not(.mejs-controls) {
+	-webkit-transition: -webkit-transform 0.8s cubic-bezier(.17,.73,.66,.99) 0s, z-index 0.4s step-end, opacity 0.4s ease !important;
+    -moz-transition: -moz-transforms 0.8s cubic-bezier(.17,.73,.66,.99) 0s, z-index 0.4s step-end, opacity 0.4s ease !important;
+    -ms-transition: -ms-transform 0.8s cubic-bezier(.17,.73,.66,.99) 0s, z-index 0.4s step-end, opacity 0.4s ease !important;
+    -o-transition: -o-transform 0.8s cubic-bezier(.17,.73,.66,.99) 0s, z-index 0.4s step-end, opacity 0.4s ease !important;
+    transition: transform 0.8s cubic-bezier(.17,.73,.66,.99) 0s, z-index 0.4s step-end, opacity 0.4s ease !important;
+}
+.praia .tg-item-content-inner div,
+.praia .tg-item-content-inner .tg-link-button {
+	-webkit-transition: -webkit-transform 0.4s cubic-bezier(.17,.73,.66,.99) 0s, z-index 0.4s step-end, opacity 0.4s ease !important;
+    -moz-transition: -moz-transforms 0.4s cubic-bezier(.17,.73,.66,.99) 0s, z-index 0.4s step-end, opacity 0.4s ease !important;
+    -ms-transition: -ms-transform 0.4s cubic-bezier(.17,.73,.66,.99) 0s, z-index 0.4s step-end, opacity 0.4s ease !important;
+    -o-transition: -o-transform 0.4s cubic-bezier(.17,.73,.66,.99) 0s, z-index 0.4s step-end, opacity 0.4s ease !important;
+    transition: transform 0.4s cubic-bezier(.17,.73,.66,.99) 0s, z-index 0.4s step-end, opacity 0.4s ease !important;
+}
+.tg-force-play .tg-item-audio-poster,
+.tg-is-playing .tg-item-audio-poster {
+	-webkit-transform: matrix(1,0,0,1,0,0) !important;
+	-moz-transform: matrix(1,0,0,1,0,0) !important;
+}
+.praia .tg-item-image {
+	outline: 1px solid transparent !important;
+}
+.praia .tg-panZ {
+	position: relative;
+	display: block;
+	overflow: hidden !important;
+}
+.praia .tg-item-content-holder.no-image,
+.praia .tg-item-content-holder.link-format,
+.praia .tg-item-content-holder.quote-format {
+	position: relative;
+    display: block;
+	padding: 20px;
+	text-align: center;
+}
+.praia .tg-item-image-holder,
+.praia .tg-item-content-holder:not(.no-image):not(.link-format):not(.quote-format) {
+	position: absolute;
+    display: block;
+	overflow: hidden;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+	text-align: center;
+	background: none !important;
+}
+.praia .tg-item-content-holder.no-image .tg-item-content-inner {
+	position: relative;
+    display: block;
+	text-align: center;
+	background: none;
+}
+.praia .tg-item-content-holder:not(.no-image) .tg-item-content-inner {
+	position: absolute;
+    display: block;
+    bottom: 0;
+    left: 0;
+	padding: 20px 0 32px 0;
+    width: 100%;
+}
+.praia .tg-item-title,
+.praia .tg-item-title a {
+	position: relative;
+    display: block;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 1px;
+    font-weight: 600;
+	margin: 0 !important;
+	padding: 12px 40px !important;
+	text-transform: uppercase;
+}
+.praia .tg-item-title a {
+	padding: 0 !important;
+}
+.praia .quote-format,
+.praia .link-format {
+	overflow: hidden;
+}
+.praia .link-format .tg-item-title,
+.praia .quote-format .tg-item-title {
+	padding: 12px 40px 0 40px!important;
+}
+.praia .tg-item-date {
+	position: relative;
+    display: block;
+	font-size: 14px;
+	font-style: italic;
+    line-height: 14px;
+}
+.praia .link-format .tg-item-date,
+.praia .quote-format .tg-item-date {
+	margin: 30px 0;
+}
+.praia .tg-item-author {
+	position: relative;
+    display: block;
+	line-height: 18px;
+    padding: 8px 0;
+}
+.praia .tg-item-author span {
+	font-style: italic;
+}
+.praia .tg-item-author a {
+	margin: 0 0 0 4px;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+.praia .tg-item-excerpt {
+    margin: 10px 40px 30px 40px;
+    padding: 0;
+    font-size: 14px;
+    line-height: 26px;
+    text-align: center;
+}
+.praia .tg-item-overlay {
+	position: absolute;
+	top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;	
+}
+.praia:hover .tg-item-overlay {
+	opacity: 0.5;
+}
+.praia .tg-quote-icon,
+.praia .tg-link-icon {
+    position: relative;
+    display: inline-block;
+    font-size: 24px;
+    margin: -45px 0 0 0;
+    font-size: 80px;
+    opacity: 0.14;
+    text-align: center;
+}
+.praia .tg-quote-author,
+.praia .tg-link-url {
+	position: relative;
+    display: block;
+	margin: 8px 0 0 0;
+    font-size: 13px;
+	font-style: italic; 
+	text-align: center;
+}
+.praia .tg-media-button,
+.praia .tg-link-button {
+    position: absolute;
+    display: inline-block;
+    left: 0;
+    right: 0;
+    margin: 0 0 30px 0;
+    text-align: center;
+    cursor: pointer;
+    opacity: 0;
+    bottom: 0;
+    padding: 6px 14px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    text-transform: uppercase;
+}
+.praia .tg-media-button,
+.praia .tg-link-button {
+    opacity: 0;
+	line-height: 24px;
+	-webkit-transform: translate3d(0,30px,0);
+	-moz-transform: translate3d(0,30px,0);
+	-ms-transform: translate3d(0,30px,0);
+	-o-transform: translate3d(0,30px,0);
+	transform: translate3d(0,30px,0);
+}
+.praia .tg-media-button i,
+.praia .tg-link-button i {
+	position: relative;
+	display: inline-block;
+	vertical-align: top;
+	line-height: 24px;
+ 	font-size: 14px;
+	padding: 0 5px 0 0;   
+}
+.praia .tg-media-button a,
+.praia .tg-link-button a {
+	vertical-align: top;
+	line-height: 24px;
+}
+.praia .tg-link-button i {
+ 	font-size: 22px;  
+}
+.praia .tg-item-content-holder:not(.no-image):not(.quote-format):not(.link-format):hover .tg-item-title,
+.praia .tg-item-content-holder:not(.no-image):not(.quote-format):not(.link-format):hover .tg-item-date,
+.praia .tg-item-content-holder:not(.no-image):not(.quote-format):not(.link-format):hover .tg-item-author {
+    opacity: 0;
+	-webkit-transform: translate3d(0,-30px,0);
+	-moz-transform: translate3d(0,-30px,0);
+	-ms-transform: translate3d(0,-30px,0);
+	-o-transform: translate3d(0,-30px,0);
+	transform: translate3d(0,-30px,0);
+}
+.praia.tg-is-playing .tg-item-content-holder:not(.no-image),
+.praia.tg-force-play .tg-item-content-holder:not(.no-image),
+.praia.tg-is-playing .tg-item-overlay,
+.praia.tg-force-play .tg-item-overlay {
+	opacity: 0;
+	z-index: -1;
+}
+.praia .tg-item-content-holder:hover .tg-media-button,
+.praia .tg-item-content-holder:hover .tg-link-button {
+    opacity: 1;
+	-webkit-transform: translate3d(0,0,0);
+	-moz-transform: translate3d(0,0,0);
+	-ms-transform: translate3d(0,0,0);
+	-o-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}

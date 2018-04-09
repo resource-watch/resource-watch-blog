@@ -1,0 +1,153 @@
+.oslo a,
+.oslo a:active,
+.oslo a:focus,
+.oslo .tg-item-image,
+.oslo.tg-item .tg-item-audio-poster,
+.oslo .tg-item-overlay,
+.oslo .tg-item-media-holder,
+.oslo .tg-item-content-holder,
+.oslo .tg-cats-holder,
+.oslo .tg-item-title,
+.oslo .to-post-like {
+	text-decoration: none;
+    border: none;
+	-webkit-box-shadow: none;
+    box-shadow: none;
+	-webkit-transition: all 0.4s ease;
+	-moz-transition: all 0.4s ease;
+	-ms-transition: all 0.4s ease;
+	-o-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+}
+.oslo .tg-center-holder {
+	text-align: center;
+}
+.oslo .tg-item-link {
+	position: absolute;
+    display: block;
+    top: -1000%;
+    left: 0;
+    width: 100%;
+    height: 2000%;
+}
+.oslo .tg-item-content-holder,
+.oslo .tg-item-media-holder,
+.oslo .tg-item-overlay {
+	position: absolute;
+	overflow: hidden;
+	display: block;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+}
+.oslo .tg-item-inner {
+	overflow: hidden;
+}
+.oslo .tg-item-content-holder {
+	background: none !important;
+	padding: 22px;
+	opacity: 0;
+}
+.oslo:hover .tg-item-content-holder {
+	opacity: 1;
+}
+.oslo.tg-is-playing .tg-item-content-holder,
+.oslo.tg-force-play .tg-item-content-holder {
+	opacity: 0;
+	z-index: -1;
+}
+.oslo .tg-item-title,
+.oslo .tg-item-title a {
+	position: relative;
+	display: block;
+    font-size: 20px;
+	line-height: 26px;
+	font-weight: 600;
+	margin: 0 !important;
+	padding: 0 !important;
+}
+.tg-layout-justified .oslo .tg-item-title,
+.tg-layout-justified .oslo .tg-item-title a {
+    font-size: 16px;
+	line-height: 18px;
+}
+.oslo .tg-item-title {
+	padding: 0 30px !important;
+}
+.tg-layout-justified .oslo .tg-item-title {
+    padding: 0 15px !important;
+}
+.oslo .tg-item-title  {
+	-webkit-transform: translate3d(0,-34px,0);
+	-moz-transform: translate3d(0,-34px,0);
+	-ms-transform: translate3d(0,-34px,0);
+	-o-transform: translate3d(0,-34px,0);
+	transform: translate3d(0,-34px,0);
+}
+.oslo:not(.tg-is-playing):not(.tg-force-play):hover .tg-item-image,
+.oslo:not(.tg-is-playing):not(.tg-force-play):hover .tg-item-audio-poster,
+.oslo:not(.tg-is-playing):not(.tg-force-play):hover .tg-item-media-poster {
+	-webkit-transform: perspective(500px)  scale3d(1.15,1.15,1.15);
+    -moz-transform: perspective(500px) scale3d(1.15,1.15,1.15);
+    -ms-transform: perspective(500px) scale3d(1.15,1.15,1.15);
+    -o-transform: perspective(500px) scale3d(1.15,1.15,1.15);
+    transform: perspective(500px) scale3d(1.15,1.15,1.15);
+}
+.oslo .tg-cats-holder {
+	position: relative;
+	display: block;
+	margin: 10px 0 0 0;
+	padding: 0 30px;
+	font-size: 13px;
+	line-height: 18px;
+	-webkit-transform: translate3d(0,34px,0);
+	-moz-transform: translate3d(0,34px,0);
+	-ms-transform: translate3d(0,34px,0);
+	-o-transform: translate3d(0,34px,0);
+	transform: translate3d(0,34px,0);
+}
+.oslo:hover .tg-cats-holder,
+.oslo:hover .tg-item-title {
+	-webkit-transform: translate3d(0,0,0);
+	-moz-transform: translate3d(0,0,0);
+	-ms-transform: translate3d(0,0,0);
+	-o-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+.oslo .tg-link-button,
+.oslo .tg-media-button {
+    position: absolute;
+    display: block;
+    margin: 0;
+    top: 22px;
+    right: 22px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    text-align: center;;
+}
+.oslo .tg-media-button:hover {
+	opacity: 0.75;
+}
+.oslo .tg-media-button i {
+	position: relative;
+	display: block;
+	width: 20px;
+	height: 20px;
+    font-size: 20px;
+	line-height: 20px;
+	cursor: pointer;
+}
+.oslo .tg-media-button .tg-icon-arrows-diagonal {
+	font-weight: 600;
+}
+.oslo .to-post-like {
+    position: absolute;
+    display: block;
+    bottom: 22px;
+    left: 22px;
+	margin: 0;
+    font-size: 14px; 
+	line-height: 14px; 
+}

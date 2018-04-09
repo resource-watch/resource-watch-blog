@@ -1,0 +1,20 @@
+html, body { height: auto; }
+.documentor-default .doc-menu {
+	width: 0px;
+}
+.documentor-default .doc-sec-container {
+	width: 100% !important;
+}
+.documentor-default .doc-sec-title {
+	font-size: 24px;
+}
+.documentor-default .doc-sec-count {
+	margin-right: 15px;
+}
+.documentor-default .doc-isrc {
+	display: block;
+}
+#footer {
+	display: none;
+}
+ 

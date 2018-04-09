@@ -1,0 +1,59 @@
+html, body {
+   height: auto;
+   font-family: sans-serif;
+   font-size: 12px;
+   line-height: 1.4em;
+}
+
+body {
+   margin:0px;
+   padding:10px;
+}
+
+#wpwrap {
+   min-height: 10px;
+}
+
+textarea, input, select, button {
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+#main_selector #image { 
+    position:absolute;
+    z-index:11; 
+    border: 1px dashed #ff00ff;
+}
+
+#main_selector #iframe { 
+    position:absolute;
+    z-index:10;
+    margin:1px;
+}
+
+.text-pad-top {
+   display: inline-block;
+   width:150px;
+   vertical-align:top;
+}
+
+.text-pad {
+   display: inline-block;
+   width:100px;
+}
+
+input {
+   margin-right: 10px;
+}
+
+textarea {
+   width: 800px;
+   height:80px;
+}
+
+#hide_additional_div {
+     margin-left: 20px;
+     margin-bottom:10px;
+     display:none;
+}

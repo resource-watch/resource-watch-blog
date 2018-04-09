@@ -1,0 +1,19 @@
+#adminmenuwrap, #wpadminbar, #wpfooter, .hide-print, .wp-core-ui .button-primary, #adminmenuback {
+display: none;
+}
+
+html.wp-toolbar {
+padding-top: 0px;
+}
+
+#help-header {
+display: inline-block;
+}
+
+#wpcontent, #wpfooter {
+    margin-left: 0px;
+}
+
+#details-workaround, #details-javascript, #jquery-help, #browser-help, #all-parameters,  #ai #details-not-work {
+	display: block;
+}

@@ -25,11 +25,6 @@
 /www/wp-content/backup-db/
 /www/wp-content/backups/
 /www/wp-content/blogs.dir/
-/www/wp-content/plugins/
-
-# Theme
-/www/wp-content/themes/
-/www/wp-content/themes/ihr-2018
 
 # ENV
 .env

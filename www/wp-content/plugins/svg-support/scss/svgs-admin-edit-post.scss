@@ -1,0 +1,10 @@
+/**
+ * Featured Image Display
+ *
+ * Fixes the 0px featured image on edit screen
+ * WooCommerce Product, Sensei Course
+ */
+body #set-post-thumbnail,
+body #postimagediv .inside img {
+	width: 100%;
+}

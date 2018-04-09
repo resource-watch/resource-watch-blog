@@ -1,0 +1,408 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: maintenance\n"
+"POT-Creation-Date: 2017-03-09 17:11+0200\n"
+"PO-Revision-Date: 2017-03-09 17:11+0200\n"
+"Last-Translator: fruitfulcode <mail@fruitfulcode.com>\n"
+"Language-Team: fruitfulcode\n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: includes/admin.php:6 includes/admin.php:76 includes/functions.php:618
+msgid "Maintenance"
+msgstr "Режим обслуживания"
+
+#: includes/admin.php:76 includes/admin.php:93
+msgid "Save changes"
+msgstr "Сохранить изменения"
+
+#: includes/functions.php:183
+msgid "Standard Fonts"
+msgstr "Стандартные шрифты"
+
+#: includes/functions.php:190
+msgid "Google Web Fonts"
+msgstr "Веб Шрифт Google"
+
+#: includes/functions.php:240
+msgid "General Settings"
+msgstr "Общие настройки"
+
+#: includes/functions.php:241
+msgid "Custom CSS"
+msgstr "Свой CSS"
+
+#: includes/functions.php:242
+msgid "Exclude pages from maintenance mode"
+msgstr "Исключить страницы из режима обслуживания"
+
+#: includes/functions.php:248
+msgid "Pro version"
+msgstr "Премиум версия"
+
+#: includes/functions.php:255
+msgid "Fruitful Code projects"
+msgstr "Проекты Fruitful Code"
+
+#: includes/functions.php:261
+msgid "Support"
+msgstr "Поддержка"
+
+#: includes/functions.php:267
+msgid "Translation"
+msgstr "Перевод"
+
+#: includes/functions.php:290
+msgid "Page title"
+msgstr "Заголовок страницы"
+
+#: includes/functions.php:291
+msgid "Headline"
+msgstr "Заголовок"
+
+#: includes/functions.php:292
+msgid "Description"
+msgstr "Описание"
+
+#: includes/functions.php:293
+msgid "Footer Text"
+msgstr "Текст футера"
+
+#: includes/functions.php:294
+msgid "Set Logo width"
+msgstr "Указать ширину логотипа"
+
+#: includes/functions.php:295
+msgid "Set Logo height"
+msgstr "Указать высоту логотипа"
+
+#: includes/functions.php:296
+msgid "Logo"
+msgstr "Логотип"
+
+#: includes/functions.php:296
+msgid "Upload Logo"
+msgstr "Загрузить логотип"
+
+#: includes/functions.php:297
+msgid "Retina logo"
+msgstr "Retina логотип"
+
+#: includes/functions.php:297
+msgid "Upload Retina Logo"
+msgstr "Загрузить Retina Логотип"
+
+#: includes/functions.php:301
+msgid "Show admin bar"
+msgstr "Показать админ-панель"
+
+#: includes/functions.php:302
+msgid "503"
+msgstr "Ошибка 503"
+
+#: includes/functions.php:302
+msgid "Service temporarily unavailable, Google analytics will be disable."
+msgstr "Служба временно недоступна, Google Analytics будет отключена."
+
+#: includes/functions.php:309
+msgid "Google Analytics ID"
+msgstr "Google Analytics ID"
+
+#: includes/functions.php:309
+msgid "UA-XXXXX-X"
+msgstr "UA-XXXXX-X"
+
+#: includes/functions.php:310
+msgid "Set blur intensity"
+msgstr "Указать интенсивность размытия"
+
+#: includes/functions.php:316
+msgid "Apply background blur"
+msgstr "Применить размытие фона"
+
+#: includes/functions.php:317
+msgid "Enable frontend login"
+msgstr "Включить форму входа"
+
+#: includes/functions.php:329
+msgid "CSS Code"
+msgstr "CSS Код"
+
+#: includes/functions.php:343
+msgid "Select the page to be displayed:"
+msgstr "Выберите страницу, которая будет отображаться:"
+
+#: includes/functions.php:407
+msgid "Background image"
+msgstr "Фоновое изображение"
+
+#: includes/functions.php:407
+msgid "Upload Background"
+msgstr "Загрузить фон"
+
+#: includes/functions.php:413
+msgid "Background color"
+msgstr "Цвет фона"
+
+#: includes/functions.php:414
+msgid "Font color"
+msgstr "Цвет шрифта"
+
+#: includes/functions.php:421
+msgid "Font family"
+msgstr "Шрифт"
+
+#: includes/functions.php:426
+msgid "Subsets"
+msgstr "подмножество"
+
+#: includes/functions.php:434
+msgid "Have any questions?"
+msgstr "У вас возникли вопросы?"
+
+#: includes/functions.php:435
+#, php-format
+msgid ""
+"You may find answers to your questions at <a target=\"_blank\" href=\"http://"
+"support.fruitfulcode.com/hc/en-us/sections/200406386\">support forum</"
+"a><br>You may  <a target=\"_blank\" href=\"http://support.fruitfulcode.com/"
+"hc/en-us/requests/new\">contact us</a> with customization requests and "
+"suggestions.<br> Please visit our website to learn about us and our services "
+"<a href=\"%1$s\" title=\"%2$s\">%2$s</a>"
+msgstr ""
+"Найдите ответы на свои вопросы на <a target=\"_blank\" href=\"http://support."
+"fruitfulcode.com/hc/en-us/sections/200406386\">форуме поддержки</a>.<br>Вы "
+"можете <a target=\"_blank\" href=\"http://support.fruitfulcode.com/hc/en-us/"
+"requests/new\">обратиться к нам</a> по вопросам кастомизации и предложений. "
+"<br> Приглашаем Вас посетить наш сайт, чтобы узнать больше о нас и наших "
+"услугах <a href=\"%1$s\" title=\"%2$s\">%2$s</a>"
+
+#: includes/functions.php:446
+msgid "This plugin is translation friendly"
+msgstr "Этот плагин доступен для перевода"
+
+#: includes/functions.php:447
+#, php-format
+msgid ""
+"Want to improve translation or make one for your native language? <a href="
+"\"%1$s\" title=\"%2$s\">%2$s</a>"
+msgstr ""
+"Желаете помочь с переводом или перевести на свой родной язык? <a href=\"%1$s"
+"\" title=\"%2$s\">%2$s</a>"
+
+#: includes/functions.php:449
+msgid "Follow this tutorial"
+msgstr "Следуйте этой инструкции"
+
+#: includes/functions.php:458
+msgid "Premium WordPress themes"
+msgstr "Премиум темы WordPress"
+
+#: includes/functions.php:464
+msgid "ANAGLYPH - One page / Multi Page WordPress Theme"
+msgstr ""
+
+#: includes/functions.php:469
+msgid "Love.ly - Simple & Elegant WordPress theme"
+msgstr ""
+
+#: includes/functions.php:475
+msgid "Zoner - Real Estate WordPress theme"
+msgstr ""
+
+#: includes/functions.php:488
+msgid "Extended functionality"
+msgstr "Maintenance PRO"
+
+#: includes/functions.php:489
+#, php-format
+msgid ""
+"Purchase <a href=\"http://codecanyon.net/item/maintenance-wordpress-"
+"plugin/2781350?ref=fruitfulcode\" target=\"_blank\">PRO</a> version  with "
+"extended functionality. %1$s If you like our plugin please <a target=\"_blank"
+"\" href=\"http://wordpress.org/support/view/plugin-reviews/maintenance?"
+"filter=5\">rate it</a>, <a title=\"leave feedbacks\" href=\"%2$s\" target="
+"\"_blank\">leave feedbacks</a>."
+msgstr ""
+"Купите <a href=\"http://codecanyon.net/item/maintenance-wordpress-"
+"plugin/2781350?ref=fruitfulcode\" target=\"_blank\">Maintenance PRO</a> и "
+"получите функцию обратного отсчета и возможность открывать доступ нескольким "
+"пользователям. %1$s Если вам понравился плагин, оставьте отзыв на этих "
+"страницах <a target=\"_blank\" href=\"http://wordpress.org/support/view/"
+"plugin-reviews/maintenance?filter=5\">Оценить плагин</a>, <a title=\"leave "
+"feedbacks\" href=\"%2$s\" target=\"_blank\">Оставить отзыв</a>."
+
+#: includes/functions.php:493
+msgid "Demo website"
+msgstr "Демо сайт"
+
+#: includes/functions.php:618
+msgid " is "
+msgstr ""
+
+#: includes/functions.php:683
+msgid "Website is under construction"
+msgstr "Сайт находится в стадии разработки"
+
+#: includes/functions.php:684
+msgid "Maintenance mode is on"
+msgstr "Режим обслуживания"
+
+#: includes/functions.php:685
+msgid "Website will be available soon"
+msgstr "Сайт скоро будет доступен "
+
+#: load/functions.php:39
+msgid "Permission access denied!"
+msgstr "Доступ запрещен!"
+
+#: load/functions.php:53
+msgid "You entered your login are incorrect!"
+msgstr "Вы ввели неверный логин! "
+
+#: load/functions.php:57
+msgid "You entered your password are incorrect!"
+msgstr "Вы ввели неверный пароль!"
+
+#: load/functions.php:60
+msgid "You entered your login and password are incorrect!"
+msgstr "Вы ввели неверный логин или пароль!"
+
+#: load/functions.php:120
+msgid "Please verify that you are not a robot."
+msgstr ""
+
+#: load/functions.php:308
+msgid "User Login"
+msgstr "Вход для пользователя"
+
+#: load/functions.php:309
+msgid "Username"
+msgstr "Логин"
+
+#: load/functions.php:310
+msgid "Password"
+msgstr "Пароль"
+
+#: load/functions.php:311
+msgid "Lost Password"
+msgstr "Потерял Пароль"
+
+#: load/functions.php:312
+msgid "Login"
+msgstr "Логин"
+
+#~ msgid "Not available object."
+#~ msgstr "Недоступен."
+
+#~ msgid "Exclude pages"
+#~ msgstr "Исключение страниц"
+
+#~ msgid "Choose Logo width"
+#~ msgstr "Vyberte si šířku Logo"
+
+#~ msgid "Choose Logo height"
+#~ msgstr "Vyberte si výšku Logo"
+
+#~ msgid "Blur intensity"
+#~ msgstr "Интенсивность размытия"
+
+#~ msgid "Enable login"
+#~ msgstr "povolit přihlášení"
+
+#~ msgid "Put Login On"
+#~ msgstr "Put přihlášení na"
+
+#~ msgid "Logo width"
+#~ msgstr "Ширина логотипа"
+
+#~ msgid "Logo height"
+#~ msgstr "Высота логотипа"
+
+#~ msgid "Admin bar"
+#~ msgstr "Админ-панель"
+
+#~ msgid "Background blur"
+#~ msgstr "Размытие фона"
+
+#~ msgid "Apply a blur"
+#~ msgstr "Применить размытие"
+
+#~ msgid "Login On / Off"
+#~ msgstr "Логин Вкл / Выкл"
+
+#~ msgid "Service temporarily unavailable, Google analytics will be disable"
+#~ msgstr "Сервис временно недоступен, Google Analytics будет отключена"
+
+#~ msgid "Sign In"
+#~ msgstr "Войти"
+
+#~ msgid ""
+#~ "You may find answers to your questions at <a target=\"_blank\" href="
+#~ "\"http://wordpress.org/support/plugin/maintenance\">support forum</"
+#~ "a><br>You may  <a target=\"_blank\" href=\"mailto:mail@fruitfulcode.com?"
+#~ "subject=Maintenance plugin\">contact us</a> with customization requests "
+#~ "and suggestions.<br> Please visit our website to learn about us and our "
+#~ "services <a href=\"%1$s\" title=\"%2$s\">%2$s</a>"
+#~ msgstr ""
+#~ "Вы можете найти ответы на <a target=\"_blank\" href=\"http://wordpress."
+#~ "org/support/plugin/maintenance\">официальном форуме поддержки</a><br> "
+#~ "Можете <a target=\"_blank\" href=\"mailto:mail@fruitfulcode.com?"
+#~ "subject=Maintenance plugin\">связаться с нами</a> по вопросам "
+#~ "кастомизации и изменений<br> Посетите наш сайт, чтобы узнать о нас и "
+#~ "наших услугах <a href=\"%1$s\" title=\"%2$s\">%2$s</a>"
+
+#~ msgid "Contact support"
+#~ msgstr "Служба поддержки"
+
+#~ msgid ""
+#~ "If you faced with any problems, have a question or suggestion you always "
+#~ "can contact us with any request on our website <a href=\"%1$s\" title="
+#~ "\"%2$s\">%2$s</a>"
+#~ msgstr ""
+#~ "Если вы столкнулись с любыми проблемами, есть вопрос или предложение, вы "
+#~ "всегда можете обратиться к нам с любым предложением  на нашем сайте <a "
+#~ "href=\"%1$s\" title=\"%2$s\">%2$s</a>"
+
+#~ msgid ""
+#~ "If you like our plugin please rate it, %1$s <a title=\"leave feedback\" "
+#~ "href=\"%2$s\" target=\"_blank\">leave feedback</a> or purchase extended "
+#~ "version %1$s with more other features."
+#~ msgstr ""
+#~ "Если Вам нравиться наш плагин, оцените его %1$s <a title=\"оставить "
+#~ "комментарий\" href=\"%2$s\" target=\"_blank\">оставить комментарий</a> "
+#~ "или купите расширенную версию %1$s с дополнительными возможностями."
+
+#~ msgid "Purchase"
+#~ msgstr "Купить"
+
+#~ msgid "We have time until launch"
+#~ msgstr "Осталось времени до запуска"
+
+#~ msgid "Be first of your friends who will know when the website goes live."
+#~ msgstr "Будь первым из твоих друзей, кто узнает о запуске сайта."
+
+#~ msgid "Check out our extended version of plugin with new features"
+#~ msgstr "Проверьте возможности расширенной версии плагина"
+
+#~ msgid "Your session has expired."
+#~ msgstr "Ваша сессия истекла."
+
+#~ msgid "Please login to see website"
+#~ msgstr "Пожалуйста авторезируйтесь"
+
+#~ msgid "User roles"
+#~ msgstr "Роли пользователей"
+
+#~ msgid "Choose users access permissions in maintenance mode."
+#~ msgstr "Выберите права доступа пользователей в режиме обслуживания."

@@ -1,0 +1,106 @@
+.roma a,
+.roma a:active,
+.roma a:focus,
+.roma .tg-item-title {
+	text-decoration: none;
+    border: none;
+	-webkit-box-shadow: none;
+    box-shadow: none;
+	-webkit-transition: opacity 0.25s ease, color 0.25s ease, -webkit-transform 0.3s ease-in-out;
+	-moz-transition: opacity 0.25s ease, color 0.25s ease, -moz-transform 0.3s ease-in-out;
+	-ms-transition: opacity 0.25s ease, color 0.25s ease, -ms-transform 0.3s ease-in-out;
+	-o-transition: opacity 0.25s ease, color 0.25s ease, -o-transform 0.3s ease-in-out;
+	transition: opacity 0.25s ease, color 0.25s ease, transform 0.3s ease-in-out;
+}
+.roma.tg-item {
+	cursor: pointer;
+}
+.roma .tg-item-inner {
+	overflow: hidden;
+}
+.roma .tg-item-content {
+	position: absolute;
+	display: block;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	padding: 10px;
+	opacity: 0;
+	-webkit-transform: translateY(100%);
+	-moz-transform: translateY(100%);
+	-ms-transform: translateY(100%);
+	-o-transform: translateY(100%);
+	transform: translateY(100%);
+}
+.roma:hover .tg-item-content {
+	opacity: 1;
+	-webkit-transform: translateY(0);
+	-moz-transform: translateY(0);
+	-ms-transform: translateY(0);
+	-o-transform: translateY(0);
+	transform: translateY(0);
+}
+.roma .tg-media-icon {
+	position: absolute;
+	display: block;
+	top: 50%;
+	left: 50%;
+	margin: -18px 0 0 -18px;
+	opacity: 0;
+}
+.roma:hover .tg-media-icon {
+	opacity: 1;
+}
+.roma .tg-media-icon i {
+	position: relative;
+	display: block;
+	width: 36px;
+	height: 36px;
+	line-height: 36px;
+    font-size: 32px;
+	line-height: 36px;
+	text-align: center;
+	text-shadow: 0 0 6px rgba(0,0,0,0.5);
+}
+.roma .tg-item-media-overlay .tg-media-button {
+	opacity: 0 !important;
+}
+.roma .tg-item-media-overlay .tg-media-button,
+.roma .tg-item-media-overlay,
+.roma .tg-item-media-holder,
+.roma .tg-item-overlay {
+	position: absolute;
+	display: block;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	margin: 0;
+}
+.roma .tg-item-content {
+	opacity: 0;
+}
+.roma:hover .tg-item-content,
+.roma:hover .tg-item-overlay {
+	opacity: 1;
+}
+.roma .tg-item-title,
+.roma .tg-item-title a,
+.roma .tg-item-excerpt {
+	position: relative;
+	display: block;
+    font-size: 15px;
+	line-height: 18px;
+	font-weight: 600;
+	margin: 0 !important;
+	padding: 0 !important;
+}
+.roma .tg-item-excerpt {
+	font-size: 12px;
+    line-height: 16px;
+    font-weight: normal;
+    padding: 8px 0 0 0 !important;
+}
+.roma .tg-item-media-overlay .tg-media-button i {
+	display: none !important;
+}

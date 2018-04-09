@@ -1,0 +1,162 @@
+.pracia a,
+.pracia a:active,
+.pracia a:focus,
+.pracia .tg-item-title,
+.pracia .tg-item-media-holder,
+.pracia .tg-item-content-holder {
+	text-decoration: none;
+    border: none;
+	-webkit-box-shadow: none;
+    box-shadow: none;
+	-webkit-transition: all 0.25s ease-in-out;
+	-moz-transition: all 0.25s ease-in-out;
+	-ms-transition: all 0.25s ease-in-out;
+	-o-transition: all 0.25s ease-in-out;
+	transition: all 0.25s ease-in-out;
+}
+.pracia.tg-item,
+.pracia .tg-center-holder {
+	overflow: hidden;
+}
+.pracia .tg-center-holder {
+	text-align: center;
+}
+.pracia .tg-item-media-holder {
+	bottom: 60px;
+	height: auto;
+}
+.tg-layout-justified .pracia .tg-item-media-holder {
+	bottom: 0;
+}
+.pracia .tg-item-link {
+	position: absolute;
+    display: block;
+    top: -1000%;
+    left: 0;
+    width: 100%;
+    height: 2000%;
+}
+.pracia .tg-item-content-holder,
+.pracia .tg-item-overlay {
+	position: absolute;
+	display: block;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.tg-layout-justified .pracia .tg-center-holder {
+	padding-bottom: 60px;
+}
+.tg-layout-justified .pracia .tg-item-content-holder,
+.pracia .tg-item-overlay {
+	opacity: 0;
+	visibility: hidden;
+}
+.tg-layout-justified .pracia:not(.tg-is-playing):not(.tg-force-play):hover .tg-item-content-holder,
+.pracia:not(.tg-is-playing):not(.tg-force-play):hover .tg-item-overlay {
+	opacity: 1;
+	visibility: visible;
+}
+.pracia .tg-item-content-holder {
+	height: 60px;
+	padding: 10px 14px;
+	background: #ffffff;
+}
+.pracia .tg-item-title,
+.pracia .tg-item-title a {
+	position: relative;
+    font-size: 16px !important;
+	line-height: 20px !important;
+	font-weight: 600;
+	margin: 0 !important;
+	padding: 0 !important;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.pracia .tg-item-title {
+	padding: 0 2px !important;
+	margin: 0 40px 2px 0 !important;
+}
+.pracia .tg-cats-holder {
+	position: relative;
+	display: block;
+	margin: 0 40px 0 0;
+	padding: 0 2px;
+	font-size: 13px;
+	line-height: 18px;
+	font-style: italic;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.pracia .tg-cats-holder * {
+	position: relative;
+}
+.pracia .tg-link-button,
+.pracia .tg-media-button {
+    position: relative;
+    display: inline-block;
+	vertical-align: top;
+    margin: 10px !important;
+	padding: 0 !important;
+    top: 0;
+    right: 0;
+    width: 35px;
+    height:35px;
+    cursor: pointer;
+    text-align: center;
+	opacity: 0;
+}
+.pracia .tg-link-button i,
+.pracia .tg-media-button i {
+	position: relative;
+	display: block;
+	width: 35px;
+	height: 35px;
+    font-size: 22px;
+	line-height: 35px;
+	cursor: pointer;
+}
+.pracia .tg-media-button .tg-icon-add {
+    font-size: 28px;
+}
+.pracia .tg-media-button {	
+	-webkit-transform: translate3d(-40px,0,0);
+	-moz-transform: translate3d(-40px,0,0);
+	-ms-transform: translate3d(-40px,0,0);
+	-o-transform: translate3d(-40px,0,0);
+	transform: translate3d(-40px,0,0);
+}
+.pracia .tg-link-button {
+	-webkit-transform: translate3d(40px,0,0);
+	-moz-transform: translate3d(40px,0,0);
+	-ms-transform: translate3d(40px,0,0);
+	-o-transform: translate3d(40px,0,0);
+	transform: translate3d(40px,0,0);
+}
+.pracia:hover .tg-link-button,
+.pracia:hover .tg-media-button {
+	opacity: 1;
+	-webkit-transform: translate3d(0,0,0);
+	-moz-transform: translate3d(0,0,0);
+	-ms-transform: translate3d(0,0,0);
+	-o-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+.pracia .tg-item-title:hover,
+.pracia .tg-link-button:hover,
+.pracia .tg-cats-holder a:hover,
+.pracia .tg-media-button:hover {
+	opacity: 0.75;
+}
+.pracia .to-post-like {
+	position: absolute;
+    display: block;
+    right: 14px;
+    top: 12px;
+	margin: 0;
+    font-size: 14px;
+    line-height: 14px;   
+}

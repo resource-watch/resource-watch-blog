@@ -1,0 +1,106 @@
+.lome a,
+.lome a:active,
+.lome a:focus,
+.lome .tg-cats-holder,
+.lome .tg-item-title {
+	text-decoration: none;
+    border: none;
+	-webkit-box-shadow: none;
+    box-shadow: none;
+	-webkit-transition: opacity 0.25s ease, color 0.25s ease, -webkit-transform 0.3s ease-in-out;
+	-moz-transition: opacity 0.25s ease, color 0.25s ease, -moz-transform 0.3s ease-in-out;
+	-ms-transition: opacity 0.25s ease, color 0.25s ease, -ms-transform 0.3s ease-in-out;
+	-o-transition: opacity 0.25s ease, color 0.25s ease, -o-transform 0.3s ease-in-out;
+	transition: opacity 0.25s ease, color 0.25s ease, transform 0.3s ease-in-out;
+}
+.lome.tg-item {
+    overflow: hidden;
+}
+.lome .tg-center-holder {
+	text-align: center;
+}
+.lome .tg-item-content,
+.lome .tg-item-media-holder,
+.lome .tg-item-overlay {
+	position: absolute;
+	display: block;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+}
+.lome:hover .tg-item-overlay {
+	opacity: 0.1;
+}
+.lome .tg-item-content {
+	margin: 22px;
+}
+.lome .tg-item-link {
+    position: absolute;
+    display: block;
+    top: -500%;
+    left: -22px;
+    right: -22px;
+    height: 1000%;
+}
+.lome .tg-item-title,
+.lome .tg-item-title a {
+	position: relative;
+	display: block;
+    font-size: 20px;
+	line-height: 26px;
+	font-weight: 600;
+	margin: 0 !important;
+	padding: 0 !important;
+	text-transform: uppercase;
+}
+.tg-layout-justified .lome .tg-item-title,
+.tg-layout-justified .lome .tg-item-title a {
+    font-size: 14px;
+	line-height: 18px;
+}
+.lome .tg-item-title  {
+	margin: 10px 0 0 0!important;
+}
+.lome .tg-item-date {
+	position: relative;
+	display: block;
+    font-size: 14px;
+	line-height: 16px;
+	margin: 0;
+	padding: 0;
+	font-style: italic;
+}
+.tg-layout-justified .lome .tg-item-date {
+    font-size: 12px;
+	line-height: 16px;
+}
+.lome .tg-media-button {
+    position: absolute;
+    display: block;
+    bottom: 0;
+    right: 0;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    text-align: center;
+}
+.lome .tg-cats-holder a:hover,
+.lome .tg-media-button:hover {
+	opacity: 0.75;
+}
+.lome .tg-media-button i {
+	position: relative;
+	display: block;
+	width: 20px;
+	height: 20px;
+    font-size: 18px;
+	line-height: 20px;
+	cursor: pointer;
+}
+.lome .tg-media-button .tg-icon-add {
+    font-size: 28px;
+}
+.lome .mejs-overlay-play {
+	display: none !important;
+}

@@ -1,0 +1,29 @@
+#sslfix-levels label {
+	font-weight: bold;
+}
+
+.sslfix-level-desc {
+	padding: 0.5em 2em 0 2em;
+}
+
+.sslfix-bullets {
+	list-style: disc;
+	padding: 0.5em 3em;
+}
+
+.sslfix-recommended {
+	font-weight: bold;
+}
+
+.sslfix-recommended span {
+	padding: 0 2em;
+	color: red;
+}
+
+#sslfix-https-detection.dashicons-yes {
+	color: green;
+}
+
+#sslfix-https-detection.dashicons-no {
+	color: red;
+}

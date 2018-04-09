@@ -1,0 +1,369 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: maintenance\n"
+"POT-Creation-Date: 2017-03-09 17:06+0200\n"
+"PO-Revision-Date: 2017-03-09 17:14+0200\n"
+"Last-Translator: René Maurer <rene.maurer@jamos.ch>\n"
+"Language-Team: EWORX.IR <info@eworx.ir>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: includes/admin.php:6 includes/admin.php:76 includes/functions.php:618
+msgid "Maintenance"
+msgstr "تعمیر و نگهداری"
+
+#: includes/admin.php:76 includes/admin.php:93
+msgid "Save changes"
+msgstr "ذخیره  تغییرات"
+
+#: includes/functions.php:183
+msgid "Standard Fonts"
+msgstr "فونت های استاندارد"
+
+#: includes/functions.php:190
+msgid "Google Web Fonts"
+msgstr "فونت وب گوگل"
+
+#: includes/functions.php:240
+msgid "General Settings"
+msgstr "تنظیمات عمومی"
+
+#: includes/functions.php:241
+msgid "Custom CSS"
+msgstr "CSS سفارشی"
+
+#: includes/functions.php:242
+msgid "Exclude pages from maintenance mode"
+msgstr "حذف صفحات از حالت تعمیر و نگهداری"
+
+#: includes/functions.php:248
+msgid "Pro version"
+msgstr "نسخه حرفه ای"
+
+#: includes/functions.php:255
+msgid "Fruitful Code projects"
+msgstr " Fruitful Code پروژه ها"
+
+#: includes/functions.php:261
+msgid "Support"
+msgstr "پشتیبانی"
+
+#: includes/functions.php:267
+msgid "Translation"
+msgstr "ترجمه"
+
+#: includes/functions.php:290
+msgid "Page title"
+msgstr "عنوان صفحه"
+
+#: includes/functions.php:291
+msgid "Headline"
+msgstr "عنوان"
+
+#: includes/functions.php:292
+msgid "Description"
+msgstr "توضیحات"
+
+#: includes/functions.php:293
+msgid "Footer Text"
+msgstr "پاورقی متن"
+
+#: includes/functions.php:294
+msgid "Set Logo width"
+msgstr "تنظیم عرض لوگو"
+
+#: includes/functions.php:295
+msgid "Set Logo height"
+msgstr "تنظیم ارتفاع لوگو"
+
+#: includes/functions.php:296
+msgid "Logo"
+msgstr "لوگو"
+
+#: includes/functions.php:296
+msgid "Upload Logo"
+msgstr "لوگو خود را بارگذاری کنید."
+
+#: includes/functions.php:297
+msgid "Retina logo"
+msgstr "آرم شبکیه چشم"
+
+#: includes/functions.php:297
+msgid "Upload Retina Logo"
+msgstr "لوگو بارگذاری شبکیه چشم"
+
+#: includes/functions.php:301
+msgid "Show admin bar"
+msgstr "نمایش نوار مدیریت"
+
+#: includes/functions.php:302
+msgid "503"
+msgstr ""
+
+#: includes/functions.php:302
+msgid "Service temporarily unavailable, Google analytics will be disable."
+msgstr "خدمات موقتا در دسترس، تجزیه و تحلیل گوگل غیرفعال خواهد شد."
+
+#: includes/functions.php:309
+msgid "Google Analytics ID"
+msgstr "ID گوگل آنالیتیک"
+
+#: includes/functions.php:309
+msgid "UA-XXXXX-X"
+msgstr ""
+
+#: includes/functions.php:310
+msgid "Set blur intensity"
+msgstr "شدت تاری تنظیم"
+
+#: includes/functions.php:316
+msgid "Apply background blur"
+msgstr "درخواست تاری پس زمینه"
+
+#: includes/functions.php:317
+msgid "Enable frontend login"
+msgstr "فعال کردن ورود ظاهر"
+
+#: includes/functions.php:329
+msgid "CSS Code"
+msgstr "کد CSS"
+
+#: includes/functions.php:343
+msgid "Select the page to be displayed:"
+msgstr "صفحه نمایش داده می شود را انتخاب کنید:"
+
+#: includes/functions.php:407
+msgid "Background image"
+msgstr "تصویر پس زمینه"
+
+#: includes/functions.php:407
+msgid "Upload Background"
+msgstr "بارگذاری تصویر پس‌زمینه"
+
+#: includes/functions.php:413
+msgid "Background color"
+msgstr "رنگ پس زمینه"
+
+#: includes/functions.php:414
+msgid "Font color"
+msgstr "رنگ فونت"
+
+#: includes/functions.php:421
+msgid "Font family"
+msgstr "خانواده فونت"
+
+#: includes/functions.php:426
+msgid "Subsets"
+msgstr "زیر مجموعه"
+
+#: includes/functions.php:434
+msgid "Have any questions?"
+msgstr "سوال یا مشکلی دارید؟"
+
+#: includes/functions.php:435
+#, php-format
+msgid ""
+"You may find answers to your questions at <a target=\"_blank\" href=\"http://"
+"support.fruitfulcode.com/hc/en-us/sections/200406386\">support forum</"
+"a><br>You may  <a target=\"_blank\" href=\"http://support.fruitfulcode.com/"
+"hc/en-us/requests/new\">contact us</a> with customization requests and "
+"suggestions.<br> Please visit our website to learn about us and our services "
+"<a href=\"%1$s\" title=\"%2$s\">%2$s</a>"
+msgstr ""
+
+#: includes/functions.php:446
+msgid "This plugin is translation friendly"
+msgstr "این افزونه ترجمه پسند"
+
+#: includes/functions.php:447
+#, php-format
+msgid ""
+"Want to improve translation or make one for your native language? <a href="
+"\"%1$s\" title=\"%2$s\">%2$s</a>"
+msgstr ""
+"می خواهید برای بهبود ترجمه و یا یکی برای زبان مادری خود را؟ <a href=\"%1$s\" "
+"title=\"%2$s\">%2$s</a>"
+
+#: includes/functions.php:449
+msgid "Follow this tutorial"
+msgstr "به دنبال این آموزش"
+
+#: includes/functions.php:458
+msgid "Premium WordPress themes"
+msgstr "حق بیمه وردپرس تم"
+
+#: includes/functions.php:464
+msgid "ANAGLYPH - One page / Multi Page WordPress Theme"
+msgstr ""
+
+#: includes/functions.php:469
+msgid "Love.ly - Simple & Elegant WordPress theme"
+msgstr ""
+
+#: includes/functions.php:475
+msgid "Zoner - Real Estate WordPress theme"
+msgstr ""
+
+#: includes/functions.php:488
+msgid "Extended functionality"
+msgstr "کارکرد با قابلیت بیشتر"
+
+#: includes/functions.php:489
+#, php-format
+msgid ""
+"Purchase <a href=\"http://codecanyon.net/item/maintenance-wordpress-"
+"plugin/2781350?ref=fruitfulcode\" target=\"_blank\">PRO</a> version  with "
+"extended functionality. %1$s If you like our plugin please <a target=\"_blank"
+"\" href=\"http://wordpress.org/support/view/plugin-reviews/maintenance?"
+"filter=5\">rate it</a>, <a title=\"leave feedbacks\" href=\"%2$s\" target="
+"\"_blank\">leave feedbacks</a>."
+msgstr ""
+
+#: includes/functions.php:493
+msgid "Demo website"
+msgstr "وب سایت آزمایشی"
+
+#: includes/functions.php:618
+msgid " is "
+msgstr ""
+
+#: includes/functions.php:683
+msgid "Website is under construction"
+msgstr "وب سایت در دست ساخت است"
+
+#: includes/functions.php:684
+msgid "Maintenance mode is on"
+msgstr "حالت تعمیر و نگهداری روشن است"
+
+#: includes/functions.php:685
+msgid "Website will be available soon"
+msgstr "وب سایت به زودی در دسترس خواهد"
+
+#: load/functions.php:39
+msgid "Permission access denied!"
+msgstr "اجازه دسترسی رد شد!"
+
+#: load/functions.php:53
+msgid "You entered your login are incorrect!"
+msgstr "نام کاربری اشتباه است!"
+
+#: load/functions.php:57
+msgid "You entered your password are incorrect!"
+msgstr "رمز عبور اشتباه است!"
+
+#: load/functions.php:60
+msgid "You entered your login and password are incorrect!"
+msgstr "نام کاربری یا رمز عبور اشتباه است!"
+
+#: load/functions.php:120
+msgid "Please verify that you are not a robot."
+msgstr ""
+
+#: load/functions.php:308
+msgid "User Login"
+msgstr "ورود کاربر"
+
+#: load/functions.php:309
+msgid "Username"
+msgstr "نام کاربری"
+
+#: load/functions.php:310
+msgid "Password"
+msgstr "کلمه عبور"
+
+#: load/functions.php:311
+msgid "Lost Password"
+msgstr "رمز فراموش شده"
+
+#: load/functions.php:312
+msgid "Login"
+msgstr "ورود"
+
+#~ msgid "Not available object."
+#~ msgstr "شی در دسترس نیست."
+
+#~ msgid "Exclude pages"
+#~ msgstr "به غیر از صفحات"
+
+#~ msgid "Choose Logo width"
+#~ msgstr "انتخاب لوگوی عرض"
+
+#~ msgid "Choose Logo height"
+#~ msgstr "انتخاب ارتفاع آرم"
+
+#~ msgid "Blur intensity"
+#~ msgstr "شدت محو کردن پس‌زمینه"
+
+#~ msgid "Enable login"
+#~ msgstr "فعال کردن ورود"
+
+#~ msgid "Put Login On"
+#~ msgstr "قرار دادن ورود به"
+
+#~ msgid "Logo width"
+#~ msgstr "عرض آرم"
+
+#~ msgid "Logo height"
+#~ msgstr "ارتفاع آرم"
+
+#~ msgid "Admin bar"
+#~ msgstr "منوی ادمین"
+
+#~ msgid "Background blur"
+#~ msgstr "تاری پس‌زمینه"
+
+#~ msgid "Apply a blur"
+#~ msgstr "اعمال تاری"
+
+#~ msgid "Login On / Off"
+#~ msgstr "ورود به سیستم روشن / خاموش"
+
+#~ msgid "Service temporarily unavailable, Google analytics will be disable"
+#~ msgstr "خدمات موقتا در دسترس، تجزیه و تحلیل گوگل غیرفعال خواهد شد"
+
+#~ msgid "Sign In"
+#~ msgstr "ورود"
+
+#~ msgid "maintenance"
+#~ msgstr "تعمیر و نگهداری"
+
+#~ msgid "Contact support"
+#~ msgstr "با پشتیبانی تماس بگیرید"
+
+#~ msgid "Purchase"
+#~ msgstr "خرید"
+
+#~ msgid "We have time until launch"
+#~ msgstr "برای ارائه به زمان نیاز داریم"
+
+#~ msgid "Be first of your friends who will know when the website goes live."
+#~ msgstr "اولین کسی باشید که از آماده بودن وبسایت مطلع میشود."
+
+#~ msgid "Check out our extended version of plugin with new features"
+#~ msgstr "نسخه توسعه یافته از افزونه با ویژگی های جدید را بررسی کنید"
+
+#~ msgid "Your session has expired."
+#~ msgstr "جلسه شما منقضی شده است."
+
+#~ msgid "Customer login"
+#~ msgstr "ورود مشتری"
+
+#~ msgid "Please login to see website"
+#~ msgstr "لطفا برای مشاهده وبسایت وارد شوید"
+
+#~ msgid "User roles"
+#~ msgstr "نقش کاربران"
+
+# not really sur about « We have time until launch » Because I can’t find it on the demo version…
+#~ msgid "Choose users access permissions in maintenance mode."
+#~ msgstr "مجوزهای دسترسی کاربران را در حالت نگهداری را انتخاب کنید."

@@ -1,0 +1,33 @@
+<?php
+	global $default_settings_broad;
+	$default_settings_broad=array(
+		'indexformat' => 0,
+		'scrolling' => 1,
+		'navmenu_default' => 0,
+		'navt_font' =>'google',
+		'navmenu_tfontg' => 'Open+Sans',
+		'navmenu_tfontgw' => '600',
+		'navmenu_color' => '#0093bf',
+		'navmenu_fsize' => '14',
+		'actnavbg_default' => 0,
+		'actnavbg_color' => '#0093bf',
+		'section_element' => '3',
+		'sectitle_default' => 0,
+		'sect_font' => 'google',
+		'sectitle_color' => '#444444',
+		'sectitle_font' => 'Helvetica,Arial,sans-serif',
+		'sectitle_fontg' => 'Open+Sans',
+		'sectitle_fontgw' => 'regular',
+		'sectitle_fsize' => '36',
+		'seccont_default' => 1,
+		'seccont_color' => '#444444',
+		'secc_font' => 'google',
+		'seccont_font' => 'Arial,Helvetica,sans-serif',
+		'seccont_fontg' => 'Open+Sans',
+		'seccont_fontgw' => 'regular',
+		'seccont_fsize' => '14',
+		'scroll_color' => '#0093bf',
+		'togglemenu' => '1',
+		'guidetitle' => '1',
+	);
+?>

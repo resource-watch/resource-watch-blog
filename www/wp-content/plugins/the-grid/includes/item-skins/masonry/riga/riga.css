@@ -1,0 +1,239 @@
+.riga a,
+.riga a:active,
+.riga a:focus,
+.riga .tg-share-icons i {
+	text-decoration: none;
+    border: none;
+	-webkit-box-shadow: none;
+    box-shadow: none;
+	-webkit-transition: opacity 0.25s ease, color 0.25s ease;
+	-moz-transition: opacity 0.25s ease, color 0.25s ease;
+	-ms-transition: opacity 0.25s ease, color 0.25s ease;
+	-o-transition: opacity 0.25s ease, color 0.25s ease;
+	transition: opacity 0.25s ease, color 0.25s ease;
+}
+.riga .tg-media-button:hover,
+.riga a:not(.mejs-volume-slider):hover {
+	opacity: 0.85;
+}
+.riga .tg-center-holder {
+	text-align: center;
+}
+.riga .tg-item-content-holder {
+	position: relative;
+	display: block;
+	padding: 22px 24px 14px 24px;
+	text-align: left;
+}
+.riga .tg-item-info {
+	position: relative;
+	display: block;
+}
+.riga .tg-item-date,
+.riga .tg-cats-holder {
+	position: relative;
+	display: inline;
+    padding: 0 10px 0 0;
+	font-size: 13px;
+	font-weight: normal;
+	line-height: 16px;
+}
+.riga .tg-cats-holder:before {
+    position: relative;
+    display: inline-block;
+	padding: 0 10px 0 0;
+    content: '/';
+    line-height: 22px;
+}
+.riga .tg-item-title,
+.riga .tg-item-title a {
+	position: relative;
+    display: block;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 1px;
+    font-weight: 600;
+	margin: 6px 0 0 0 !important;
+	padding: 0 !important;
+}
+.riga .tg-item-title a {
+	margin: 0 !important;
+}
+.riga .tg-item-excerpt {
+	position: relative;
+	display: inline-block;
+	margin: 18px 0;
+	padding: 0;
+	font-size: 13px;
+	line-height: 23px;
+}
+.riga .tg-item-overlay-media,
+.riga .tg-item-overlay-link {
+	position: relative;
+	display: inline-block;
+	height: 54px;
+	width: 54px;
+	margin: 10px;
+	cursor: pointer;
+	opacity: 0;
+	font-size: 20px;
+	border-radius: 50%;
+}
+.riga .tg-media-button,
+.riga .tg-link-button,
+.riga .tg-media-button i,
+.riga .tg-link-button i {
+	position: absolute;
+    display: block;
+    height: 54px;
+    line-height: 54px;
+    text-align: center;
+    width: 54px;
+}
+.riga .tg-icon-add {
+	font-size: 30px;
+}
+.riga .tg-item-footer {
+	position: relative;
+    display: block;
+    width: 100%;
+	margin: 20px 0 0 0;
+	line-height: 25px;
+}
+.riga .tg-item-footer:after {
+	content:'';
+    display:block;
+    clear: both;
+}
+.riga .quote-format .tg-item-footer,
+.riga .link-format .tg-item-footer {
+	margin: 38px 0 0 0;
+}
+.riga .tg-item-author-holder {
+	position: relative;
+    display: inline-block;
+	float: left;
+}
+.riga .tg-item-avatar,
+.riga .tg-item-avatar img {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    border-radius: 50%;
+    margin: 0 8px 0 0;
+    left: 0;
+    width: 32px;
+    height: 32px;
+}
+.riga .tg-item-avatar {
+	top: -3px;
+}
+.riga .tg-item-author {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0;
+    font-size: 13px;
+    font-style: italic;
+    font-weight: 600;
+}
+.riga .tg-quote-icon,
+.riga .tg-link-icon {
+    position: absolute;
+    display: block;
+    font-size: 24px;
+    right: 20px;
+    bottom: 10px;
+    font-size: 60px;
+    opacity: 0.2;
+}
+.riga .quote-format,
+.riga .link-format {
+	overflow: hidden;
+}
+.riga .tg-link-icon {
+    font-size: 50px;
+	bottom: 16px;
+}
+.riga .tg-link-content a,
+.riga .tg-quote-content a {
+	display: block;
+	margin: 18px 0 8px 0 !important;
+	text-transform: none;
+	font-size: 18px;
+	font-style: italic;
+	line-height: 24px;
+	letter-spacing: 0.5px;
+}
+.riga .tg-quote-author,
+.riga .tg-link-url {
+	position: relative;
+    display: block;
+    margin: 0;
+    font-size: 13px;
+	font-style: italic; 
+}
+.riga .tg-quote-author:before {
+	content: "— ";
+	position: relative;
+    display: inline-block;
+    margin: 0;
+	padding: 0 5px 0 0;
+}
+.riga .to-post-like {
+	position: relative;
+    display: inline-block;
+    float: right;
+	font-size: 13px;
+	margin: 0 0 0 12px;
+}
+.riga .to-post-like .to-heart-icon {
+	margin: 2px 4px 0 0;
+}
+.riga .tg-item-comment {
+	position: relative;
+    display: inline-block;
+	float: right;
+	font-size: 13px;
+}
+.riga .tg-item-comment i {
+	position: relative;
+    padding: 0 4px 0 6px;
+    top: 2px;
+    font-size: 15px;
+}
+.riga .tg-item-overlay-media,
+.riga .tg-item-overlay-link {	
+	-webkit-transform: matrix3d(1.35,0,0,0,0,1.35,0,0,0,0,1,0,0,0,0,1);
+	-moz-transform: matrix3d(1.35,0,0,0,0,1.35,0,0,0,0,1,0,0,0,0,1);
+	-ms-transform: matrix3d(1.35,0,0,0,0,1.35,0,0,0,0,1,0,0,0,0,1);
+	-o-transform: matrix3d(1.35,0,0,0,0,1.35,0,0,0,0,1,0,0,0,0,1);
+	transform: matrix3d(1.35,0,0,0,0,1.35,0,0,0,0,1,0,0,0,0,1);
+}
+.riga .tg-item-overlay-media,
+.riga .tg-item-overlay-link {
+	opacity: 0;
+	-webkit-transition: opacity 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+	-moz-transition: opacity 0.3s ease-in-out, -moz-transform 0.3s ease-in-out;
+	-ms-transition: opacity 0.3s ease-in-out, -ms-transform 0.3s ease-in-out;
+	-o-transition: opacity 0.3s ease-in-out, -o-transform 0.3s ease-in-out;
+	transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+.riga .tg-item-media-holder:hover .tg-item-overlay-link {
+	-webkit-transition-delay: .15s;
+	transition-delay: .15s;
+}
+.riga .tg-item-media-holder:hover .tg-item-overlay-media,
+.riga .tg-item-media-holder:hover .tg-item-overlay-link {
+	opacity: 1;
+	-webkit-transform: matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1);
+	-moz-transform: matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1);
+	-ms-transform: matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1);
+	-o-transform: matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1);
+	transform: matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1);
+}
+.riga.tg-is-playing .tg-item-overlay,
+.riga.tg-force-play .tg-item-overlay {
+	pointer-events: none;
+	opacity: 0 !important;
+}

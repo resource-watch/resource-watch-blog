@@ -1,0 +1,30 @@
+<?php
+	global $default_settings_default;
+	$default_settings_default=array(
+		'indexformat' => 1,
+		'scrolling' => 1,
+		'navmenu_default' => 1,
+		'navmenu_default' => 1,
+		'navt_font' =>'regular',
+		'navmenu_tfont' => 'Arial,Helvetica,sans-serif',
+		'navmenu_color' => '#000',
+		'navmenu_fsize' => '14',
+		'actnavbg_default' => 1,
+		'section_element' => '3',
+		'sectitle_default' => 1,
+		'sect_font' => 'regular',
+		'sectitle_color' => '#000',
+		'sectitle_font' => 'Helvetica,Arial,sans-serif',
+		'sectitle_fontg' => '',
+		'sectitle_fontgw' => '',
+		'sectitle_fsize' => '28',
+		'seccont_default' => 1,
+		'seccont_color' => '#000',
+		'secc_font' => 'regular',
+		'seccont_font' => 'Arial,Helvetica,sans-serif',
+		'seccont_fsize' => '14',
+		'scroll_color' => '#F45349',
+		'togglemenu' => '0',
+		'guidetitle' => '0',
+	);
+?>

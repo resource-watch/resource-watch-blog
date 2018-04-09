@@ -1,0 +1,22 @@
+.alofi a,
+.alofi a:active,
+.alofi a:focus,
+.alofi .tg-item-overlay {
+	text-decoration: none;
+    border: none;
+	-webkit-box-shadow: none;
+    box-shadow: none;
+	-webkit-transition: opacity 0.25s ease, color 0.25s ease, -webkit-transform 0.3s ease-in-out;
+	-moz-transition: opacity 0.25s ease, color 0.25s ease, -moz-transform 0.3s ease-in-out;
+	-ms-transition: opacity 0.25s ease, color 0.25s ease, -ms-transform 0.3s ease-in-out;
+	-o-transition: opacity 0.25s ease, color 0.25s ease, -o-transform 0.3s ease-in-out;
+	transition: opacity 0.25s ease, color 0.25s ease, transform 0.3s ease-in-out;
+}
+.alofi .tg-item-link {
+	position: absolute;
+	display: block;
+	top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}

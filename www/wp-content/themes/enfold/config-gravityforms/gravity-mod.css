@@ -1,0 +1,105 @@
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (max-width: 989px) {
+    #top .gform_wrapper .top_label li.gfield.gf_left_third, #top .gform_wrapper .top_label li.gfield.gf_middle_third {
+        width: 49%;
+        margin-top: 10px;
+    }
+
+    #top .gform_wrapper .top_label li.gfield.gf_right_third {
+        width: 99%;
+        margin-top: 10px;
+    }
+
+    #top .gform_wrapper li.gfield.gf_list_4col ul.gfield_checkbox li,
+    #top .gform_wrapper li.gfield.gf_list_4col ul.gfield_radio li,
+    #top .gform_wrapper li.gfield.gf_list_5col ul.gfield_checkbox li,
+    #top .gform_wrapper li.gfield.gf_list_5col ul.gfield_radio li{
+        width: 33%;
+        margin-top: 0px;
+    }
+}
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    #top .gform_wrapper li.gfield.gf_list_3col ul.gfield_checkbox li,
+    #top .gform_wrapper li.gfield.gf_list_3col ul.gfield_radio li,
+    #top .gform_wrapper li.gfield.gf_3col ul.gfield_checkbox li,
+    #top .gform_wrapper li.gfield.gf_3col ul.gfield_radio li,
+    #top .gform_wrapper li.gfield.gf_list_4col ul.gfield_checkbox li,
+    #top .gform_wrapper li.gfield.gf_list_4col ul.gfield_radio li,
+    #top .gform_wrapper li.gfield.gf_list_5col ul.gfield_checkbox li,
+    #top .gform_wrapper li.gfield.gf_list_5col ul.gfield_radio li{
+        width: 49%;
+        margin-top: 0px;
+    }
+}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {
+    #top .gform_wrapper .top_label li.gfield.gf_left_half,
+    #top .gform_wrapper .top_label li.gfield.gf_right_half,
+    #top .gform_wrapper .top_label li.gfield.gf_left_third,
+    #top .gform_wrapper .top_label li.gfield.gf_middle_third {
+        width: 99%;
+        margin-top: 10px;
+    }
+
+    #top .gform_wrapper li.gfield.gf_list_3col ul.gfield_checkbox li,
+    #top .gform_wrapper li.gfield.gf_list_3col ul.gfield_radio li,
+    #top .gform_wrapper li.gfield.gf_3col ul.gfield_checkbox li,
+    #top .gform_wrapper li.gfield.gf_3col ul.gfield_radio li,
+    #top .gform_wrapper li.gfield.gf_list_2col ul.gfield_checkbox li,
+    #top .gform_wrapper li.gfield.gf_list_2col ul.gfield_radio li,
+    #top .gform_wrapper li.gfield.gf_2col ul.gfield_checkbox li,
+    #top .gform_wrapper li.gfield.gf_2col ul.gfield_radio li,
+    #top .gform_wrapper li.gfield.gf_list_4col ul.gfield_checkbox li,
+    #top .gform_wrapper li.gfield.gf_list_4col ul.gfield_radio li,
+    #top .gform_wrapper li.gfield.gf_list_5col ul.gfield_checkbox li,
+    #top .gform_wrapper li.gfield.gf_list_5col ul.gfield_radio li{
+        width: 99%;
+        margin-top: 0px;
+    }
+}
+
+/* general style */
+#top .gform_wrapper input, #top .gform_wrapper select{
+    margin-bottom: 0;
+    min-width: auto;
+}
+
+#top .gform_wrapper ul li.gfield {
+    margin-bottom: 10px;
+}
+
+#top .gform_wrapper li.gf_list_inline ul.gfield_checkbox li, #top .gform_wrapper li.gf_list_inline ul.gfield_radio li{
+    margin-right: 20px;
+}
+
+#top .gform_wrapper .gfield_checkbox li label, #top .gform_wrapper .gfield_radio li label {
+    margin: 1px 0 0 19px;
+}
+
+#top .gform_wrapper .gfield_checkbox li label, #top .gform_wrapper .gfield_radio li label{
+    font-weight: normal;
+}
+
+#top .gform_page_footer .button{
+    margin-bottom: 20px;
+    display: inline;
+}
+
+#top .gform_page_footer .button.gform_button, #top .gform_page_footer .button.gform_next_button{
+    float: right;
+}
+
+#top .gform_fields>li{margin-left:0;}
+
+#top .gform_wrapper .gfield_time_hour input, 
+#top .gform_wrapper .gfield_time_minute input, 
+#top .gform_wrapper .gfield_date_month input, 
+#top .gform_wrapper .gfield_date_day input, 
+#top .gform_wrapper .gfield_date_year input {
+width: 70% !important;
+margin: 0 !important;
+display: inline-block !important;
+}

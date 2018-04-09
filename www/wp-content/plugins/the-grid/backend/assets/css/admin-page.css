@@ -1,0 +1,1918 @@
+/* ============================================================
+   00. Main Divs
+/* ============================================================ */
+
+.wrap > *,
+#wpbody-content > * {
+	display: none;
+}
+#wpbody-content >.wrap,
+.wrap > form {
+	display: block;
+	overflow: hidden;
+}
+.tg-wrap {
+	direction: ltr;
+}
+#wpbody-content .tg-wrap {
+	position: relative;
+	display: block;
+	padding-right: 20px;
+}
+#tg-banner-holder {
+	position: relative;
+	display: block;
+	padding: 0;
+	margin: 18px 1px 1px 1px;
+	min-height: 80px;
+	line-height: 80px;
+}
+#tg-banner {
+	position: absolute;
+	display: block;
+	top: 0;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	background: #fff;
+	min-height: 80px;
+	line-height: 80px;
+	white-space: nowrap;
+	box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+}
+#tg-banner h2 {
+	min-height: 80px;
+	margin: 0;
+	padding: 0;
+	line-height: 80px;
+	white-space: nowrap;
+	float: left;
+	color: #34495e;
+	font-weight: normal;
+	font-size: 20px;
+}
+#tg-banner h2 span {
+	position: relative;
+	display: inline-block;
+	width: 110px;
+	padding: 0 20px;
+	margin: 0 20px 0 0;
+	font-weight: 900;
+	text-transform: uppercase;
+	height: 80px;
+	background: #2c3e50;
+	color: #fff;
+	text-align: center;
+	background-image: url('../images/the-grid-logo.png');
+	background-size: 93%;
+	background-position: 6px 48%;
+	background-repeat: no-repeat;
+	text-indent: -9999px;
+}
+#tg-banner.tg-fixed {
+	position: fixed;
+	top: 32px;
+	z-index: 999;
+}
+#tg-buttons-holder {
+	float: right;
+}
+#tg-buttons-holder .tg-button .dashicons {
+	line-height: 27px;
+}
+#tg-buttons-holder a:last-child {
+	margin-right: 22px;
+}
+#tg-grids-flags {
+	position: relative;
+	padding: 0;
+	margin: 30px 1px 0 1px;
+	min-height: 30px;
+	line-height: 30px;
+	white-space: nowrap;
+	box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+}
+#tg-item-list-holder #tg-grids-flags {
+	box-shadow: none;
+}
+#tg-grids-flags span {
+	font-weight: 600;
+	padding: 0 10px;
+}
+.tg-grids-flag {
+	display: inline-block;
+	margin: 0 2px;
+}
+.tg-grids-flag a {
+	display: inline-block;
+	vertical-align: middle;
+	height: 12px;
+	width: auto;
+	margin: -2px 0 0 0;
+	line-height: 12px;
+	cursor: pointer;
+}
+.tg-grids-flag a img {
+	position: relative;
+	display: inline-block;
+	vertical-align: top;
+	margin: 0;
+	top: 0;
+}
+.tg-grids-flag a.tg-active-flag {
+	border: 2px solid #4ECDC4;
+}
+
+/* ============================================================
+   01. Grid list table
+/* ============================================================ */
+
+#tg-item-list-holder,
+#tg-grid-list-holder {
+	margin: 30px 0 0 0;
+}
+#tg-empty-grid-list {
+	text-align: center;
+	margin: 0;
+	padding: 0 0 20px 0;
+	background: #ffffff;
+	border: 1px solid #e5e5e5;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+}
+#tg-empty-grid-list h2 {
+    margin: 0 0 20px 0;
+    max-height: 50px;
+    line-height: 50px !important;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    padding: 0px 20px;
+	font-size: 20px;
+    line-height: 32px;
+    font-weight: normal;
+    color: #34495e;
+}
+.tg-button.tg-create-empty {
+	position: relative;
+	display: inline-block;
+	padding: 2px 14px;
+	margin: 10px 0;
+	font-size: 14px;
+	background: #4ECDC4;
+}
+.tg-button#tg-import-read-file,
+.tg-button#tg-import-read-demo,
+.tg-button#tg-import-demo,
+.tg-button#tg-import-skin-demo {
+	position: relative;
+	display: inline-block;
+	padding: 2px 14px;
+	margin: 10px 0 10px 10px;
+	font-size: 14px;
+	background: #2c3e50;
+}
+.tg-button.tg-create-empty .dashicons,
+.tg-button#tg-import-demo .dashicons {
+	position: relative;
+	top: 2px;
+}
+#tg-grids-list-holder thead {
+	background: #2c3e50;
+	color: #ffffff;
+}
+#tg-grids-list-holder thead * {
+	line-height: 33px;
+	font-weight: 600;
+	color: #ffffff;
+}
+#tg-grids-list-holder .tg-sort-table {
+	display: inline-block;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	outline: none !important;
+	border: none !important;
+	box-shadow: none !important;
+	-webkit-box-shadow: none !important;
+	-moz-box-shadow: none !important;
+	cursor: pointer;
+}
+#tg-grids-list-holder .tg-sort-table .tg-sort-up:before,
+#tg-grids-list-holder .tg-sort-table .tg-sort-down:before {
+	position: relative;
+	display: inline-block;
+	vertical-align: middle;
+	content: '\f140';
+	width: 14px;
+	top: -1px;
+	padding: 0;
+	font: 400 20px/1 dashicons;
+	line-height: 27px;
+	speak: none;
+}
+#tg-grids-list-holder .tg-sort-table .tg-sort-up:before {
+	content: '\f142';
+	top: 0px;
+}
+#tg-grids-list-holder .tg-sort-table .tg-sort-down:before {
+	background: 0 0;
+	content: '\f140';
+}
+#tg-grids-list-holder tbody td {
+	border-bottom: 1px solid rgba(0,0,0,0.065) !important;
+	white-space: nowrap;
+	overflow: hidden;
+    text-overflow: ellipsis;
+}
+@media screen and (max-width: 1320px) {
+#tg-grid-list-inner table thead tr th:nth-child(7),
+#tg-grid-list-inner table tbody tr td:nth-child(7) {
+	display: none;
+}
+}
+@media screen and (max-width: 1000px) {
+#tg-grid-list-inner table thead tr th:nth-child(6),
+#tg-grid-list-inner table thead tr th:nth-child(7),
+#tg-grid-list-inner table tbody tr td:nth-child(6),
+#tg-grid-list-inner table tbody tr td:nth-child(7) {
+	display: none;
+}
+}
+@media screen and (max-width: 782px) {
+#tg-grids-list-holder tbody td {
+	display: table-cell;
+}
+#tg-grid-list-inner table thead tr th:nth-child(2),
+#tg-grid-list-inner table thead tr th:nth-child(4),
+#tg-grid-list-inner table thead tr th:nth-child(6),
+#tg-grid-list-inner table thead tr th:nth-child(7),
+#tg-grid-list-inner table tbody tr td:nth-child(2),
+#tg-grid-list-inner table tbody tr td:nth-child(4),
+#tg-grid-list-inner table tbody tr td:nth-child(6),
+#tg-grid-list-inner table tbody tr td:nth-child(7) {
+	display: none;
+}
+.tg-list-number {
+	height: 28px !important;
+}
+}
+@media screen and (max-width: 520px) {
+.tg-grid-list-button .tg-button {
+    max-width: 18px !important;
+    overflow: hidden;
+    display: inline-block;
+}
+.tg-grid-list-button .tg-button i {
+	padding: 0 8px 0 4px;
+}
+#tg-grid-list-inner table thead tr th:nth-child(3),
+#tg-grid-list-inner table thead tr th:nth-child(5) {
+	width: 120px;
+}
+}
+#tg-grids-list-holder td,
+#tg-grids-list-holder th {
+	vertical-align: middle !important;
+}
+#tg-grids-list-holder tr {
+	height: 50px;
+	line-height: 23px;
+	-webkit-transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	-ms-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+}
+#tg-grids-list-holder tbody tr:hover {
+	background: rgba(0,0,0,0.035);
+}
+#tg-grids-list-holder tbody tr.cloned {
+	-webkit-animation: cloned 3s infinite;
+	-moz-animation: cloned 3s infinite;
+	animation: cloned 3s infinite;
+}
+@-webkit-keyframes cloned {
+	0% {background-color: #f1f1f1;} 
+	25% {background-color: #ffffff;}
+	50% {background-color: #f1f1f1;}
+	75% {background-color: #ffffff;}
+	100% {background-color: #f1f1f1;}
+}
+@-moz-keyframes cloned {
+	0% {background-color: #f1f1f1;} 
+	25% {background-color: #ffffff;}
+	50% {background-color: #f1f1f1;}
+	75% {background-color: #ffffff;}
+	100% {background-color: #f1f1f1;}
+}
+@keyframes cloned {
+	0% {background-color: #f1f1f1;} 
+	25% {background-color: #ffffff;}
+	50% {background-color: #f1f1f1;}
+	75% {background-color: #ffffff;}
+	100% {background-color: #f1f1f1;}
+}
+
+.tg-item-list-favorite,
+.tg-grid-list-favorite {
+	text-align: center;
+}
+.tg-item-list-favorite .dashicons,
+.tg-grid-list-favorite .dashicons {
+	font-size: 16px;
+	vertical-align: middle;
+	color: #f39c12;
+	font-size: 12px;
+	font-weight: 600;
+	cursor: pointer;
+}
+.tg-item-list-favorite .dashicons:before,
+.tg-grid-list-favorite .dashicons:before {
+	content: "\f154";
+	vertical-align: middle;
+}
+.tg-item-list-favorite .dashicons.favorite:before,
+.tg-grid-list-favorite .dashicons.favorite:before {
+	content: "\f155";
+}
+#tg-item-list-inner,
+#tg-grid-list-inner {
+	position: relative;
+	display: block;
+	margin: 0 0 30px 0;
+}
+#tg-item-list-inner #tg-info-box,
+#tg-grid-list-inner #tg-info-box {
+	position: absolute;
+	display: block;
+}
+.tg-item-list-name span,
+.tg-grid-list-name span {
+	position: relative;
+	font-weight: 700;
+}
+.tg-grid-list-new {
+	position: absolute;
+	display: block;
+	right: -35px;
+	top: -8px;
+	color: #e74c3c;
+	font-weight: 900;
+	font-size: 11px;
+}
+
+
+/* ============================================================
+   02. Pagination
+/* ============================================================ */
+
+#tg-pagination-holder {
+	position: relative;
+	display: block;
+}
+.tg-list-number,
+.tg-pages-holder {
+	position: relative;
+	display: inline-block;
+	float: right;
+}
+.tg-pages-holder .tg-pages {
+	margin: 2px 2px 2px 10px !important;
+}
+.tg-pages-holder .page-numbers {
+	position: relative;
+	display: inline-block;
+	height: 26px;
+	padding: 0 10px;
+	margin: -1px 0 0 0;
+	outline: 0px none;
+	font-size: 12px;
+	line-height: 27px;
+	text-decoration: none;
+	background: #ffffff;
+	color: inherit;
+	border: 1px solid #ddd;
+	cursor: pointer;
+	-webkit-transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	-ms-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+}
+.page-numbers:hover {
+	opacity: 0.8;
+	background: #2c3e50;
+	color: #ffffff;
+}
+.page-numbers.current {
+	background: #2c3e50;
+	color: #ffffff;
+}
+
+/* ============================================================
+   03. Buttons
+/* ============================================================ */
+
+.tg-button {
+	position: relative;
+	overflow: hidden;
+	line-height: 26px;
+	height: 27px;
+	padding: 4px 10px;
+	margin: 2px 5px 2px 0;
+	color: #ffffff !important;
+	cursor: pointer;
+	outline: none !important;
+	opacity: 0.9;
+	text-decoration: none;
+	-webkit-transition: all 0.3s ease-out !important;
+	-moz-transition: all 0.3s ease-out !important;
+	-ms-transition: all 0.3s ease-out !important;
+	-o-transition: all 0.3s ease-out !important;
+	transition: all 0.3s ease-out !important;
+}
+#tg-banner-holder .tg-button {
+	display: inline-block;
+	vertical-align: middle;
+	z-index: 1;
+}
+#tg-add-metakey.tg-button,
+#tg-add-relation.tg-button {
+	display: inline-block;
+	padding: 0 8px;
+}
+.tg-remove-metakey.tg-button {
+	position: absolute;
+	display: block;
+	width: 27px;
+	height: 27px;
+	padding: 0;
+	margin: 0;
+	top: 0;
+	right: 0;
+	border-radius: 0;
+	-webkit-transform: translateY(-30px);
+	-moz-transform: translateY(-30px);
+	-ms-transform: translateY(-30px);
+	-o-transform: translateY(-30px);
+	transform: translateY(-30px);
+	-webkit-transition: all 0.15s ease-out !important;
+	-moz-transition: all 0.15s ease-out !important;
+	-ms-transition: all 0.15s ease-out !important;
+	-o-transition: all 0.15s ease-out !important;
+	transition: all 0.15s ease-out !important;
+}
+.the_grid_metakey-wrapper:hover .tg-remove-metakey.tg-button {
+	-webkit-transform: translateY(0);
+	-moz-transform: translateY(0);
+	-ms-transform: translateY(0);
+	-o-transform: translateY(0);
+	transform: translateY(0);
+}
+.tg-button:hover {
+	opacity: 1;
+}
+.tg-button.tg-create,
+.tg-button.tg-edit,
+.tg-close-infox-box,
+#tg_settings_add_metadata,
+#tg-add-metakey,
+#tg_post_save,
+#tg_skin_save,
+#tg_settings_save,
+#tg_envato_activate,
+.tg-edit-skin {
+	background: #4ECDC4;
+}
+.tg-close-infox-box {
+	display: inline-block;
+	margin: 20px 0 11px 0;
+	padding: 4px 15px;
+}
+.tg-button.tg-create .dashicons,
+#tg-add-metakey.tg-button .dashicons,
+#tg-add-relation.tg-button .dashicons {
+	position: relative;
+	top: 2px;
+}
+#tg_clear_cache {
+	margin: 0 0 0 18px;
+}
+.tg-remove-metakey.tg-button .dashicons {
+	text-align: center;
+	width: 27px;
+	height: 27px;
+	margin: 0;
+	line-height: 27px;
+}
+.tg-remove-metakey.tg-button .dashicons:before {
+	text-align: center;
+	width: 27px;
+	height: 27px;
+}
+.tg-button.tg-clone,
+#tg-add-relation.tg-button,
+#tg_post_preview,
+#tg_envato_update,
+#tg_envato_check_update,
+#tg_download_skin,
+#tg_flickr_get_photosets_list {
+	background: #2c3e50;
+}
+.tg-button.tg-delete,
+.tg-remove-metakey,
+#tg_settings_remove_metadata,
+#tg_post_delete,
+#tg_settings_reset,
+#tg_clear_cache,
+.tg-delete-skin {
+	background: #e74c3c;
+}
+#tg_post_close {
+	background: #7f8c8d;
+}
+.tg-button .dashicons {
+	position: relative;
+	font-size: 15px;
+	line-height: 26px;
+	margin: 0 2px 0 -4px;
+}
+.tg-button:hover .dashicons {
+	-webkit-animation: toTopFromBottom 0.3s forwards;
+	-moz-animation: toTopFromBottom 0.3s forwards;
+	animation: toTopFromBottom 0.3s forwards;
+}
+@-webkit-keyframes toTopFromBottom {
+	49% {-webkit-transform: translate3d(0,-100%,0);}
+	50% {opacity: 0;-webkit-transform: translate3d(0,100%,0);}
+	51% {opacity: 1;}
+}
+@-moz-keyframes toTopFromBottom {
+	49% {-moz-transform: translate3d(0,-100%,0);}
+	50% {opacity: 0;-moz-transform: translate3d(0,100%,0);}
+	51% {opacity: 1;}
+}
+@keyframes toTopFromBottom {
+	49% {transform: translate3d(0,-100%,0);}
+	50% {opacity: 0;transform: translate3d(0,100%,0);}
+	51% {opacity: 1;}
+}
+#tg_clearing_cache {
+	display: none;
+	margin: 0 10px;
+}
+#tg_clear_cache_msg .spinner {
+    visibility: hidden;
+    float: none;
+    margin: -4px 0 0 10px;
+}
+#tg_clear_cache_msg strong {
+    margin: 0 10px;
+}
+
+/* ============================================================
+   04. INFO BOX (save, clone, delete)
+/* ============================================================ */
+
+#tg-info-box,
+#tg-grid-preview {
+	position: fixed;
+	z-index: 99999;	
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	opacity: 0;
+	visibility: hidden;
+	-webkit-transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	-ms-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+}
+#tg-info-box.tg-box-loading,
+#tg-grid-preview.tg-show-preview {
+	opacity: 1;
+	visibility: visible;
+}
+.tg-info-overlay,
+#tg-grid-preview-overlay {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: #ffffff;
+	opacity: 0.86;
+}
+.tg-info-inner {
+	position: absolute;
+	display: block;
+    top: 50%;
+    width: 100%;
+    padding: 0;
+    margin: 0 auto;
+    line-height: 0;
+    text-align: center;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.tg-info-box-msg {
+	position: relative;
+	display: inline-block;
+	min-width: 245px;
+	padding: 20px 50px;
+	background: #34495e;
+	text-align: center;
+	line-height: 24px;
+	font-size: 14px;
+	font-weight: 400;
+	color: #ffffff;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box; 
+	-webkit-box-shadow: 0 0 35px rgba(0,0,0,0.3);
+	-moz-box-shadow: 0 0 35px rgba(0,0,0,0.3);
+	box-shadow: 0 0 35px rgba(0,0,0,0.3);
+	-webkit-transform: translateY(-60px);
+	-moz-transform: translateY(-60px);
+	-ms-transform: translateY(-60px);
+	-o-transform: translateY(-60px);
+	transform: translateY(-60px);
+	-webkit-transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	-ms-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+}
+.tg-box-loading .tg-info-box-msg {
+	-webkit-transform: translateY(0);
+	-moz-transform: translateY(0);
+	-ms-transform: translateY(0);
+	-o-transform: translateY(0);
+	transform: translateY(0);
+}
+.tg-info-box-msg strong {
+	position: relative;
+	display: inline-block;
+	padding: 20px 0;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+#tg-info-box-confirm {
+	display: none !important;
+}
+.tg-info-box-icon {
+	font-size: 24px;
+	margin: 0 10px 0 0;
+}
+.tg-info-box-msg .dashicons-yes {
+	color: #4ECDC4;
+}
+.tg-info-box-msg .dashicons-no-alt {
+	color: #e74c3c;
+}
+.tg-info-box-msg .tg-info-box-alt {
+	color: #e74c3c;
+}
+.tg-close-infox-box .dashicons {
+	color: #ffffff;
+	font-size: 16px;
+	font-weight: 900;
+}
+.tg-info-box-msg#tg-info-box-metakey-array {
+	padding: 20px 10px;
+}
+.tg-info-box-msg#tg-info-box-metakey-array pre {
+	text-align: left;
+	overflow: auto;
+	max-height: 320px;
+	min-width: 420px;
+}
+.tg-info-box-msg .dashicons-admin-generic {
+	-webkit-animation-name: spin;
+	-webkit-animation-duration: 1500ms;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+	-moz-animation-name: spin;
+	-moz-animation-duration: 1500ms;
+	-moz-animation-iteration-count: infinite;
+	-moz-animation-timing-function: linear;
+	-ms-animation-name: spin;
+	-ms-animation-duration: 1500ms;
+	-ms-animation-iteration-count: infinite;
+	-ms-animation-timing-function: linear;
+	animation-name: spin;
+	animation-duration: 1500ms;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+.tg-info-box-msg .dashicons-admin-generic:before {
+	content: "\f111";
+	text-align: center;
+	display: block;
+	position: relative;
+	height: 22px;
+	width: 22px;
+	top: -3px;
+	left: -1px;
+}
+@-ms-keyframes spin {
+	from { -ms-transform: rotate(0deg); }
+	to { -ms-transform: rotate(360deg); }
+}
+@-moz-keyframes spin {
+	from { -moz-transform: rotate(0deg); }
+	to { -moz-transform: rotate(360deg); }
+}
+@-webkit-keyframes spin {
+	from { -webkit-transform: rotate(0deg); }
+	to { -webkit-transform: rotate(360deg); }
+}
+@keyframes spin {
+	from {
+		transform:rotate(0deg);
+	}
+	to {
+		transform:rotate(360deg);
+	}
+}
+
+
+/* ============================================================
+   05. Grid Preview
+/* ============================================================ */
+
+
+#tg-grid-preview-wrapper {
+	position: absolute;
+	overflow: hidden;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+#tg-grid-preview-loading {
+    position: absolute;
+    display: block;
+    top: 50%;
+    left: 70px;
+    right: 70px;
+    font-weight: 900;
+    font-size: 18px;
+	text-align: center;
+	-webkit-animation: flash linear 1s infinite;
+    animation: flash linear 1s infinite;
+}
+#tg-grid-preview-header {
+	position: fixed;
+	z-index: 10;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 0;
+	opacity: 0;
+	background: #34495e;
+	color: #ffffff;
+	border-bottom: 1px solid rgba(255,255,255,0.3);
+	text-align: center;
+	-webkit-transition: opacity 0.3s ease-out;
+	-moz-transition: opacity 0.3s ease-out;
+	-ms-transition: opacity 0.3s ease-out;
+	-o-transition: opacity 0.3s ease-out;
+	transition: opacity 0.3s ease-out;
+}
+.tg-show-preview #tg-grid-preview-header {
+	opacity: 1;
+	height: 50px;
+}
+#tg-grid-preview-viewport {
+	position: relative;
+	display: inline-block;
+	height: 50px;
+	margin: 0 auto;
+	border-right: 1px solid rgba(255,255,255,0.3);
+}
+#tg-grid-preview-viewport > div {
+	position: relative;
+	display: inline-block;
+	height: 50px;
+	width: 50px;
+	margin: 0;
+	cursor: pointer;
+	border-left: 1px solid rgba(255,255,255,0.3);
+	-webkit-transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	-ms-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+}
+#tg-grid-preview-viewport > div .tg-grid-preview-img {
+	position: relative;
+	display: inline-block;
+	margin: 8px;
+	height: 34px;
+	width: 34px;
+	background-repeat: no-repeat;
+	background-position: center 0;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	transform: translate3d(0,0,0);
+	-webkit-transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	-ms-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+}
+#tg-grid-preview-viewport > div:hover .tg-grid-preview-img {
+	opacity: 0.8;
+}
+#tg-grid-preview-viewport > div.tg-viewport-active:hover div {
+	opacity: 1;
+}
+#tg-grid-preview-viewport > div.tg-viewport-active {
+	background: #4ECDC4;
+}
+.tg-grid-preview-desktop-large .tg-grid-preview-img {
+	background-image: url('../images/desktop-large.png');
+}
+.tg-grid-preview-desktop-medium .tg-grid-preview-img {
+	background-image: url('../images/desktop-medium.png');
+}
+.tg-grid-preview-desktop-small .tg-grid-preview-img {
+	background-image: url('../images/desktop-small.png');
+}
+.tg-grid-preview-tablet .tg-grid-preview-img {
+	background-image: url('../images/tablet.png');
+}
+.tg-grid-preview-tablet-small .tg-grid-preview-img {
+	background-image: url('../images/tablet-small.png');
+}
+.tg-grid-preview-mobile .tg-grid-preview-img {
+	background-image: url('../images/mobile.png');
+}
+#tg-grid-preview-close,
+#tg-grid-preview-refresh {
+	position: absolute;
+	top: 0;
+	right: 0;
+	height: 50px;
+	width: 50px;
+	text-align: center;
+	cursor: pointer;
+	border-left: 1px solid rgba(255,255,255,0.3);
+}
+#tg-grid-preview-refresh {
+	position: absolute;
+	right: 50px;
+}
+#tg-grid-preview-close i,
+#tg-grid-preview-refresh i {
+	width: 50px;
+	line-height: 50px;
+	font-size: 40px;
+	-webkit-transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	-ms-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+}
+#tg-grid-preview-refresh i {
+	font-size: 31px;
+}
+#tg-grid-preview-close:hover i,
+#tg-grid-preview-refresh:hover i {
+	opacity: 0.8;
+	-webkit-animation: toTopFromBottom 0.3s forwards;
+	-moz-animation: toTopFromBottom 0.3s forwards;
+	animation: toTopFromBottom 0.3s forwards;
+}
+#tg-grid-preview-inner {
+	position: absolute;
+	overflow: hidden;
+	overflow-y: scroll;
+	max-height: 100%;
+	max-width: 100%;
+	left: 0;
+	right: 0;
+	top: 50px;
+	bottom: 0;
+	margin: 0 auto;
+	padding: 0;
+}
+#tg-grid-preview-overlay {
+	opacity: 0.96;
+}
+.tg-grid-preview-tooltip {
+	position: absolute;
+	display: block;
+	z-index: 999;
+	top: 62px;
+	left: -5px;
+	right: -5px;
+	min-width: 26px;
+	min-height: 16px;
+	margin: 0 auto;
+	padding: 4px;
+	line-height: 16px;
+	font-size: 12px;
+	background: rgba(0,0,0,.8);
+	color: #ffffff !important;
+	opacity: 0;
+	text-align: center;
+	pointer-events: none;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	-webkit-transform: translateY(8px) !important;
+	-moz-transform: translateY(8px) !important;
+	-ms-transform: translateY(8px) !important;
+	-o-transform: translateY(8px) !important;
+	transform: translateY(8px) !important;
+	-webkit-transition: opacity 0.2s ease-in-out, -webkit-transform 0.2s ease-in-out;
+	-moz-transition: opacity 0.2s ease-in-out, -moz-transform 0.2s ease-in-out;
+	-ms-transition: opacity 0.2s ease-in-out, -ms-transform 0.2s ease-in-out;
+	-o-transition: opacity 0.2s ease-in-out, -o-transform 0.2s ease-in-out;
+	transition: opacity 0.2s ease-in-out, transform 0.2s ease-in-out;
+}
+.tg-grid-preview-desktop-large .tg-grid-preview-tooltip,
+.tg-grid-preview-desktop-medium .tg-grid-preview-tooltip,
+.tg-grid-preview-desktop-small .tg-grid-preview-tooltip {
+	left: -35px;
+	right: -35px;
+}
+.tg-grid-preview-tablet-small .tg-grid-preview-tooltip {
+	left: -25px;
+	right: -25px;
+}
+.tg-grid-preview-tooltip:after {
+	position: absolute;
+	content: '';
+	width: 0;
+	height: 0;
+	left: 50%;
+	top: -4px;
+	margin-left: -4px;
+	border-bottom: 4px solid rgba(0,0,0,.98);
+	border-left: 4px solid transparent;
+	border-right: 4px solid transparent;
+}
+#tg-grid-preview-viewport div:hover .tg-grid-preview-tooltip {
+	opacity: 1;
+	-webkit-transform: translateY(-8px) !important;
+	-moz-transform: translateY(-8px) !important;
+	-ms-transform: translateY(-8px) !important;
+	-o-transform: translateY(-8px) !important;
+	transform: translateY(-8px) !important;
+}
+@media only screen and (min-width : 1001px) and (max-width: 1300px) {
+#tg-grid-preview-inner	{ 
+	width: 880px; 
+	margin: 0 auto;  
+	position: relative; 
+}
+}
+@media only screen and (min-width : 690px) and (max-width : 1000px) {	
+#tg-grid-preview-inner {
+    width: 600px; 
+} 
+}
+
+@media only screen and (max-width : 690px) {
+#tg-grid-preview-inner {
+    width: 420px; 
+} 
+}
+@media only screen and (max-width : 480px) {
+#tg-grid-preview-inner {
+    width: 300px; 
+}
+}
+
+/* ============================================================
+   06. EXPORT/IMPORT FORM
+/* ============================================================ */
+
+#tg_export_items,
+#tg_import_items {
+	display: inline-block;
+	height: 26px;
+	padding: 0 10px;
+	background: #4ECDC4;
+}
+.tg-import-item-msg-error,
+.tg-export-msg {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    margin: 6px 10px;
+	color: #e74c3c;
+}
+.metabox-holder.tg-import span {
+	position: relative;
+	display: inline-block;
+	line-height: 30px;
+	vertical-align: top;
+}
+#tg_export_items .dashicons ,
+#tg_import_items .dashicons{
+	font-size: 16px;
+}
+.tg-import-error {
+	color: #e74c3c;
+	font-weight: 900;
+	font-style: italic;
+}
+.tg-import #tg-import-read-file,
+.tg-import #tg-import-read-demo,
+.tg-import #tg-import-demo {
+	display: inline-block;
+	height: 26px;
+	padding: 0 10px;
+	margin: 2px 5px 2px 0;
+	background: #2c3e50;
+	font-size: 13px;
+}
+.tg-import #tg-import-demo .dashicons {
+	font-size: 16px;
+	top: 0;
+}
+.tg-import-loading {
+	position: relative;
+    display: inline-block;
+    vertical-align: top;
+	margin: 2px 0 0;
+}
+.tg-import-loading .spinner {
+	display: none;
+	float: left;
+	width: 20px;
+	visibility: visible !important;
+}
+.tg-import-loading strong {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+	padding: 4px 0 0;
+	font-weight: 600 !important;
+}
+.tg-import-msg-error {
+	color: #e74c3c;
+	margin: 0 10px;
+}
+
+/* ============================================================
+   06. Update FORM
+/* ============================================================ */
+
+.tg-update .activated.tg-box-side {
+	background: #4ECDC4;
+}
+.tg-update .tg-box-inside {
+	padding: 8px 20px 20px 20px !important;
+}
+.tg-update H3 {
+	padding: 8px 0 28px 0;
+}
+.tg-update .tomb-row {
+	width: 100%;
+	padding: 15px 18px 0 0;
+}
+.tg-update  input[type=password] {
+    background: #f1f1f1;
+    box-shadow: none;
+    -webkit-text-stroke-width: .2em;
+    letter-spacing: 0.3em;
+}
+.tg-update .tomb-row .sub-desc {
+	margin: 5px 0 13px 0;
+}
+.tg-update .tomb-label {
+    float: left;
+    font-weight: bold;
+    width: 150px;
+    line-height: 26px;
+}
+.tg-update .tomb-row div {
+	float: left;
+}
+.tg-update .tg-buttons-holder {
+	margin: 32px 0 0 0;
+}
+.tg-update .tg-buttons-holder .tg-button {
+	display: inline-block;
+}
+
+/* ============================================================
+   06. Grid Settings Social API
+/* ============================================================ */
+
+.tg-instagram-access-token,
+.tg-instagram-log-out {
+	position: relative;
+    display: inline-block;
+    background: #3f729b;
+    padding: 6px 16px;
+    margin: 12px 5px 2px 0;
+}
+.tg-instagram-log-out {
+	background: #e74c3c;
+}
+
+/* ============================================================
+   07. BOX HOLDER
+/* ============================================================ */
+
+.tg-export,
+.tg-update {
+	margin: 20px 0 0 0;
+}
+.settings-options .inside {
+	margin: 1px 0 0 0 !important;
+	padding: 0;
+}
+.tg-settings .tomb-tabs-holder {
+    margin: -22px 0 0;
+}
+.tg-export .tg-box-side {
+	background: #4ECDC4;
+}
+.tg-settings .tg-box-side,
+.tg-import .tg-box-side,
+.tg-update .disabled.tg-box-side {
+	background: #34495e;
+}
+.tg-settings .tg-box-side *,
+.tg-import .tg-box-side *,
+.tg-export .tg-box-side *,
+.tg-update .tg-box-side * {
+	color: #ffffff;
+}
+.tg-box-side {
+	display: table-cell;
+	vertical-align: top;
+	min-width: 150px;
+	background: #e1e1e1;
+}
+.tg-settings .tg-box-side {
+	border-bottom: 1px solid #ffffff;
+}
+.tg-box-side h3 {
+	margin: 0;
+    padding: 15px 12px 15px 12px !important;
+    background: rgba(0,0,0,0.18);
+    font-size: 14px;
+    line-height: 1.4;
+}
+.tg-box-side .tg-info-box-icon {
+	padding: 15px 12px 15px 12px !important;
+	font-size: 32px;
+}
+.tg-box-inside {
+	display: table-cell;
+	margin: 0px !important;
+	padding: 8px 20px 40px 20px !important;
+	vertical-align: top;
+	width: 100%;
+	background: #fff;
+}
+.tg-settings .tg-box-inside {
+	border-bottom: 1px solid #e1e1e1;
+}
+.tg-settings .tg-box-inside {
+	padding: 0 0 40px 0 !important;
+}
+.tg-box-inside p {
+	color: #666666;
+	font-style: italic;
+}
+.tg-box-inside h3:not(.tomb-info-box-title) {
+	padding-left: 0 !important;
+    padding-right: 0 !important;
+    font-size: 14px;
+    line-height: 14px;
+    margin: 10px 0;
+}
+.tomb-label-outside {
+	padding: 0 0 0 18px;	
+}
+.tg-settings .tomb-switch {
+	position: relative;
+	display: inline-block;
+	top: 5px;
+}
+.tg-settings .tomb-type-checkbox .tomb-number-label {
+	top: 5px;
+}
+.tg-settings .tomb-desc {
+	font-size: 13px;
+}
+
+/* ============================================================
+   07. AJAX FORM META DATA
+/* ============================================================ */
+
+#tg-grid-preview-settings {
+	position: fixed;
+	overflow: hidden;
+	z-index: 9999;
+	top: 100px;
+	left: 50%;
+	margin-left: -340px;
+	width: 768px;
+	height: auto;
+	max-height: 483px;
+	opacity: 0;
+	visibility: hidden;
+	background: #ffffff;
+	-webkit-box-shadow: 0 0 10px 4px rgba(0,0,0,0.07);
+	-moz-box-shadow: 0 0 10px 4px rgba(0,0,0,0.07);
+	box-shadow: 0 0 10px 4px rgba(0,0,0,0.07);
+	-webkit-transition: opacity 0.3s ease-out, visibility 0.3s ease-out;
+	-moz-transition: opacity 0.3s ease-out, visibility 0.3s ease-out;
+	-ms-transition: opacity 0.3s ease-out, visibility 0.3s ease-out;
+	-o-transition: opacity 0.3s ease-out, visibility 0.3s ease-out;
+	transition: opacity 0.3s ease-out, visibility 0.3s ease-out;
+}
+#tg-grid-preview-settings button.handlediv {
+	display: none;
+}
+#tg-grid-preview-settings.loaded {	
+	opacity: 1;
+	visibility: visible;
+}
+#tg-grid-preview-settings .inside {
+	overflow: hidden;
+	margin: 0;
+}
+#tg-grid-preview-settings-close {
+	position: absolute;
+	right: 0;
+	top: 0;
+	height: 36px;
+	width: 36px;
+	cursor: pointer;
+}
+#tg-grid-preview-settings-close:hover {
+	opacity: 0.8;
+}
+#tg-grid-preview-settings-close:before {
+	content: "\f335";
+	height: 36px;
+	width: 36px;
+	line-height: 36px;
+}
+#tg-grid-preview-settings-footer {
+    position: relative;
+    display: block;
+    padding: 6px 8px 0 8px;
+    margin: -15px 0 0 0;
+    width: 100%;
+    background: #f5f5f5;
+    text-align: right;
+    box-sizing: border-box;
+    position: absolute;
+    display: block;
+    padding: 6px 8px 2px 8px;
+    margin: 0;
+    bottom: 0;
+    width: 100%;
+    background: #f5f5f5;
+    text-align: right;
+    box-sizing: border-box;
+}
+#tg-grid-preview-settings-footer #tg-grid-preview-settings-save {
+	position: relative;
+	display: inline-block;
+	padding: 1px 8px;
+	background: #4ECDC4;
+	color: #ffffff;
+}
+#tg-grid-preview-settings-footer .spinner {
+	float: none;
+	padding: 5px 8px 0 0;
+	vertical-align: baseline !important;
+}
+.saving .spinner {
+	visibility: visible;
+}
+.tg-grid-preview-settings-wait {
+	position: relative;
+	display: none;
+	padding: 5px 8px 0 0;
+	line-height: 26px;
+	vertical-align: top;
+}
+.saving .tg-grid-preview-settings-wait {
+	display: inline-block;
+}
+#tg-grid-preview-settings .hndle {
+	position: relative;
+    display: inline-block;
+    width: 100%;
+	padding: 8px 12px;
+    margin: 0;
+    background: #2c3e50;
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 1.4;
+    cursor: move;
+    box-sizing: border-box;
+}
+#tg-grid-preview-settings .tomb-tab-content {
+	position: relative;
+    display: none;
+    margin: 0 0 45px 0;
+    height: 360px;
+    min-height: 360px;
+    max-height: 360px;
+    overflow-y: auto;
+}
+.tg-item-settings,
+.tg-item-exclude {
+	position: absolute;
+	z-index: 5;
+	top: 0;
+	right: 0;
+	height: 28px;
+	background: #4ECDC4;
+	color: #ffffff;
+	text-align: center;
+	cursor: pointer;
+	backface-visibility: hidden;
+	-webkit-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    -o-transform: translateZ(0);
+    transform: translateZ(0);
+	-webkit-transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	-ms-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+}
+.tg-item-exclude {
+	top: 28px;
+	background: #34495e;
+}
+.tg-item-exclude.tg-item-excluded {
+	background: #e74c3c;
+}
+.tg-item-settings:before,
+.tg-item-exclude:before {
+	content: "\f111";
+	position: relative;
+	display: inline-block;
+	left: 1px;
+	width: 28px;
+	height: 28px;
+	font-size: 19px;
+	line-height: 28px;
+	font-family: "dashicons";
+	text-decoration: inherit;
+	font-weight: normal;
+	font-style: normal;
+	vertical-align: top;
+	text-align: center;
+	-webkit-transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	-ms-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+}
+.tg-item-exclude:before {
+	content: "\f177";
+}
+.tg-item-settings:hover:before,
+.tg-item-exclude:hover:before {
+	opacity: 0.8;
+}
+.tg-item-settings.loading:before {
+	-webkit-animation-name: spin;
+	-webkit-animation-duration: 1500ms;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+	-moz-animation-name: spin;
+	-moz-animation-duration: 1500ms;
+	-moz-animation-iteration-count: infinite;
+	-moz-animation-timing-function: linear;
+	-ms-animation-name: spin;
+	-ms-animation-duration: 1500ms;
+	-ms-animation-iteration-count: infinite;
+	-ms-animation-timing-function: linear;
+	animation-name: spin;
+	animation-duration: 1500ms;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+.tg-item-settings span,
+.tg-item-exclude span {
+	position: relative;
+	display: inline-block;
+	overflow: hidden;
+	width: 0;
+	height: 28px;
+	padding: 0;
+	line-height: 28px;
+	-webkit-transition: all 0.3s ease-out !important;
+	-moz-transition: all 0.3s ease-out !important;
+	-ms-transition: all 0.3s ease-out !important;
+	-o-transition: all 0.3s ease-out !important;
+	transition: all 0.3s ease-out !important;
+}
+.tg-item-settings.loading span,
+.tg-item-exclude:hover span {
+	width: auto;
+	padding: 0 8px 0 4px;
+}
+.tg-item-exclude span.tg-item-show,
+.tg-item-exclude.tg-item-excluded span.tg-item-hide {
+	display: none;
+}
+.tg-item-exclude.tg-item-excluded span.tg-item-show {
+	display: inline-block;
+}
+.tg-item-hidden-overlay {
+	position: absolute;
+	overflow: hidden;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	visibility: hidden;
+	background: #ffffff;
+	-webkit-transition: opacity 0.3s ease-out, visibility 0.3s ease-out !important;
+	-moz-transition: opacity 0.3s ease-out, visibility 0.3s ease-out !important;
+	-ms-transition: opacity 0.3s ease-out, visibility 0.3s ease-out !important;
+	-o-transition: opacity 0.3s ease-out, visibility 0.3s ease-out !important;
+	transition: opacity 0.3s ease-out, visibility 0.3s ease-out !important;
+}
+.tg-item-hidden-overlay.tg-item-hidden {
+	opacity: 0.8;
+	visibility: visible;
+}
+
+/* ============================================================
+   08. Activation info
+/* ============================================================ */
+
+.tg-container {
+	position: relative;
+	display: block;
+	overflow: hidden;
+	background: #ffffff;
+	border: 1px solid #e5e5e5;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.04);
+	box-shadow: 0 1px 1px rgba(0,0,0,.04);
+}
+.tg-container-header {
+	max-height: 50px;
+	line-height: 50px;
+    border-bottom: 1px solid rgba(0,0,0,0.065);
+    padding: 0px 20px;
+}
+.tg-container-title {
+	position: relative;
+	display: inline-block;
+	vertical-align: middle;
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: normal;
+	color: #34495e;
+}
+.tg-container-inner {
+	position: relative;
+	overflow: hidden;
+	max-height: 246px;
+    min-height: 246px;
+    width: 100%;
+	padding: 30px 20px 20px;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 17px;
+	color: #444;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;   
+}
+.tg-col-full .tg-container-inner {
+	min-height: auto;
+	max-height: none;
+	padding: 20px;
+}
+.tg-pad-lock-icon,
+.tg-pad-open-icon,
+.tg-syncing-icon,
+.tg-checkbox-icon,
+.tg-warning-icon {
+	position: absolute;
+    padding: 6px;
+    right: 0;
+    top: 0;
+    border-left: 1px solid rgba(0,0,0,0.065);
+}
+.tg-pad-lock-icon,
+.tg-syncing-icon,
+.tg-warning-icon {
+    background: #fef7f6;
+}
+.tg-pad-open-icon,
+.tg-checkbox-icon {
+    background: #f4fcfc;
+}
+.tg-container-inner.tg-container-register {
+    backface-visibility: hidden;
+}
+.tg-container-inner.tg-container-register:before {
+    content: "";
+    position: absolute;
+	top: 42px;
+    right: -34px;
+    width: 200px;
+    height: 210px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    z-index: 0;
+    background-image: url(../images/support-forum.jpg);
+	outline: 1px solid transparent;
+}
+.tg-container-inner.tg-container-update:before {
+	content: "";
+    position: absolute;
+    top: 22px;
+    right: -45px;
+    width: 240px;
+    height: 240px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    z-index: 0;
+    background-image: url(../images/auto-update.jpg);
+    outline: 1px solid transparent;
+}
+.tg-container-anim .tg-container-inner {
+	-webkit-transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	-ms-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+    -webkit-transform: translateX(-100%);
+    -moz-transform: translateX(-100%);
+    -ms-transform: translateX(-100%);
+    -o-transform: translateX(-100%);
+    transform: translateX(-100%);
+}
+.tg-container-register-token {
+    position: absolute;
+    top: 50px;
+    left: 100%;
+    right: 0;
+	backface-visibility: hidden;
+}
+.tg-text-icon {
+	position: relative;
+	display: block;
+	vertical-align: middle;
+	margin: 0 0 16px 0;
+}
+.tg-text-icon svg {
+	position: absolute;
+	display: block;
+	top: 0;
+	left: 0;
+}
+.tg-text-icon > a,
+.tg-text-icon > div {
+	margin: 0 0 0 54px;
+}
+.tg-text-icon .tg-button {
+	margin-left: 54px;
+    border: 1px solid #4ECDC4;
+    position: relative;
+    display: inline-block;
+    margin-top: 5px;
+    padding: 0 12px;
+	color: #4ECDC4 !important;
+	font-weight: 600;
+	height: 25px;
+    line-height: 23px; 
+}
+.tg-text-icon-title {
+	font-size: 13px;
+	font-weight: 600;
+	display: block;
+}
+.tg-text-icon-desc {
+	font-size: 13px;
+	font-weight: normal;
+	display: block;
+	color: #999999;
+}
+.tg-container-button {
+    position: absolute;
+    display: block;
+    top: 7px;
+    right: 15px;
+    padding: 2px 10px;
+	font-weight: 600;
+	opacity: 1 !important;
+	cursor: default;
+}
+.tg-button-register,
+.tg-button-live-update,
+.tg-button-register-token,
+.tg-button-live-no-update {
+	height: 40px;
+	padding: 10px 20px;
+    background: #2c3e50;
+    color: #ffffff;
+    font-size: 14px;
+}
+.tg-button-active {
+	background: #4ECDC4;
+}
+.tg-button-disable {
+	background: #e74c3c;
+}
+.tg-button-recommended {
+	background: #FFA939;
+}
+.tg-button-recommended {
+	background: #FFA939;
+}
+.tg-button-live-no-update {
+	background: #CCCCCC;
+	cursor: default;
+	point-events: none;
+}
+.tg-button-register-token + .spinner,
+.tg-button-live-update + .spinner {
+    float: none;
+    margin: 0 5px 0 10px;
+}
+.tg-button-register-token + .spinner + strong,
+.tg-button-live-update + .spinner  + strong {
+    margin: 0 5px 0 10px;
+}
+.tg-text-icon div.tg-purchase-code {
+	width: 260px;
+	padding: 4px 10px;
+    margin-top: 5px;
+	background: #f1f1f1;
+	color: #777777;
+    font-size: 13px;
+    font-weight: 600;
+}
+.tg-php-info,
+.tg-php-info-value {
+    display: inline-block;
+    line-height: 20px;
+}
+.tg-php-info {
+    min-width: 195px;
+}
+.tg-php-info-value {
+	min-width: 80px;
+    font-weight: 600;
+}
+.tg-php-info-icon {
+	width: 20px;
+    height: 20px;
+    padding: 0 8px 0 0;
+    font-size: 24px;
+}
+.tg-php-info-icon.dashicons-yes {
+	color: #4ECDC4;
+}
+.tg-php-info-icon.dashicons-no {
+	color: #e74c3c;
+	font-size: 22px;
+}
+.tg-info-recommended,
+.tg-php-info-value-recommended,
+.tg-php-info-icon.dashicons-no.tg-recommended-icon {
+	color: #FFA939;
+}
+.tg-info-needed,
+.tg-php-info-value-needed {
+	color: #e74c3c;
+}
+.tg-php-info-value-needed,
+.tg-php-info-value-recommended {
+    font-weight: 700;
+}
+.tg-row {
+	position: relative;
+    display: inline-block;
+    margin: 0;
+    width: 100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.tg-col {
+	position: relative;
+	display: inline-block;
+	float: left;
+	padding: 0 20px 0 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.tg-row > .tg-col:last-child {
+	padding: 0;
+}
+.tg-col-3 {
+	width: 33.33%;
+}
+.tg-col-full {
+	width: 100%;
+	margin: 30px 0 0 0;
+	padding: 0;
+}
+@media screen and (max-width: 1700px) {
+.tg-row .tg-col-3 {
+	width: 50%;
+}
+.tg-row .tg-col-3:nth-child(2) {
+	width: 100%;
+	padding: 0 0 20px 0;
+}
+}
+@media screen and (max-width: 980px) {
+.tg-row .tg-col-3,
+.tg-row .tg-col-3:nth-child(2) {
+	width: 100%;
+	padding: 0 0 20px 0;
+}
+}
+@media screen and (max-width: 540px) {
+.tg-container-inner.tg-container-register:before,
+.tg-container-inner.tg-container-update:before {
+	display: none !important;
+}
+}
+
+/* ============================================================
+   08. Skin builder overview
+/* ============================================================ */
+
+/*** remove default link css from wordpress admin dashboard ***/
+.tg-grid-wrapper a:-webkit-any-link {
+    color: inherit;
+    text-decoration: none;
+    cursor: auto;
+}
+.tg-container-empty {
+	text-align: center;
+}
+.tg-custom-skins-overview.tg-col .tg-container-header,
+.tg-custom-skins-overview .tg-col:first-child .tg-container-header {
+	padding: 0;
+	text-align: center;
+}
+.tg-custom-skins-overview .tg-container-title {
+	width: 100%;
+	vertical-align: baseline;
+	line-height: 50px;
+}
+.tg-custom-skins-overview .tg-container-inner.tg-has-skins {
+    background-image: url('../images/checker-bg.gif');
+}
+.tg-skins-style-button {
+	position: relative;
+    display: inline-block;
+    width: 50%;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+	box-sizing: border-box;
+	cursor: pointer;
+	-webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+}
+.tg-skins-style-button.tg-selected {
+    background: #2c3e50;
+    color: #fff;
+}
+.tg-skins-style-button:first-child {
+	border-right: 1px solid rgba(0,0,0,0.065);	
+}
+.tg-skins-style-button:before {
+	content: "";
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    width: 40px;
+    height: 50px;
+    margin: 0 10px 0 0;
+    background-image: url(../images/grid-layout.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 0px 5px;
+    text-align: center;
+    line-height: 50px;
+    box-sizing: border-box;
+}
+.tg-skins-style-button:last-child:before {
+	background-image: url(../images/masonry-layout.png);
+}
+.tg-custom-skins-overview .tg-grid-wrapper.skin-hidden {
+	height: 0;
+	opacity: 0;
+	padding: 0;
+}
+.tg-custom-skins-overview .tg-filters-holder {
+	width: 100%;
+	text-align: center;
+	margin: 0 0 30px 0;
+}
+.tg-custom-skins-overview .tg-item-custom-skin-name {
+    position: absolute;
+    display: block;
+    z-index: 4;
+    top: 0;
+    width: 100%;
+	height: 35px;
+    background: #34495e;
+    line-height: 35px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    color: #ffffff;
+    cursor: pointer;
+    -webkit-transition: background 0.35s ease-out;
+    -moz-transition: background 0.35s ease-out;
+    -o-transition: background 0.35s ease-out;
+    transition: background 0.35s ease-out;
+}
+.tg-custom-skins-overview .tg-layout-grid .tg-item-inner {
+    position: absolute;
+    bottom: 0;
+    top: 35px;
+    height: auto;
+}
+.tg-custom-skins-overview .tg-layout-masonry .tg-item-inner {
+    margin-top: 35px;
+}
+.tg-custom-skins-overview .tg-item-custom-skin-name span {
+    position: absolute;
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+	white-space: nowrap;
+    left: 0;
+    right: 125px;
+    height: 35px;
+    padding: 0 0 0 15px;
+    margin: 0;
+    text-align: left;
+}
+#tg-grid-skins .tg-item-skin-name .tg-button,
+.tg-custom-skins-overview .tg-item-custom-skin-name .tg-button {
+	position: relative;
+	display: inline-block;
+	float: right;
+	width: 35px;
+	height: 35px;
+	line-height: 35px;
+	padding: 0;
+	margin: 0;
+}
+#tg-grid-skins .tg-item-skin-name .tg-button {
+	position: absolute;
+	display: block;
+	right: 0;
+	top: 0;
+}
+#tg-grid-skins .tg-item-skin-name .tg-button i,
+.tg-custom-skins-overview .tg-item-custom-skin-name .tg-button i {
+	width: 35px;
+    line-height: 35px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+	opacity: 1;
+}
+.tg-clone-skin {
+	background: #7C8892;
+}

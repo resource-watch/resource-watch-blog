@@ -1,0 +1,63 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Slider comparison image before and after\n"
+"POT-Creation-Date: 2015-08-20 21:26+0200\n"
+"PO-Revision-Date: 2015-08-20 21:26+0200\n"
+"Last-Translator: Artem Bovkun <amailtowork@gmail.com>\n"
+"Language-Team: art-develop.tk <info@art-develop.tk>\n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.9\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: sciba.php:100
+msgid "Insert shortcode Sciba"
+msgstr "Вставка шорткода Sciba"
+
+#: sciba.php:101
+msgid "Link to the image on the left"
+msgstr "Ссылка на изображение слева"
+
+#: sciba.php:102
+msgid "Label left"
+msgstr "Метка слева"
+
+#: sciba.php:103
+msgid "Link to the image on the right"
+msgstr "Ссылка на изображение справа"
+
+#: sciba.php:104
+msgid "Label right"
+msgstr "Метка справа"
+
+#: sciba.php:105
+msgid "Mode"
+msgstr "Режим"
+
+#: sciba.php:106
+msgid "Horizontal"
+msgstr "Горизонтально"
+
+#: sciba.php:107
+msgid "Vertical "
+msgstr "Вертикально"
+
+#: sciba.php:108
+msgid "Select Image "
+msgstr "Выбрать изображение"
+
+#: sciba.php:109
+msgid "Width "
+msgstr "Ширина"
+
+#~ msgid "Horizontal or vertical mode"
+#~ msgstr "Горизонтальная или вертикальная режим"

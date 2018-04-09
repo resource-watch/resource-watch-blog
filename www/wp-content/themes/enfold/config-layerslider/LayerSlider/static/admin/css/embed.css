@@ -1,0 +1,13 @@
+html, body {
+    /*background: transparent !important;*/
+    padding: 0 !important;
+/*    margin-top: 0 !important;*/
+}
+
+#adminmenuback, #adminmenuwrap, #wpadminbar, #wpfooter {
+    display: none !important;
+}
+
+#wpcontent {
+    margin-left: 0 !important;
+}

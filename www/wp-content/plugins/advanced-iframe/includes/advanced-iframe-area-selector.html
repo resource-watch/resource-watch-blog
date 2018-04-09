@@ -1,0 +1,82 @@
+<!DOCTYPE>
+<html>
+  <head> 
+    <meta charset="UTF-8">
+    <title>Advanced iFrame Pro Area Selector</title>
+    <link rel="stylesheet" type="text/css" href="../css/ai.css" /> 
+    <link rel="stylesheet" type="text/css" href="css/wordpress-standalone.css" />
+    <link media="all" type="text/css" href="../../../../wp-admin/load-styles.php?c=1&dir=ltr&load=admin-bar,wp-admin,buttons,wp-auth-check" rel="stylesheet"> 
+    <link rel="stylesheet" type="text/css" href="css/advanced-iframe-area-selector.css" />   
+    <link rel="stylesheet" type="text/css" href="css/imgareaselect-animated.css" /> 
+    <script type="text/javascript" src="scripts/jquery.min.js"></script> 
+    <script type="text/javascript" src="scripts/jquery.imgareaselect.pack.js"></script>
+  </head>
+  <body class="wp-admin wp-core-ui js  debug-bar-maximized  settings_page_advanced-iframe auto-fold admin-bar admin-color-fresh locale-en-us  customize-support">
+    <div id="wpwrap" class="wrap" >  
+      <div class="icon_ai" id="icon-options-general">
+      </div><h2>Advanced IFrame Pro area selector</h2>  
+      <p>Please select the area with the mouse that should be displayed inside the iframe. Simply draw a rectangle over the iframe. Afterwards copy the settings to the default config or use the displayed shortcode as base.<br />The viewport string can be used for the feature "Change the viewport when iframe changes to the next step". See the 
+        <a target="_blank" href="http://www.tinywebgallery.com/blog/advanced-iframe/advanced-iframe-pro-demo">pro demo</a> for examples.<br />  
+      </p>  
+      <span class="text-pad">Iframe url:
+      </span>
+      <input placeholder="Please enter an url." id="url" type="text" size="120"><br />    
+      <span class="text-pad">Iframe width:
+      </span>
+      <input id="iframe_width" type="text" size="5">  
+      <span class="text-pad">iframe height:
+      </span>
+      <input id="iframe_height" type="text" size="5">  
+      </p>  
+      <p>    
+        <input class="button-primary" type="submit" onclick="updateIframe();" value="Update iframe settings">    
+      </p>    
+      <p id="selection-area">  
+        <span class="text-pad">Selection: x:
+        </span>
+        <input id="selection_x" type="text" size="5" />  y:  
+        <input id="selection_y" type="text" size="5" />  width: 
+        <input id="selection_width" type="text" size="5" />  height: 
+        <input id="selection_height" type="text" size="5" />    
+      </p>  
+<script>
+   try {
+     if(window.opener && window.opener.document && !window.opener.closed) {
+       document.write('<p><input type="submit" id="copy-button" class="button-primary" onclick="copySelection();" value="Copy current selection to config and close window"></p>') 
+     }
+   } catch (e) {} 
+  </script>  
+      <div id="row-viewport">
+      <span class="text-pad-top">Viewport:
+      </span>
+      <input id="selection_viewport" type="text" size="65">  <br />  
+      </div>
+      <div id="row-hide">
+       <span class="text-pad-top">Hide part of an iframe:
+      </span>
+      
+      <input id="selection_hide" type="text" size="65">   <input class="button-secondary" id="selection-hide-button" type="button" value="Show additional options of this feature">     <br />  
+      <div id="hide_additional_div">
+      <p>Please check the documentation/demos how this parameters are used! Especially color and the file id are very powerful.</p>
+      <span class="text-pad-top">Color/css backend:</span><input id="selection_hide_color" type="text" size="55" value="#ff0000"><br />  
+      <span class="text-pad-top">Additional file id:</span><input id="selection_hide_file" type="text" size="55"><br /> 
+      <span class="text-pad-top">Z-index:</span><input id="selection_hide_z_index" type="text" size="55" value="10"><br />  
+      <span class="text-pad-top">Link:</span><input id="selection_hide_link" type="text" size="55"><br />  
+      <span class="text-pad-top">Target:</span><input id="selection_hide_target" type="text" size="55"><br />  
+      </div>
+      </div>
+      <div id="row-shortcode"> 
+      <span class="text-pad-top">Shortcode:
+      </span>
+<textarea id="selection_shortcode">Please select an area first.
+Please note: The shortcode has set use_shortcode_attributes_only="true". Therefore no default settings from the administration are used.</textarea>  
+      </div>
+      <div id="main_selector">                               
+        <img id="image" src="../img/1x1.gif" border="0">     
+        <iframe src="" id="iframe" border="0" frameborder="0">
+        </iframe>  
+      </div>
+    </div>
+<script type="text/javascript" src="scripts/advanced-iframe-area-selector.js"></script>
+  </body>
+</html>

@@ -1,0 +1,125 @@
+.caracas a,
+.caracas a:active,
+.caracas a:focus,
+.caracas .tg-item-media-holder,
+.caracas .tg-item-content {
+	text-decoration: none;
+    border: none;
+	-webkit-box-shadow: none;
+    box-shadow: none;
+	-webkit-transition: opacity 0.25s ease, color 0.25s ease, -webkit-transform 0.25s ease-in-out;
+	-moz-transition: opacity 0.25s ease, color 0.25s ease, -moz-transform 0.25s ease-in-out;
+	-ms-transition: opacity 0.25s ease, color 0.25s ease, -ms-transform 0.25s ease-in-out;
+	-o-transition: opacity 0.25s ease, color 0.25s ease, -o-transform 0.25s ease-in-out;
+	transition: opacity 0.25s ease, color 0.25s ease, transform 0.25s ease-in-out;
+}
+.caracas.tg-item,
+.caracas .tg-center-holder {
+	overflow: hidden;
+}
+.caracas .tg-item-content,
+.caracas .tg-item-media-holder,
+.caracas .tg-item-overlay {
+	position: absolute;
+	display: block;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.caracas .tg-item-link {
+	position: absolute;
+	display: block;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 1000%;
+}
+.caracas .tg-item-content {
+	height: auto;
+	top: 100%;
+	min-height: 40px;
+	text-align: center;
+	padding: 16px;
+	background: #ffffff;
+}
+.caracas:hover .tg-item-media-holder {
+	-webkit-transform: translateY(-40px);
+	-moz-transform: translateY(-40px);
+	-ms-transform: translateY(-40px);
+	-o-transform: translateY(-40px);
+	transform: translateY(-40px);
+}
+.caracas:hover .tg-item-content {
+	-webkit-transform: translateY(-100%);
+	-moz-transform: translateY(-100%);
+	-ms-transform: translateY(-100%);
+	-o-transform: translateY(-100%);
+	transform: translateY(-100%);
+}
+.caracas .tg-item-content,
+.caracas.tg-is-playing .tg-item-media-holder,
+.caracas.tg-force-play .tg-item-media-holder,
+.caracas.tg-is-playing .tg-item-content,
+.caracas.tg-force-play .tg-item-content {
+	-webkit-transform: translateY(0);
+	-moz-transform: translateY(0);
+	-ms-transform: translateY(0);
+	-o-transform: translateY(0);
+	transform: translateY(0);
+}
+.caracas .tg-item-title,
+.caracas .tg-item-title a {
+	position: relative;
+    font-size: 16px;
+	line-height: 20px;
+	font-weight: 600;
+	margin: 0 !important;
+	padding: 0 !important;
+	text-transform: uppercase;
+}
+.caracas .tg-item-title {
+	margin: 0 30px 2px 30px !important;
+}
+.tg-layout-justified .caracas .tg-item-title {
+    margin: 0 0 2px 0 !important;
+}
+.tg-layout-justified .caracas .tg-item-title,
+.tg-layout-justified .caracas .tg-item-title a {
+    font-size: 14px;
+	line-height: 18px;
+}
+.caracas .tg-cats-holder {
+	position: relative;
+	display: block;
+	margin: 0 30px;
+	font-size: 13px;
+	line-height: 18px;
+	font-style: italic;
+}
+.caracas .tg-media-button {
+    position: absolute;
+    display: block;
+    top: 16px;
+    right: 16px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    text-align: center;
+}
+.caracas .tg-cats-holder a:hover,
+.caracas .tg-media-button:hover {
+	opacity: 0.75;
+}
+.caracas .tg-media-button i {
+	position: relative;
+	display: block;
+	width: 20px;
+	height: 20px;
+    font-size: 18px;
+	line-height: 20px;
+	cursor: pointer;
+}
+.caracas .tg-media-button .tg-icon-add {
+    font-size: 28px;
+}

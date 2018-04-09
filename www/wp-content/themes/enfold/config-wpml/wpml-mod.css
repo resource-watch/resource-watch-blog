@@ -1,0 +1,45 @@
+.avia_wpml_language_switch {
+position: relative;
+padding: 0px 0 0 10px;
+height: 30px;
+line-height: 36px;
+margin: 0 0 0 0;
+z-index: 151;
+-webkit-backface-visibility: hidden;
+top:-2px;
+right:0;
+overflow: hidden;
+}
+
+.sub_menu ul{float:left;}
+
+#top ul.avia_wpml_language_switch  li{
+float:left;
+margin: 0px 0px 0px 5px;
+padding:0;
+border:none;
+}
+
+.avia_wpml_language_switch li:hover{
+opacity: 0.8;
+}
+
+.avia_wpml_language_switch li span{
+display:none;
+}
+
+.avia_wpml_language_switch li .language_flag{
+display:block;
+}
+
+.avia_wpml_language_switch li .language_flag img{
+display:inline-block;
+border:1px solid rgba(255,255,255,0.2);
+}
+	
+#icl_lang_sel_widget{
+overflow:visible;
+z-index:20;
+}
+
+.html_header_sidebar #top .avia_wpml_language_switch{border-bottom-style:solid; border-bottom-width:1px; padding:0px 10px;}

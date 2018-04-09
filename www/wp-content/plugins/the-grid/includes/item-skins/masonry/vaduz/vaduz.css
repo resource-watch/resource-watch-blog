@@ -1,0 +1,213 @@
+.vaduz a,
+.vaduz a:active,
+.vaduz a:focus,
+.vaduz .tg-share-icons i {
+	text-decoration: none;
+    border: none;
+	-webkit-box-shadow: none;
+    box-shadow: none;
+	-webkit-transition: opacity 0.25s ease, color 0.25s ease;
+	-moz-transition: opacity 0.25s ease, color 0.25s ease;
+	-ms-transition: opacity 0.25s ease, color 0.25s ease;
+	-o-transition: opacity 0.25s ease, color 0.25s ease;
+	transition: opacity 0.25s ease, color 0.25s ease;
+}
+.vaduz:not(.tg-force-play):not(.tg-is-playing) .tg-media-button:hover,
+.vaduz a:not(.mejs-volume-slider):not(.tg-media-button):hover {
+	opacity: 0.85;
+}
+.vaduz.tg-force-play .tg-media-button,
+.vaduz.tg-is-playing .tg-media-button {
+	opacity: 0;
+	visibility: hidden;
+}
+.vaduz .tg-item-content-holder {
+	position: relative;
+	display: block;
+	padding: 18px 18px 4px 18px;
+	text-align: left;
+}
+.vaduz .tg-item-title,
+.vaduz .tg-item-title a {
+	position: relative;
+    overflow: hidden;
+    display: block;
+    font-size: 18px;
+    line-height: 24px;
+	height: 24px;
+    font-weight: 600;
+    margin: 0 !important;
+    padding: 0 !important;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	-o-text-overflow: ellipsis;
+	-ms-text-overflow: ellipsis;
+	-moz-binding: url('ellipsis.xml#ellipsis');
+}
+.vaduz .quote-format .tg-item-title,
+.vaduz .quote-format .tg-item-title a,
+.vaduz .link-format .tg-item-title,
+.vaduz .link-format .tg-item-title a {
+    -webkit-line-clamp: initial;
+}
+.vaduz .tg-item-title a {
+	padding: 0 !important;
+}
+.vaduz .tg-item-overlay {
+	position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    width: 75px;
+    height: 75px;
+    margin: 0 auto;
+	border-radius: 50%;
+	-webkit-transform: matrix3d(0.8,0,0,0,0,0.8,0,0,0,0,1,0,0,0,0,1);
+	-moz-transform: matrix3d(0.8,0,0,0,0,0.8,0,0,0,0,1,0,0,0,0,1);
+	-ms-transform: matrix3d(0.8,0,0,0,0,0.8,0,0,0,0,1,0,0,0,0,1);
+	-o-transform: matrix3d(0.8,0,0,0,0,0.8,0,0,0,0,1,0,0,0,0,1);
+	transform: matrix3d(0.8,0,0,0,0,0.8,0,0,0,0,1,0,0,0,0,1);
+}
+.vaduz .tg-media-button,
+.vaduz .tg-link-button {
+    position: absolute;
+    display: block;
+    top: 0;
+    margin: 0;
+	padding: 0;
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+}
+.vaduz .tg-media-button i,
+.vaduz .tg-link-button i {
+    position: absolute;
+    display: block;
+    top: 50%;
+    margin: -38px auto 0 auto;
+    height: 76px;
+    width: 100%;
+    line-height: 75px;
+    font-size: 48px;
+    text-align: center;
+	-webkit-transform: matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1);
+	-moz-transform: matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1);
+	-ms-transform: matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1);
+	-o-transform: matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1);
+	transform: matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1);
+	-webkit-transition: all 0.35s cubic-bezier(.39,1.89,.55,1.45);
+	-moz-transition: all 0.35s cubic-bezier(.39,1.89,.55,1.45);
+	-ms-transition: all 0.35s cubic-bezier(.39,1.89,.55,1.45);
+	-o-transition: all 0.35s cubic-bezier(.39,1.89,.55,1.45);
+	transition: all 0.35s cubic-bezier(.39,1.89,.55,1.45);
+}
+.vaduz .tg-item-media-holder:hover .tg-media-button i,
+.vaduz .tg-item-media-holder:hover .tg-link-button i {
+	-webkit-transform: matrix3d(1.2,0,0,0,0,1.2,0,0,0,0,1,0,0,0,0,1);
+	-moz-transform: matrix3d(1.2,0,0,0,0,1.2,0,0,0,0,1,0,0,0,0,1);
+	-ms-transform: matrix3d(1.2,0,0,0,0,1.2,0,0,0,0,1,0,0,0,0,1);
+	-o-transform: matrix3d(1.2,0,0,0,0,1.2,0,0,0,0,1,0,0,0,0,1);
+	transform: matrix3d(1.2,0,0,0,0,1.2,0,0,0,0,1,0,0,0,0,1);
+}
+.vaduz .tg-item-excerpt {
+	position: relative;
+	display: block;
+    margin: 18px 0 24px 0;
+    padding: 0;
+    font-size: 13px;
+    line-height: 22px;
+    text-align: left;
+}
+.vaduz .tg-quote-icon,
+.vaduz .tg-link-icon {
+    position: relative;
+    display: inline-block;
+    font-size: 24px;
+    margin: 0;
+    font-size: 28px;
+    opacity: 0.3;
+    text-align: center;
+}
+.vaduz h2.tg-quote-content,
+.vaduz h2.tg-link-content {
+	margin: 18px 0 0 0 !important;
+	padding: 0 !important;
+	line-height: 26px;
+}
+.vaduz h2.tg-quote-content a,
+.vaduz h2.tg-link-content a {
+	font-weight: normal;
+	line-height: 26px;
+}
+.vaduz .tg-quote-author,
+.vaduz .tg-link-url {
+	position: relative;
+    display: block;
+	margin: 8px 0 0 0;
+    font-size: 13px;
+	font-style: italic; 
+}
+.vaduz .tg-quote-author:before {
+	content: '\2012';
+	position: relative;
+    display: inline-block;
+    margin: 0;
+	padding: 0 5px 0 0;
+}
+.vaduz .tg-item-duration {
+    position: absolute;
+    display: block;
+    right: 0;
+    bottom: 0;
+    padding: 8px 18px;
+    background: rgba(87,93,104,0.85);
+    font-size: 11px;
+    line-height: 11px;
+	color: #ffffff;
+	pointer-events: none;
+}
+.vaduz .tg-item-views,
+.vaduz .tg-item-date {
+    position: relative;
+	display: inline-block;
+	font-size: 13px;
+}
+.vaduz .tg-item-footer {
+    position: relative;
+	display: inline-block;
+    width: 100%;
+	border-top: 1px solid #dddddd !important;
+    padding: 8px 0 0;
+	line-height: 25px;
+}
+.vaduz .link-format .tg-item-footer,
+.vaduz .quote-format .tg-item-footer {
+	margin: 28px 0 0 0;
+}
+.vaduz .tg-item-footer .tg-item-comment, 
+.vaduz .tg-item-footer .to-post-like,
+.vaduz .tg-item-footer .tg-item-views {
+    position: relative;
+	display: inline-block;
+	font-size: 13px;
+}
+.vaduz .tg-item-footer .to-post-like,
+.vaduz .tg-item-footer .tg-item-comment {
+    float: right;	
+}
+.vaduz .to-post-like .to-heart-icon {
+	margin: 2px 4px 0 0;
+}
+.vaduz .tg-item-footer .tg-item-comment {
+    margin: 0 0 0 6px;
+}
+.vaduz .tg-item-footer .tg-item-views {
+    float: left;
+	font-weight: 600;
+}
+.vaduz .tg-item-comment i {
+    position: relative;
+    padding: 0 4px 0 6px;
+    top: 2px;
+    font-size: 15px;
+}

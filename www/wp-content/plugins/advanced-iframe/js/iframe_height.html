@@ -1,0 +1,35 @@
+<script type="text/javascript">
+	function gup( name, url ) {
+    if (!url) url = location.href
+    name = name.replace(/[\[]/,"\\\[").replace(/[\]]/,"\\\]");
+    var regexS = "[\\?&]"+name+"=([^&#]*)";
+    var regex = new RegExp( regexS );
+    var results = regex.exec( url );
+    return results == null ? null : results[1];
+  }
+  
+  var nHeight = gup("height");
+ 
+  if (nHeight != null) {
+    try {
+      var loc = gup("loc"); 
+      if (loc != null) {
+          window.parent.parent.aiChangeUrl(loc);
+      }     
+      var id = gup("id");
+      var nWidth = gup("width");
+      if (id != null) {
+          var iHeight = parseInt(nHeight);
+          var iWidth = parseInt(nWidth);
+          window.parent.parent.aiResizeIframeHeightId(iHeight,iWidth, id);
+          window.parent.parent.aiShowIframeId(id);
+      } else {
+          alert("Please update the ai_external.js to the current version.");
+      }  
+  	} catch(e) {
+      if (console && console.log) {
+        console.log(e);
+      }
+    }
+  }
+</script>

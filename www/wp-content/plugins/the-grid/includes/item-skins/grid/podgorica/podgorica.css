@@ -1,0 +1,117 @@
+.podgorica a,
+.podgorica a:active,
+.podgorica a:focus,
+.podgorica .tg-share-icons i {
+	text-decoration: none;
+    border: none;
+	-webkit-box-shadow: none;
+    box-shadow: none;
+	-webkit-transition: opacity 0.25s ease, color 0.25s ease;
+	-moz-transition: opacity 0.25s ease, color 0.25s ease;
+	-ms-transition: opacity 0.25s ease, color 0.25s ease;
+	-o-transition: opacity 0.25s ease, color 0.25s ease;
+	transition: opacity 0.25s ease, color 0.25s ease;
+}
+.podgorica:not(.tg-force-play):not(.tg-is-playing) .tg-media-button:hover,
+.podgorica a:not(.mejs-volume-slider):not(.tg-media-button):hover {
+	opacity: 0.85;
+}
+.podgorica.tg-force-play .tg-media-button,
+.podgorica.tg-is-playing .tg-media-button {
+	opacity: 0;
+	visibility: hidden;
+}
+.podgorica .tg-item-content-holder {
+	position: relative;
+	display: block;
+	padding: 18px;
+	text-align: left;
+}
+.podgorica .tg-item-title,
+.podgorica .tg-item-title a {
+	position: relative;
+    overflow: hidden;
+    display: block;
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 600;
+    margin: 0 !important;
+    padding: 0 !important;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+.podgorica .tg-item-title a {
+	padding: 0 !important;
+}
+.podgorica .tg-media-button,
+.podgorica .tg-link-button {
+    position: absolute;
+    display: block;
+    top: 0;
+    margin: 0;
+	padding: 0;
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+	background: none !important;
+}
+.podgorica .tg-media-button i,
+.podgorica .tg-link-button i {
+    position: absolute;
+    display: block;
+    top: 50%;
+    margin: -38px auto 0 auto;
+    height: 76px;
+    width: 100%;
+    line-height: 75px;
+    font-size: 48px;
+    text-align: center;
+	-webkit-transition: all 0.35s cubic-bezier(.39,1.89,.55,1.45);
+	-moz-transition: all 0.35s cubic-bezier(.39,1.89,.55,1.45);
+	-ms-transition: all 0.35s cubic-bezier(.39,1.89,.55,1.45);
+	-o-transition: all 0.35s cubic-bezier(.39,1.89,.55,1.45);
+	transition: all 0.35s cubic-bezier(.39,1.89,.55,1.45);
+}
+.podgorica .tg-media-button i,
+.podgorica .tg-link-button i {	
+	-webkit-transform: matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1);
+	-moz-transform: matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1);
+	-ms-transform: matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1);
+	-o-transform: matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1);
+	transform: matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1);
+}
+.podgorica .tg-item-media-holder:hover .tg-media-button i,
+.podgorica .tg-item-media-holder:hover .tg-link-button i {
+	-webkit-transform: matrix3d(1.2,0,0,0,0,1.2,0,0,0,0,1,0,0,0,0,1);
+	-moz-transform: matrix3d(1.2,0,0,0,0,1.2,0,0,0,0,1,0,0,0,0,1);
+	-ms-transform: matrix3d(1.2,0,0,0,0,1.2,0,0,0,0,1,0,0,0,0,1);
+	-o-transform: matrix3d(1.2,0,0,0,0,1.2,0,0,0,0,1,0,0,0,0,1);
+	transform: matrix3d(1.2,0,0,0,0,1.2,0,0,0,0,1,0,0,0,0,1);
+}
+.podgorica .tg-item-duration {
+    position: absolute;
+    display: block;
+    right: 0;
+    bottom: 0;
+    padding: 8px 18px;
+    background: rgba(87,93,104,0.85);
+    font-size: 11px;
+    line-height: 11px;
+	color: #ffffff;
+	pointer-events: none;
+}
+.podgorica .tg-item-views,
+.podgorica .tg-item-date {
+    position: relative;
+	display: inline-block;
+	font-size: 13px;
+}
+.podgorica .tg-item-views:before,
+.podgorica .tg-item-date:before {
+	content: "/";
+    position: relative;
+	display: inline-block;
+	font-size: 13px;
+	margin: 0 6px;
+}

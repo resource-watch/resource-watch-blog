@@ -1,0 +1,7 @@
+#wpa_remove{
+	display: none;
+}
+
+#wpa_wrapper.has-custom-avatar #wpa_remove{
+	display: inline-block;
+}

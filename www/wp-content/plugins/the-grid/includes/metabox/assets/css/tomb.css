@@ -1,0 +1,1363 @@
+/* ============================================================
+   SUMMARY
+/* ============================================================
+	
+	00. Main div
+	01. Inputs
+	02. Checkbox
+	03. Buttons
+	04. Image fields
+	05. Range slider
+	06. Gallery
+	07. Image Select
+	08. Info box
+	09. Wordpress editor
+	10. Select Field
+	11. wpColorPicker Alpha
+	12. TextArea Code
+
+/* ============================================================
+   00. Main div
+/* ============================================================ */
+
+.slider-image-column {
+	width: 75%;
+}
+.tomb-taxonomy-header {
+	font-size: 1.1em !important;
+    padding: 8px 12px 8px 0;
+    margin: 0 !important;
+    line-height: 1.4;
+}
+.tomb-taxonomy-table .tomb-sub-desc {
+	font-size: 13px !important;
+    font-style: italic !important;
+}
+.tomb-table {
+	background: #ffffff;
+	margin: 0 0 30px 0;
+}
+.tomb-table.tomb-taxonomy-table {
+	background: none;
+}
+.tomb-table th {
+	padding: 12px;
+}
+.tomb-taxonomy-table th {
+	padding: 12px 12px 12px 0;
+}
+.tomb-metabox {
+	overflow: hidden;
+}
+.tomb-metabox .inside {
+	margin: 6px 0px 8px !important;
+	padding: 0 !important;
+}
+.tomb-section {
+	position: relative;
+	display: block;
+}
+.tomb-section-left {
+	display: table-cell;
+	vertical-align: top;
+	min-width: 150px;
+    max-width: 150px;
+	background: #e1e1e1;
+	border-bottom: 1px solid #ffffff;
+}
+.tomb-section-title {
+    padding: 15px 12px 15px 12px !important;
+    margin: 0;
+    background: rgba(0,0,0,0.18);
+    font-size: 14px;
+	line-height: 1.4;
+}
+.tomb-icon {
+	position: relative;
+	display: inline-block;
+	margin-right: 5px;
+}
+.metabox-prefs .tomb-icon {
+	line-height: 20px;
+}
+.tomb-section-desc {
+	margin: 8px 12px;
+	font-size: 12px;
+	font-style: italic;
+	font-weight: normal; 
+}
+.tomb-row {
+	position: relative;
+	display: inline-block;
+	vertical-align: top;
+	padding: 15px 18px;
+	margin: 0 25px 0 0;
+	color: #444;
+}
+.tomb-side .tomb-row {
+	padding: 10px !important;
+	margin: 0 !important;
+}
+.tomb-type-number {
+	margin: 0;
+	padding-right: 0;
+	max-height: 28px;
+}
+.tomb-tab-content {
+	position: relative;
+	display: none;
+	margin: 0;
+	padding: 0;
+}
+.tomb-side .tomb-tab-content {
+	margin: 0 0 20px 0;
+}
+.tomb-tab-content:first-child {
+	display: block;
+}
+.tomb-section-content {
+	display: table-cell;
+	margin: 0px !important;
+	vertical-align: top;
+	width: 100%;
+	background: #fff;
+	border-bottom: 1px solid #e1e1e1;
+}
+.tomb-section:last-child .tomb-section-left, 
+.tomb-section:last-child .tomb-section-content {
+	border-bottom: none;
+}
+h3.tomb-title {
+	padding: 8px 18px 0 18px !important;
+	font-size: 13px !important;
+	font-weight: bold;
+}
+.tomb-title.description {
+	padding: 4px 18px 0 18px!important;
+	margin: 0;
+	font-size: 12px;
+	font-style: initial;
+}
+.tomb-label {
+	font-weight: 600;
+	display: block;
+	color: #444;
+	cursor: default;
+}
+label.tomb-inline {
+	display: inline-block;
+	vertical-align: baseline;
+}
+.tomb-table .tomb-label {
+	font-weight: normal;
+    font-size: inherit;
+}
+.tomb-desc {	
+	color: #666666;
+	line-height: 15px;
+	margin: 4px 0 12px 0;
+	font-size: 12px;
+	font-weight: normal;
+}
+.tomb-sub-desc {
+	color: #666666;
+	line-height: 1.5;
+	margin: 4px 0 0 0;
+	font-size: 12px;
+	font-style: italic;
+	font-weight: normal; 
+}
+.tomb-sub-desc strong {
+	font-weight: 500; 
+}
+.tomb-tabs-holder {
+	margin: -10px 0 0 0;
+	padding: 10px 0 0 0;
+	background-color: #f1f1f1;
+}
+.tomb-side .tomb-tabs-holder {
+	margin: -7px 0px 15px;
+}
+.tomb-menu-options .tomb-tabs-holder {
+	padding: 0;
+}
+.tomb-menu-options .inside {
+	margin: 6px 0 0 !important;
+}
+.tomb-tab {
+    display: inline-block;
+    list-style: none;
+    margin: 0px 2px 0 0;
+    padding: 10px 15px;
+    line-height: 18px;
+    cursor: pointer;
+    color: #949494;
+    white-space: nowrap;
+    border-top: 1px solid transparent;
+    -webkit-transition: background-color 0.5s ease-out;
+    -moz-transition: background-color 0.5s ease-out;
+    -o-transition: background-color 0.5s ease-out;
+    -ms-transition: background-color 0.5s ease-out;
+    transition: background-color 0.5s ease-out;
+}
+.tomb-menu-options .tomb-tab {
+	padding: 15px 16px;
+    margin: 0;
+}
+.tomb-menu-options .tomb-tab:first-child {
+	margin: 0 0 0 150px;
+}
+.tomb-tab:hover {
+	background-color: #f9f9f9;
+}
+.tomb-side .tomb-tab:first-child {
+	margin-left: 8px;
+}
+.tomb-tab.selected {
+	background: #ffffff;
+	color: #595959;
+}
+.tomb-metabox h3.ui-sortable-handle {
+	padding: 10px 10px;
+}
+.tomb-metabox .handlediv:before {
+	padding: 11px 10px;
+}
+.tomb-clearfix:after {
+	content:"";
+	display:table;
+	clear:both;
+}
+.tomb-tab-vertical {
+    margin: 0;
+}
+.tomb-tab-vertical .tomb-tabs-holder {
+    position: relative;
+    display: inline-block;
+	z-index: 1;
+    float: left;
+    width: 69px;
+	margin: 0;
+    padding: 0;
+}
+.tomb-tab-vertical .tomb-tab {
+    font-size: 11px;
+    font-weight: 400 !important;
+    text-align: center;
+	padding: 12px;
+	margin: 0;
+    width: 45px;
+}
+.tomb-tab-vertical .tomb-tab .tomb-icon {
+	position: relative;
+    display: block;
+    margin-right: 5px;
+    text-align: center;
+    margin: 0 auto 4px auto;
+}
+.tomb-tab-vertical .tomb-tab-content {
+	margin: 0px 0 0 70px;
+    padding: 18px 0 18px 0;
+}
+.tomb-tab-vertical .tomb-tab-content:before {
+	content: "";
+    position: absolute;
+    display: block;
+	z-index: 0;
+	top: 0;
+	bottom: 0;
+	left: -70px;
+    width: 69px;
+	margin: 0;
+    padding: 0;
+	background-color: #f1f1f1;
+}
+
+/* ============================================================
+   01. Inputs
+/* ============================================================ */
+
+.tomb-metabox textarea,
+.tomb-metabox input,
+textarea.tomb-textarea,
+input[type=text].tomb-text {
+	background: #f1f1f1;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	padding: 3px 5px !important;
+}
+input[type=text].tomb-text {
+	height: 28px;
+    line-height: 26px;
+}
+.tomb-metabox .tomb-text {
+	width: 220px;
+	height: 28px;
+}
+.tomb-text.number {
+	width: 65px;
+	margin: 1px 2px 1px 0;
+	background: #f1f1f1;
+	box-shadow: none;
+}
+.tomb-number-label {
+	position: relative;
+	display: inline-block;
+	margin: 0 10px 0 0;
+	width: auto;
+}
+input[type=radio].tomb-radio {
+	opacity: 1;
+	filter: alpha(opacity=100);
+	background: #ffffff;
+	margin: -4px 4px 0 15px;
+	padding: 0 !important;
+	color: #34495e;
+	border: 2px solid #34495e;
+	width: 14px !important;
+	height: 14px !important;
+	max-width: 14px !important;
+	min-width: 0px !important;
+}
+input[type=radio].first-input {
+	margin: -4px 4px 0 0;
+}
+input[type=radio].tomb-radio:checked:before {
+	background-color: #2c3e50;
+	margin: 2px;
+	width: 6px;
+	height: 6px;
+}
+.originalDisplayInfo {
+	text-align: right;
+    font-size: 12px;
+    font-style: italic;
+    width: 100% !important;
+    box-sizing: border-box;
+    padding: 0 6px;
+    color: #666666;
+}
+
+/* ============================================================
+   02. Checkbox
+/* ============================================================ */
+
+.tomb-switch {
+    position: relative;
+    display: inline-block;
+    margin: 0 0 6px 0;
+}
+input[type=checkbox].tomb-checkbox {
+	position: absolute;
+    display: block;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    opacity: 0 !important;
+}
+.tomb-checkbox + label {
+	display: inline-block;
+	position: relative;
+	margin: 0 4px 0 0;
+	cursor: pointer;
+	outline: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+input.tomb-checkbox + label {
+	padding: 2px;
+	width: 43px;
+	height: 20px;
+	background-color: #2c3e50;
+	-webkit-border-radius: 60px;
+	-moz-border-radius: 60px;
+	-ms-border-radius: 60px;
+	-o-border-radius: 60px;
+	border-radius: 60px;
+	-webkit-transition: background 0.2s;
+	-moz-transition: background 0.2s;
+	-o-transition: background 0.2s;
+	transition: background 0.2s;
+}
+input.tomb-checkbox + label:before, input.tomb-checkbox + label:after {
+	display: block;
+	position: absolute;
+	content: "";
+}
+input.tomb-checkbox + label:before {
+	top: 2px;
+	left: 2px;
+	bottom: 2px;
+	right: 2px;
+	background-color: #ffffff;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+	border-radius: 10px;
+	-webkit-transition: background 0.2s;
+	-moz-transition: background 0.2s;
+	-o-transition: background 0.2s;
+	transition: background 0.2s;
+}
+input.tomb-checkbox + label:after {
+	top: 3px;
+	left: 3px;
+	bottom: 3px;
+	width: 18px;
+	background-color: #2c3e50;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+	border-radius: 10px;
+	-webkit-transition: margin 0.2s, background 0.2s;
+	-moz-transition: margin 0.2s, background 0.2s;
+	-o-transition: margin 0.2s, background 0.2s;
+	transition: margin 0.2s, background 0.2s;
+}
+input.tomb-checkbox:checked + label {
+	background-color: #4ECDC4;
+}
+input.tomb-checkbox:checked + label:after {
+	margin-left: 23px;
+	background-color: #4ECDC4;
+}
+/* checkbox list */
+.tomb-checkbox-list[type="checkbox"]:not(:checked),
+.tomb-checkbox-list[type="checkbox"]:checked {
+	position: relative;
+	z-index: 2;
+    opacity: 0;
+	margin: 6px 0;
+}
+.tomb-checkbox-list[type="checkbox"]:not(:checked) + label,
+.tomb-checkbox-list[type="checkbox"]:checked + label {
+	position: relative;
+	padding-left: 10px;
+	cursor: pointer;
+	font-weight: 600;
+    font-size: 13px;
+}
+.tomb-checkbox-list[type="checkbox"]:not(:checked) + label:before,
+.tomb-checkbox-list[type="checkbox"]:checked + label:before {
+	content: '';
+	position: absolute;
+	z-index: 0;
+    left: -19px;
+    top: -1px;
+	width: 17px;
+	height: 17px;
+	border: 2px solid #f1f1f1 !important;
+    background: #f1f1f1;
+	font-style: normal;
+}
+.tomb-checkbox-list[type="checkbox"]:not(:checked) + label:after,
+.tomb-checkbox-list[type="checkbox"]:checked + label:after {
+	content: "\2713";
+	position: absolute;
+	height: 21px;
+	width: 21px;
+	left: -19px;
+	top: -1px;
+	font-size: 14px;
+	text-align: center;
+	color: #4ECDC4;
+	line-height: 21px;
+	font-style: normal;
+	font-weight: 900;
+	-webkit-transition: all .2s;
+	-moz-transition: all .2s;
+	-ms-transition: all .2s;
+	transition: all .2s;
+}
+.tomb-checkbox-list[type="checkbox"]:not(:checked) + label:after {
+	opacity: 0;
+	-webkit-transform: scale(0);
+	-moz-transform: scale(0);
+	-ms-transform: scale(0);
+	transform: scale(0);
+}
+.tomb-checkbox-list[type="checkbox"]:checked + label:after {
+	opacity: 1;
+	-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	-ms-transform: scale(1);
+	transform: scale(1);
+}
+.tomb-checkbox-list[type="checkbox"]:disabled:not(:checked) + label:before,
+.tomb-checkbox-list[type="checkbox"]:disabled:checked + label:before {
+	box-shadow: none;
+	border-color: #bbb;
+	background-color: #ddd;
+}
+.tomb-checkbox-list[type="checkbox"]:disabled:checked + label:after {
+	color: #999;
+}
+.tomb-checkbox-list[type="checkbox"]:disabled + label {
+	color: #aaa;
+}
+.tomb-checkbox-list[type="checkbox"]:checked:focus + label:before,
+.tomb-checkbox-list[type="checkbox"]:not(:checked):focus + label:before {
+	border: 1px dotted blue;
+}
+
+/* ============================================================
+   03. Buttons
+/* ============================================================ */
+
+.tomb-button {
+	border: none !important;
+	text-shadow: none !important;
+	border: none !important;
+	outline: none !important;
+	box-shadow: none !important;
+	line-height: 26px !important;
+	height: 28px !important;
+	margin: 0 !important;
+	padding: 0 10px !important;
+	color: #fff !important;
+	-webkit-border-radius: 0 !important;
+    border-radius: 0 !important;
+	vertical-align: top;
+	-webkit-transition: opacity 0.2s;
+	-moz-transition: opacity 0.2s;
+	-o-transition: opacity 0.2s;
+	transition: opacity 0.2s;
+}
+.tomb-button.tomb-open-media {
+	background: #34495e !important;
+}
+.tomb-button.tomb-image-remove {
+	display: none;
+	background: #e74c3c !important;
+}
+.tomb-button.tomb-image-remove.show {
+	display: inline-block;
+}
+.tomb-button:hover {
+	opacity: 0.8;
+}
+
+/* ============================================================
+   04. Image fields
+/* ============================================================ */
+
+input.tomb-image {
+    width: 200px;
+    background-color: #f1f1f1 !important;
+    box-shadow: none !important;
+	height: 28px;
+    margin-top: 0;
+}
+.tomb-image-clearfix:after {
+	content: "";
+	clear: both;
+}
+.tomb-img-field {
+	position: relative;
+	display: none;
+	top: -6px;
+	width: 70px;
+	height: 70px;
+	margin-right: 5px;
+	float: left;
+	background-repeat: no-repeat;
+	background-position: center 0;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.tomb-type-image_id .tomb-img-field {
+    width: 133px;
+    height: 133px;
+	top: 0;
+	float: none;
+}
+.tomb-img-field.show {
+	display: block;
+}
+
+/* ============================================================
+   05. Range slider
+/* ============================================================ */
+
+.tomb-type-slider .tomb-desc {
+	margin: 4px 0 4px 0;
+}
+
+.tomb-slider-label {
+	position: relative;
+	display: inline-block;
+	margin: 0 30px 0 0;
+	width: 110px;
+}
+.tomb-slider {
+	position: relative;
+	max-width: 70px !important;
+	min-width: 50px !important;
+	top: 3px;
+	background: none !important;
+	border: none !important;
+	color: #777777 !important;
+	-webkit-user-select: none;  
+	-moz-user-select: none;    
+	-ms-user-select: none;      
+	user-select: none;
+}
+.tomb-slider-range {
+	position: relative !important;
+	display: inline-block !important;
+	vertical-align: middle !important;
+	width: 170px !important;
+	height: 6px !important;
+	margin: 0 10px 0 5px !important;
+	border: none !important;
+	background: #bdc3c7 !important;
+	border-radius: 3px !important;
+}
+.tomb-side .tomb-slider-range {
+	width: 160px !important;
+}
+.tomb-slider-range.ui-slider.ui-widget-content .ui-widget-header {
+	display: block !important;
+	position: absolute !important;
+	z-index: 1 !important;
+	height: 100% !important;
+	top: 0 !important;
+	left: 0 !important;
+	margin: 0 5px 0 0 !important;
+	background: #2c3e50 !important;
+	border-radius: 3px !important;
+}
+.admin-color-fresh .tomb-slider-range .ui-state-default,
+.admin-color-fresh .tomb-slider-range.ui-widget-content .ui-state-default,
+.tomb-slider-range .ui-state-default,
+.tomb-slider-range .ui-slider-handle {
+	position: absolute !important;
+	z-index: 2 !important;
+	width: 10px !important;
+	height: 10px !important;
+	top: -4px !important;
+	margin-left: -5px !important;
+	background: #ffffff !important;
+	border: 2px solid #2c3e50 !important;
+	border-radius: 50% !important;
+	cursor: pointer !important;
+	text-decoration: none !important;
+	outline: 1px none !important;
+	cursor: pointer !important;
+}
+.tomb-slider-controls {
+	position: relative;
+	display: inline-block;
+	width: 25px;
+	height: 20px;
+	top: 8px;
+}
+.tomb-slider-plus,
+.tomb-slider-less {
+	position: absolute;
+	top: -3px;
+	left: 0;
+	cursor: pointer;
+	height: 12px;
+	width: 25px;
+	line-height: 12px;
+	text-align: center;
+	background: #f1f1f1;
+	font-size: 11px;
+    font-weight: 900;
+    text-align: center;
+    color: #666;
+	-webkit-user-select: none;  
+	-moz-user-select: none;    
+	-ms-user-select: none;      
+	user-select: none;
+}
+.tomb-slider-less {
+	top: auto;
+	bottom: 0;
+	left: 0;
+}
+.tomb-slider-plus:hover,
+.tomb-slider-less:hover {
+	opacity: 0.8;
+}
+
+/* ============================================================
+   06. Gallery
+/* ============================================================ */
+
+.tomb-gallery-container {
+	position: relative;
+	display: inline-block;
+	background: #f1f1f1;
+	border: solid 1px #dddddd;
+	margin-bottom: 36px;
+}
+.tomb-gallery-container .tomb-actions{
+	position: absolute;
+	display: block;
+	left: 0;
+	width: 100%;
+	margin: 0 0 0 -1px;
+}
+.action-left,
+.action-right {
+	position: relative;
+	display: inline-block;
+}
+.tomb-open-gallery {
+	background: #34495e !important;
+}
+.tomb-delete-gallery {
+	background: #e74c3c !important;
+}
+.tomb-gallery-container ul {
+	display: inline-block;
+	min-width: 332px;
+	min-height: 110px;
+	margin: 0 0 -4px 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.tomb-gallery-container ul:before {
+	content: " ";
+	display: table;
+}
+.tomb-gallery-container ul:after {
+	clear: both;
+}
+.tomb-gallery-container ul li {
+	position: relative;
+	display: inline-block;
+	margin: 0;
+	width: 110px;
+	float: left;
+	height: 110px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	cursor: move;
+	cursor: -moz-grab;
+	cursor: -webkit-grab;
+}
+.tomb-gallery-container ul li.tomb-gallery-item-highlight {
+	position: relative;
+	display: inline-block;
+	margin: 2px;
+	width: 106px;
+	float: left;
+	height: 106px;
+	border: 2px dashed #d5d5d5;
+	background-image: url('../img/placeholder.png');
+	background-repeat: no-repeat;
+	background-position: center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.tomb-gallery-container ul li img {
+	width: 100%;
+	height: 100%;
+}
+.tomb-gallery-container ul li:hover .tomb-gallery-item-remove {
+	opacity: 1;
+}
+.tomb-gallery-item-remove {
+	position: absolute;
+	display: block;
+	z-index: 1;
+	top: 0;
+	right: 0;
+	width: 18px;
+	height: 18px;
+	line-height: 16px;
+	font-size: 12px;
+	text-align: center;
+	background: #e74c3c;
+	color: #ffffff;
+	cursor: pointer;
+	opacity: 0;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-ms-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+.tomb-gallery-item-remove:hover {
+	opacity: 0.8;
+}
+.tomb-gallery-item-image {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	bottom: 0px;
+	right: 0px;
+	max-width: none;
+	background-repeat: no-repeat;
+	background-position: center 0;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+/* ============================================================
+   07. Image Select
+/* ============================================================ */
+
+.tomb-image-holder {
+	position: relative;
+	display: inline-block;
+	margin: 5px 15px 5px 0;
+	border: 1px solid #dddddd;
+	padding: 5px;
+	cursor: pointer;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	transition: border-color 0.2s ease;
+}
+.tomb-image-holder[data-checked="1"],
+.tomb-image-holder[data-checked="1"]:hover {
+	border: 2px solid #4ECDC4;
+	padding: 4px;
+}
+.tomb-image-holder:hover {
+	border: 2px solid #34495e;
+	padding: 4px;
+}
+.tomb-image-holder label {
+	position: relative;
+    display: block;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 600;
+    color: #999;
+}
+.tomb-image-holder img {
+	opacity: 0.35;
+	border: 2px solid transparent;
+	-webkit-transition: all 0.2s ease;
+	-moz-transition: all 0.2s ease;
+	-ms-transition: all 0.2s ease;
+	-o-transition: all 0.2s ease;
+	transition: all 0.2s ease;
+}
+.tomb-image-holder:hover img {
+	opacity: 0.85;
+}
+.tomb-image-holder img[data-checked="1"] {
+	opacity: 1;
+}
+.tomb-image-holder img[data-checked="1"] + label {
+	color: #2c3e50;
+	font-weight: 600;
+}
+.tomb-image-holder input{
+	display: none;
+}
+
+/* ============================================================
+   08. Info box
+/* ============================================================ */
+
+.tomb-info-box {
+	position: relative;
+	display: block;
+	background: #f1f1f1;
+	color: #444;
+	margin: 30px;
+	padding: 15px;
+	line-height: 20px; 
+	font-style: italic;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+.tomb-info-box .dashicons {
+	float: left;
+	margin-right: 10px;
+	-webkit-animation: flash linear 1s infinite;
+	animation: flash linear 1s infinite;
+}
+.tomb-info-box-holder {
+	  margin-left: 40px 30px 30px 30px;
+}
+.tomb-info-box h3 {
+	font-size: 14px;
+    padding: 0 !important;
+    margin: 0;
+    line-height: 1.4;	
+}
+@-webkit-keyframes flash {
+	0% { opacity: 1; } 
+	50% { opacity: .1; } 
+	100% { opacity: 1; }
+}
+@keyframes flash {
+	0% { opacity: 1; } 
+	50% { opacity: .1; } 
+	100% { opacity: 1; }
+}
+
+/* ============================================================
+   09. Wordpress editor
+/* ============================================================ */
+
+.tomb-row.tomb-type-editor {
+	display: block;
+}
+.tomb-row .wp-editor-wrap {
+	position: relative;
+	min-width: 220px;
+	max-width: 1340px;
+}
+
+/* ============================================================
+   10. Select Field
+/* ============================================================ */
+
+.tomb-select-holder .tomb-select,
+.tomb-select-holder .tomb-multiselect {
+	display: none;
+}
+.tomb-select-holder {
+	position: relative;
+	display: inline-block;
+	width: 200px;
+	height: 28px;
+	background: #ffffff;
+}
+[data-multiple="true"].tomb-select-holder {
+	height: auto;
+}
+.tomb-select-fake {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    height: 28px;
+    width: 100%;
+    padding: 0;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 1;
+    color: #333;
+    outline: 0;
+    border: 1px solid #dddddd;
+    background-color: #f1f1f1;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+.tomb-select-value {
+	position: relative;
+	display: block;
+	padding: 0 20px 0 8px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+	line-height: 26px;
+}
+.tomb-select-placeholder {
+	position: absolute;
+	display: inline;
+	top: 0;
+	padding: 0 20px 0 8px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+	line-height: 26px;
+    color: #888;
+}
+[data-clear="1"].tomb-select-holder .tomb-select-value {
+	padding: 0 42px 0 8px;
+}
+.tomb-select-clear {
+    position: absolute;
+    cursor: pointer;
+    float: right;
+    width: 26px;
+    right: 26px;
+    top: 0;
+    color: #444;
+    text-align: center;
+    font-weight: bold;
+    line-height: 26px;
+}
+.tomb-select-search {
+	position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 36px;
+    padding: 0 6px;
+    box-sizing: border-box;
+}
+.tomb-select-dropdown.bottom .tomb-select-search {
+	position: absolute;
+    display: block;
+	bottom: 0;
+}
+.tomb-select-search .tomb-select-search-field {
+    position: relative;
+    display: block;
+    width: 100%;
+    margin: 6px 0;
+    padding: 4px 8px;
+    border: 1px solid #dddddd;
+    outline: 0;
+    background: #fbfbfb;
+    box-sizing: border-box;
+    height: 24px;
+	font-size: 13px;
+}
+.tomb-select-search-field::-webkit-input-placeholder {
+	color: #999;
+}
+.tomb-select-search-field:-moz-placeholder { /* Firefox 18- */
+	color: #999;
+}
+.tomb-select-search-field::-moz-placeholder {  /* Firefox 19+ */
+	color: #999;
+}
+.tomb-select-search-field:-ms-input-placeholder {  
+	color: #999;
+}
+.tomb-select-search-no-result {
+    position: relative;
+	overflow: hidden;
+    display: none;
+    height: 30px;
+    padding: 0 8px;
+    font-size: 13px;
+    line-height: 30px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    background: #ffffff;
+    border-top: none;
+}
+.tomb-select-arrow {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 26px;
+    line-height: 26px;
+    font-size: 16px;
+    font-weight: 900;
+    text-align: center;
+    color: #444;
+    height: 100%;
+    border: none;
+    border-left: 1px solid #dddddd;
+    background-color: #ffffff;
+}
+.tomb-select-arrow i {
+	position: absolute;
+    top: 50%;
+    width: 0;
+    height: 0;
+    left: 50%;
+    margin: -2px 0 0 -4px;
+    border-color: #444 transparent transparent transparent;
+    border-style: solid;
+    border-width: 5px 4px 0 4px;
+}
+.tomb-select-dropdown {
+    position: absolute;
+    display: block;
+    overflow: hidden;
+    z-index: 99999;
+    margin: 0;
+    padding: 0;
+    border: 1px solid #dddddd;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    cursor: pointer;
+	-webkit-box-shadow: 0px 11px 47px -15px rgba(0,0,0,0.3);
+	-moz-box-shadow: 0px 11px 47px -15px rgba(0,0,0,0.3);
+	box-shadow: 0px 11px 47px -15px rgba(0,0,0,0.3);
+}
+.tomb-select-dropdown.bottom {
+	-webkit-box-shadow: 0px -11px 47px -15px rgba(0,0,0,0.2);
+	-moz-box-shadow: 0px -11px 47px -15px rgba(0,0,0,0.2);
+	box-shadow: 0px -11px 47px -15px rgba(0,0,0,0.2);
+}
+.tomb-select-dropdown ul {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    overflow-y: auto;
+	min-height: 28px;
+    max-height: 224px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+.tomb-select-dropdown.bottom ul {
+	margin: 0 0 36px 0;
+}
+.tomb-select-dropdown li {
+    position: relative;
+    display: block;
+    overflow: hidden;
+	text-overflow: ellipsis;
+    white-space: nowrap;
+    top: 0;
+    left: 0;
+    height: 28px;
+	margin: 0;
+	padding: 0 20px 0 8px;
+	font-size: 13px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #555;
+	-webkit-transition: all 0.2s ease-out;
+	-moz-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    -ms-transition: all 0.2 ease-out;
+    transition: all 0.2s ease-out;
+}
+.tomb-select-dropdown li[data-disabled="disabled"] {
+	color: #ffffff;
+    background: #34495e;
+    text-align: center;
+    font-weight: 600;
+	cursor: default;
+}
+.tomb-select-dropdown li:not([data-disabled="disabled"]):not([data-selected="true"]):not(.tomb-select-search-no-result):hover {
+    background: #3875d7;
+    color: #ffffff;
+}
+.tomb-select-dropdown li[data-selected="true"] {
+    background: #f5f5f5;
+    color: inherit;
+}
+.tomb-value-holder {
+	position: relative;
+	display: block;
+	padding: 0;
+}
+.tomb-value-holder > span {
+    position: relative;
+    display: inline-block;
+    background-color: #34495e;
+    color: #ffffff;
+    cursor: default;
+    margin: 0 4px 6px 1px;
+    padding: 4px 8px;
+}
+.tomb-multiselect-remove {
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: bold;
+    margin-right: 6px;
+    font-size: 10px;
+    line-height: 16px;
+    height: 18px;
+    vertical-align: top;
+}
+.tomb-multiselect-remove:hover {
+    opacity: 0.7;
+}
+
+/* ============================================================
+   11. wpColorPicker Alpha
+/* ============================================================ */
+
+.tomb-type-color .wp-picker-container,
+.tomb-type-color .wp-picker-container:active {
+    display: inline-block;
+    outline: 0;
+}
+.tomb-type-color .wp-color-result-text {
+	height: 26px !important;
+    line-height: 26px !important;
+}
+.tomb-type-color .wp-color-result,
+.tomb-type-color .wp-picker-open+.wp-picker-input-wrap,
+.tomb-type-color .wp-picker-open+.wp-picker-input-wrap input {
+	vertical-align: top !important;
+	height: 28px !important;
+	line-height: 28px !important;
+	-webkit-border-radius: 0 !important;
+    border-radius: 0 !important;
+	-webkit-box-shadow: none !important;
+	box-shadow: none !important;
+	margin: 0 0 2px 0 !important;
+	box-sizing: border-box !important;
+	background-color: none !important;
+}
+.tomb-type-color .wp-color-result:after {
+	height: 26px !important;
+	line-height: 26px !important;
+	box-sizing: border-box !important;
+}
+.tomb-type-color .wp-picker-open+.wp-picker-input-wrap,
+.tomb-type-color .wp-picker-open+.wp-picker-input-wrap input {
+	height: 28px !important;
+	line-height: 20px !important;
+}
+.tomb-type-color .wp-picker-open+.wp-picker-input-wrap input.wp-color-picker {
+	min-width: 98px !important;
+	margin: 0 0 0 6px !important;
+}
+.tomb-alpha-container .transparency {
+    height:24px;
+    width:100%;
+    background-color:#FFF;
+	background-image: url('../img/transparency-grid.png');
+    box-shadow:0 0 5px rgba(0,0,0,0.4) inset;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    padding:0;
+}
+ 
+.tomb-alpha-container .ui-slider-handle {
+    color:#777;
+    background-color:#FFF;
+    text-shadow:0 1px 0 #FFF;
+    text-decoration:none;
+    position:absolute;
+    z-index:2;
+    box-shadow:0 1px 2px rgba(0,0,0,0.2);
+    border:1px solid #aaa;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    opacity:0.9;
+    margin-top:-2px;
+    height:20px;
+    cursor:ew-resize;
+    font-size:12px;
+    padding:3px;
+}
+.tomb-alpha-container .ui-slider {
+	position: absolute;
+    display: block;
+    height: 24px;
+    left: 10px;
+    right: 24px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background: transparent;
+    border: none;
+}
+.tomb-alpha-container .ui-slider-range {
+    background: transparent;
+}
+.wp-picker-container .wp-picker-open ~ div.tomb-alpha-container {
+	position: relative;
+    display:block;
+	top: -1px;
+}
+.tomb-alpha-container {
+    display: none;
+    border: 1px solid #dfdfdf;
+    border-top: none;
+    background: #ffffff;
+    padding: 0 11px 6px;
+}
+.tomb-alpha-container .ui-slider-handle {
+	position: absolute;
+	background: 0;
+	margin: 0;
+	top: -3px;
+	border: 4px solid #aaa;
+	border-width: 4px 3px;
+	width: 2px;
+	height: 16px;
+	border-radius: 4px;
+	box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	opacity: .9;
+	z-index: 5;
+	cursor: ns-resize;
+}
+.tomb-alpha-container .ui-slider-handle:before {
+	content: "";
+	position: absolute;
+	left: -2px;
+	right: -2px;
+	top: -3px;
+	bottom: -3px;
+	border: 2px solid #fff;
+	border-radius: 3px;
+	box-shadow: inset 0 0 1px #797979;
+}
+
+/* ============================================================
+   12. TextArea Code
+/* ============================================================ */
+
+.tomb-code-holder {
+	position: relative;
+	display: inline-block;
+	overflow: hidden;
+	border: 1px solid #ddd;
+	min-height: 150px;
+    height: 300px;
+    max-height: 300px;
+}
+
+textarea.tomb-code {
+	position: relative;
+    display: block;
+	resize: none;
+	height: 100%;
+    width: 800px;
+	min-width: 320px;
+    max-width: 800px;
+    margin: 0 0 0 38px;
+    padding: 5px 5px 0 5px;
+    white-space: pre-wrap;
+    word-wrap: normal;
+    background: none;
+    border: none;
+	background: #f1f1f1;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+[data-theme="monokai"] .tomb-code {
+    background: #272822;
+	color: #f8f8f2;
+}
+textarea[disabled=disabled].tomb-code-line-numbers {
+	position: absolute;
+    overflow: hidden;
+	pointer-events: none;
+    resize: none;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 38px;
+    padding: 5px 8px 0 0 !important;
+    background: #e5e5e5 !important;
+    color: #888888 !important;
+    font-family: monospace;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 19.6px;
+    white-space: pre-line;
+    text-align: right;
+    box-sizing: border-box;
+    border: none;
+}
+[data-theme="monokai"] textarea[disabled=disabled].tomb-code-line-numbers {
+    background: #2F3129 !important;
+    color: #d0d0d0 !important;
+}

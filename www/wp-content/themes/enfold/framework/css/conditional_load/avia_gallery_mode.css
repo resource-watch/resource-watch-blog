@@ -1,0 +1,67 @@
+#media-upload #go_button, #media-upload .savesend input.button, #media-upload .savesend  a.wp-post-thumbnail, #gallery-settings, #media-upload .menu_order_input, .order-head{
+display:none !important;
+}
+
+#media-upload .slidetoggle, #media-upload .media-item, #media-upload .filename{
+position: relative;
+}
+
+#media-upload .savesend .del-attachment, #media-upload .savesend .del-link{
+padding-left:120px;
+}
+
+#media-upload .del-attachment a {
+margin: 5px 5px 0 0;
+display: block;
+float: left;
+}
+
+#media-upload .del-attachment strong, #media-upload .filename{
+display:block;
+}
+
+#media-upload .filename .avia_send_to_gallery{
+bottom:auto;
+top:7px;
+left:auto;
+right:30px;
+}
+
+#media-upload .avia_send_to_gallery {
+position: absolute;
+bottom: 6px;
+left: 152px;
+}
+
+.avia_gallery_loading{
+background: url("../../images/icons/loading_mini.gif") no-repeat scroll center center #fff;
+position: absolute;
+right: 2px;
+height:24px;
+width:24px;
+top:7px;
+visibility: hidden;
+}
+
+.avia_gallery_loading_all {
+right: auto;
+position: relative;
+display: inline-block;
+top: 7px;
+}
+
+.avia_gallery_loading.avia_loading_done{
+background: url("../../images/icons/accept.png") no-repeat scroll center center transparent;
+}
+
+.avia_gallery_loading.avia_loading_error{
+background: url("../../images/icons/error.png") no-repeat scroll center center transparent;
+}
+
+
+
+/*this rule has to be in the default admin css so it hides the send to editor block, which is always displayed on new image load: .avia-send-to-editor{display:none; }*/
+
+div .avia-send-to-editor{
+display:block;
+}

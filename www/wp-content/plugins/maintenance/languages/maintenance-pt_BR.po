@@ -1,0 +1,395 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: maintenance\n"
+"POT-Creation-Date: 2016-08-05 12:31+0300\n"
+"PO-Revision-Date: 2017-03-09 17:12+0200\n"
+"Last-Translator: \n"
+"Language-Team: fruitfulcode\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: includes/admin.php:76 includes/functions.php:597
+#, fuzzy
+msgid "Maintenance"
+msgstr "Manutenção"
+
+#: includes/admin.php:76 includes/admin.php:93
+msgid "Save changes"
+msgstr "Salvar alterações"
+
+#: includes/functions.php:165
+msgid "Standard Fonts"
+msgstr "Fontes padrão"
+
+#: includes/functions.php:172
+msgid "Google Web Fonts"
+msgstr ""
+
+#: includes/functions.php:222
+msgid "General Settings"
+msgstr "Configurações gerais"
+
+#: includes/functions.php:223
+msgid "Custom CSS"
+msgstr "CSS customizado"
+
+#: includes/functions.php:224
+msgid "Exclude pages from maintenance mode"
+msgstr "excluir páginas de modo de manutenção"
+
+#: includes/functions.php:230
+msgid "Pro version"
+msgstr "versão Pro"
+
+#: includes/functions.php:237
+msgid "Fruitful Code projects"
+msgstr "projetos de código frutíferas"
+
+#: includes/functions.php:243
+msgid "Support"
+msgstr "Apoio"
+
+#: includes/functions.php:249
+msgid "Translation"
+msgstr "Tradução"
+
+#: includes/functions.php:272
+msgid "Page title"
+msgstr "Título da página"
+
+#: includes/functions.php:273
+msgid "Headline"
+msgstr "Cabeçalho"
+
+#: includes/functions.php:274
+msgid "Description"
+msgstr "Descrição"
+
+#: includes/functions.php:275
+msgid "Footer Text"
+msgstr "Texto de rodapé"
+
+#: includes/functions.php:276
+msgid "Set Logo width"
+msgstr "Set largura Logo"
+
+#: includes/functions.php:277
+msgid "Set Logo height"
+msgstr "Set altura Logo"
+
+#: includes/functions.php:278
+msgid "Logo"
+msgstr "Logo"
+
+#: includes/functions.php:278
+msgid "Upload Logo"
+msgstr "Enviar logo"
+
+#: includes/functions.php:279
+msgid "Retina logo"
+msgstr "Retina logo"
+
+#: includes/functions.php:279
+msgid "Upload Retina Logo"
+msgstr "Enviar Retina logo "
+
+#: includes/functions.php:283
+msgid "Show admin bar"
+msgstr "Mostrar barra administrativa"
+
+#: includes/functions.php:284
+msgid "503"
+msgstr ""
+
+#: includes/functions.php:284
+msgid "Service temporarily unavailable, Google analytics will be disable."
+msgstr ""
+"Serviço temporariamente indisponível, o Google Analytics será desativado."
+
+#: includes/functions.php:291
+msgid "Google Analytics ID"
+msgstr ""
+
+#: includes/functions.php:291
+msgid "UA-XXXXX-X"
+msgstr ""
+
+#: includes/functions.php:292
+msgid "Set blur intensity"
+msgstr "Definir a intensidade borrão"
+
+#: includes/functions.php:298
+msgid "Apply background blur"
+msgstr "Aplicar borrão"
+
+#: includes/functions.php:299
+msgid "Enable frontend login"
+msgstr "Ativar o login frontend"
+
+#: includes/functions.php:311
+msgid "CSS Code"
+msgstr "Código CSS"
+
+#: includes/functions.php:325
+msgid "Select the page to be displayed:"
+msgstr "Seleccione a página a ser exibida:"
+
+#: includes/functions.php:371
+msgid "Not available object."
+msgstr "Não disponível objeto."
+
+#: includes/functions.php:386
+msgid "Background image"
+msgstr "Imagem de fundo"
+
+#: includes/functions.php:386
+msgid "Upload Background"
+msgstr "Enviar imagem de fundo"
+
+#: includes/functions.php:392
+msgid "Background color"
+msgstr "Cor do plano de fundo"
+
+#: includes/functions.php:393
+msgid "Font color"
+msgstr "Cor da fonte"
+
+#: includes/functions.php:400
+msgid "Font family"
+msgstr "Família de fontes"
+
+#: includes/functions.php:405
+msgid "Subsets"
+msgstr "subconjuntos"
+
+#: includes/functions.php:413
+msgid "Have any questions?"
+msgstr "Tem alguma pergunta?"
+
+#: includes/functions.php:414
+#, php-format
+msgid ""
+"You may find answers to your questions at <a target=\"_blank\" href=\"http://"
+"support.fruitfulcode.com/hc/en-us/sections/200406386\">support forum</"
+"a><br>You may  <a target=\"_blank\" href=\"http://support.fruitfulcode.com/"
+"hc/en-us/requests/new\">contact us</a> with customization requests and "
+"suggestions.<br> Please visit our website to learn about us and our services "
+"<a href=\"%1$s\" title=\"%2$s\">%2$s</a>"
+msgstr ""
+"Você pode encontrar respostas às suas perguntas em <a target=\"_blank\" href="
+"\"http://support.fruitfulcode.com/hc/en-us/sections/200406386\">Fórum de "
+"suporte</a><br>Você pode  <a target=\"_blank\" href=\"http://support."
+"fruitfulcode.com/hc/en-us/requests/new\">Nos contate</a> com pedidos de "
+"personalização e sugestões. <br> Por favor, visite nosso site para saber "
+"mais sobre nós e nossos serviços <a href=\"%1$s\" title=\"%2$s\">%2$s</a>"
+
+#: includes/functions.php:425
+msgid "This plugin is translation friendly"
+msgstr "Este plugin é a tradução amigável"
+
+#: includes/functions.php:426
+#, php-format
+msgid ""
+"Want to improve translation or make one for your native language? <a href="
+"\"%1$s\" title=\"%2$s\">%2$s</a>"
+msgstr ""
+"Quer melhorar tradução ou fazer um para a sua língua nativa? <a href=\"%1$s"
+"\" title=\"%2$s\">%2$s</a>"
+
+#: includes/functions.php:428
+msgid "Follow this tutorial"
+msgstr "Siga este tutorial"
+
+#: includes/functions.php:437
+msgid "Premium WordPress themes"
+msgstr "temas Premium WordPress"
+
+#: includes/functions.php:443
+msgid "ANAGLYPH - One page / Multi Page WordPress Theme"
+msgstr "ANAGLYPH - Uma página / Várias páginas Tema WordPress"
+
+#: includes/functions.php:448
+msgid "Love.ly - Simple & Elegant WordPress theme"
+msgstr "Love.ly - tema simples e elegante WordPress"
+
+#: includes/functions.php:454
+msgid "Zoner - Real Estate WordPress theme"
+msgstr "Zoner - Imóveis WordPress tema"
+
+#: includes/functions.php:467
+#, fuzzy
+msgid "Extended functionality"
+msgstr "Versão extendida"
+
+#: includes/functions.php:468
+#, php-format
+msgid ""
+"Purchase <a href=\"http://codecanyon.net/item/maintenance-wordpress-"
+"plugin/2781350?ref=fruitfulcode\" target=\"_blank\">PRO</a> version  with "
+"extended functionality. %1$s If you like our plugin please <a target=\"_blank"
+"\" href=\"http://wordpress.org/support/view/plugin-reviews/maintenance?"
+"filter=5\">rate it</a>, <a title=\"leave feedbacks\" href=\"%2$s\" target="
+"\"_blank\">leave feedbacks</a>."
+msgstr ""
+"Compra <a href=\"http://codecanyon.net/item/maintenance-wordpress-"
+"plugin/2781350?ref=fruitfulcode\" target=\"_blank\">PRO</a> versão com "
+"funcionalidade estendida. %1$sSe você gosta de nosso plugin, por favor <a "
+"target=\"_blank\" href=\"http://wordpress.org/support/view/plugin-reviews/"
+"maintenance?filter=5\">rate it</a>, <a title=\"leave feedbacks\" href=\"%2$s"
+"\" target=\"_blank\">deixar feedbacks</a>."
+
+#: includes/functions.php:472
+msgid "Demo website"
+msgstr "website de demonstração"
+
+#: includes/functions.php:661
+msgid "Website is under construction"
+msgstr "Site em construção"
+
+#: includes/functions.php:662
+msgid "Maintenance mode is on"
+msgstr "Modo de manutenção ativado"
+
+#: includes/functions.php:663
+msgid "Website will be available soon"
+msgstr "O site estará disponível em breve"
+
+#: load/functions.php:39
+msgid "Permission access denied!"
+msgstr "Permissão de acesso negada!"
+
+#: load/functions.php:53
+msgid "You entered your login are incorrect!"
+msgstr "Você digitou seu usuário incorretamente!"
+
+#: load/functions.php:57
+msgid "You entered your password are incorrect!"
+msgstr "Você digitou sua senha incorretamente!"
+
+#: load/functions.php:60
+msgid "You entered your login and password are incorrect!"
+msgstr "Você digitou seu usuário e senha incorretamente!"
+
+#: load/functions.php:289
+msgid "User Login"
+msgstr "Login de usuário"
+
+#: load/functions.php:290
+msgid "Username"
+msgstr "Usuário"
+
+#: load/functions.php:291
+msgid "Password"
+msgstr "Senha"
+
+#: load/functions.php:292
+msgid "Lost Password"
+msgstr "Senha perdida"
+
+#: load/functions.php:293
+msgid "Login"
+msgstr "Entrar"
+
+#~ msgid "Exclude pages"
+#~ msgstr "Excluir páginas"
+
+#~ msgid "Choose Logo width"
+#~ msgstr "Escolha largura Logo"
+
+#~ msgid "Choose Logo height"
+#~ msgstr "Escolha altura Logo"
+
+#~ msgid "Blur intensity"
+#~ msgstr "Intensidade do efeito Blur"
+
+#~ msgid "Enable login"
+#~ msgstr "Activar início de sessão"
+
+#~ msgid "Put Login On"
+#~ msgstr "Coloque o login"
+
+#~ msgid "Logo width"
+#~ msgstr "Logo width"
+
+#~ msgid "Logo height"
+#~ msgstr "Logo altura"
+
+#~ msgid "Admin bar"
+#~ msgstr "Barra administrativa"
+
+#~ msgid "Background blur"
+#~ msgstr "Efeito blur no fundo"
+
+#~ msgid "Apply a blur"
+#~ msgstr "Aplicar blur"
+
+#~ msgid "Login On / Off"
+#~ msgstr "Entre On / Off"
+
+#~ msgid "Service temporarily unavailable, Google analytics will be disable"
+#~ msgstr ""
+#~ "Serviço temporariamente indisponível, o Google Analytics será desativado"
+
+#~ msgid "Sign In"
+#~ msgstr "Entrar"
+
+#, fuzzy
+#~ msgid "maintenance"
+#~ msgstr "Manutenção"
+
+#~ msgid "Contact support"
+#~ msgstr "Contatar suporte"
+
+#~ msgid ""
+#~ "If you faced with any problems, have a question or suggestion you always "
+#~ "can contact us with any request on our website <a href=\"%1$s\" title="
+#~ "\"%2$s\">%2$s</a>"
+#~ msgstr ""
+#~ "Se você viu algum problem, tem alguma dúvida ou sugestão, você pode nos "
+#~ "contatar em nosso site <a href=\"%1$s\" title=\"%2$s\">%2$s</a>"
+
+#~ msgid ""
+#~ "If you like our plugin please rate it, %1$s <a title=\"leave feedback\" "
+#~ "href=\"%2$s\" target=\"_blank\">leave feedback</a> or purchase extended "
+#~ "version %1$s with more other features."
+#~ msgstr ""
+#~ "Se você gostou de nosso plugin, por-favor avalie-o, %1$s <a title=\"deixe "
+#~ "um comentário\" href=\"%2$s\" target=\"_blank\">deixe um comentário</a> "
+#~ "ou adquira a versão extendida %1$s com mais funcionalidades."
+
+#~ msgid "Purchase"
+#~ msgstr "Comprar"
+
+#~ msgid "We have time until launch"
+#~ msgstr "Осталось времени до запуска"
+
+#~ msgid "Be first of your friends who will know when the website goes live."
+#~ msgstr "Будь первым из твоих друзей, кто узнает о запуске сайта."
+
+#~ msgid "Check out our extended version of plugin with new features"
+#~ msgstr "Проверьте возможности расширенной версии плагина"
+
+#~ msgid "Your session has expired."
+#~ msgstr "Ваша сессия истекла."
+
+#~ msgid "Customer login"
+#~ msgstr "Вход для клиентов"
+
+#~ msgid "Please login to see website"
+#~ msgstr "Пожалуйста авторезируйтесь"
+
+#~ msgid "User roles"
+#~ msgstr "Роли пользователей"
+
+#~ msgid "Choose users access permissions in maintenance mode."
+#~ msgstr "Выберите права доступа пользователей в режиме обслуживания."

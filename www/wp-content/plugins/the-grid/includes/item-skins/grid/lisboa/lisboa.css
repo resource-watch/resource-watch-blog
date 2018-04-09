@@ -1,0 +1,114 @@
+.lisboa a,
+.lisboa a:active,
+.lisboa a:focus,
+.lisboa .tg-item-title,
+.lisboa .tg-item-excerpt,
+.lisboa .tg-cats-holder {
+	text-decoration: none;
+    border: none;
+	-webkit-box-shadow: none;
+    box-shadow: none;
+	-webkit-transition: opacity 0.25s ease, color 0.25s ease, -webkit-transform 0.3s ease-in-out;
+	-moz-transition: opacity 0.25s ease, color 0.25s ease, -moz-transform 0.3s ease-in-out;
+	-ms-transition: opacity 0.25s ease, color 0.25s ease, -ms-transform 0.3s ease-in-out;
+	-o-transition: opacity 0.25s ease, color 0.25s ease, -o-transform 0.3s ease-in-out;
+	transition: opacity 0.25s ease, color 0.25s ease, transform 0.3s ease-in-out;
+}
+.lisboa.tg-item {
+	cursor: pointer;
+}
+.lisboa .tg-center-holder {
+	text-align: center;
+}
+.lisboa .tg-item-inner {
+	overflow: hidden;
+}
+.lisboa .tg-center-holder {
+	opacity: 0;
+}
+.lisboa:hover .tg-center-holder {
+	opacity: 1;
+}
+.lisboa .tg-center-holder {
+	padding: 20px 10px;
+}
+.lisboa .tg-item-title {
+	-webkit-transform: translateY(-20px);
+    -moz-transform: translateY(-20px);
+    -ms-transform: translateY(-20px);
+    -o-transform: translateY(-20px);
+    transform: translateY(-20px);
+}
+.lisboa .tg-item-excerpt,
+.lisboa .tg-cats-holder {
+    -webkit-transform: translateY(20px);
+    -moz-transform: translateY(20px);
+    -ms-transform: translateY(20px);
+    -o-transform: translateY(20px);
+    transform: translateY(20px);
+}
+.lisboa:hover .tg-item-title,
+.lisboa:hover .tg-item-excerpt,
+.lisboa:hover .tg-cats-holder {
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+    transform: translateY(0);
+}
+.lisboa .tg-media-button i {
+	display: none !important;
+}
+.lisboa .tg-media-button,
+.lisboa .tg-item-media-holder,
+.lisboa .tg-item-overlay {
+	position: absolute;
+	display: block;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+}
+.lisboa:hover .tg-item-overlay {
+	opacity: 1;
+}
+.lisboa.tg-force-play .tg-media-button,
+.lisboa.tg-is-playing .tg-media-button {
+	opacity: 0;
+	visibility: hidden;
+}
+.lisboa .tg-item-title,
+.lisboa .tg-item-title a,
+.lisboa .tg-item-excerpt {
+	position: relative;
+	display: block;
+    font-size: 15px;
+	line-height: 18px;
+	font-weight: 600;
+	margin: 0 !important;
+	padding: 0 !important;
+	text-align: center;
+}
+.lisboa .tg-item-excerpt {
+	font-size: 12px;
+    line-height: 16px;
+    font-weight: normal;
+    padding: 8px 4px 0 4px !important;
+}
+.lisboa .tg-cats-holder {
+	position: relative;
+    display: block;
+    margin: 0;
+    font-size: 12px;
+    line-height: 16px;
+    padding: 6px 0 0 0;
+    font-weight: 600;
+}
+.lisboa .tg-cats-holder * {
+	font-size: 12px;
+    line-height: 16px;
+	font-weight: 600;
+}
+.lisboa .tg-cats-holder a:hover {
+	opacity: 0.7;
+}

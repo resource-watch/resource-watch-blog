@@ -1,0 +1,309 @@
+/*
+ * Copyright 2010 (c) VisualShortcodes.com
+ */
+#scn-options {
+	float: left;
+	width: 390px;
+	margin-right: 10px;
+}
+
+#scn-options h3, #scn-preview h3, #scn-options-error h3 {
+	margin: 1em 0;
+	font-size: 1.6em;
+	color: #5A5A5A;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-weight: normal;
+}
+
+#scn-options-error p {
+	margin: 0;
+}
+
+#scn-options-error h4 {
+	margin: 1.33em 0 0.8em 0;
+}
+#scn-options-table {
+	border: 1px solid #DFDFDF;
+	width: 100%;
+	margin-bottom: 8px;
+}
+
+#scn-options-table th {
+	padding-top: 0.2em;
+}
+
+#scn-options-table td {
+	vertical-align: middle;
+	padding: 0 5px 8px 0;
+}
+
+#scn-options-table input {
+	width: 100%;
+}
+
+#scn-options-table th label {
+	margin: 6px;
+	font-weight: bold;
+	font-size: 13px;
+	color: #333333;
+	display: block;
+}
+
+.scn-input-help {
+	font-size: 11px;
+	color: #333333;
+	font-style: italic;
+}
+
+abbr.scn-required {
+	color: #FF0000;
+}
+
+label.scn-required {
+	font-size: 20px !important;
+}
+
+input.scn-required {
+	font-size:20px;
+	border-width:3px
+}
+
+.scn-validating {
+    background: url("../img/globe-preloader.gif") no-repeat scroll right center transparent;
+    padding-right: 18px;
+}
+	
+.scn-validated {
+    background: url("../img/checkmark.gif") no-repeat scroll right center transparent;
+    padding-right: 15px;
+}
+
+.scn-validation-error {
+    background: url("../img/x.gif") no-repeat scroll right center transparent;
+    padding-right: 15px;
+}
+
+#scn-preview {
+	width: 225px;
+}
+#scn-preloader {
+	position: absolute;
+}
+
+.scn-loading {
+    background: url("../img/preloader.gif") no-repeat scroll right center transparent;
+    padding-right: 15px;
+}
+
+/* COLUMN CONTROL STYLES */
+
+div.column-button {
+    border: 1px solid #333333;
+    width: 100px;
+    margin:  4px 0;
+    text-align: center;
+}
+
+input.column-button[disabled], input.column-button[disabled]:hover {
+    background-color: #fff !important;  
+    color: #aaa;
+    border: 1px solid #eee;
+}
+
+input.column-button {
+    float: left;
+    clear: left;
+    margin-top: 2px;
+    border: 1px solid #777777;
+    background-color: #EEEEEE !important;
+}
+
+.rounded5p {
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+#scn-column-text {
+    border: 1px solid #AAAAAA;
+    font-size: 22px;
+    font-family: Sans-serif;
+    padding: 5px 40px 5px 5px;
+}
+
+.scn-marker-select-control select{
+width:285px;
+}
+
+
+
+/*table creator*/
+
+.flexible_thickbox{
+width:90% !important;
+max-width:1140px;
+min-width:720px;
+overflow: auto;
+}
+
+.flexible_thickbox #TB_ajaxContent{
+width:auto !important;
+height:auto !important;
+
+}
+
+.table_creator_thickbox #scn-btn-cancel{display:none;}
+.table_creator_thickbox #scn-options{float:none; width:auto;}
+.table_creator_thickbox #scn-options-table{display:none;}
+
+
+.scn-marker-table-control{
+width:80%;
+}
+
+.scn-custom-table {
+border: 1px solid #DFDFDF;
+width: 100%;
+margin-bottom: 8px;
+}
+
+.scn-custom-table th {
+padding-top: 0.2em;
+}
+
+.scn-custom-table td {
+vertical-align: middle;
+padding: 4px;
+}
+
+.scn-label-table td {
+width:80%;
+}
+
+.scn-custom-table th label {
+margin: 6px;
+font-weight: bold;
+font-size: 13px;
+color: #333;
+display: block;
+}
+
+div .scn-options-table, #TB_window #top .avia_table{
+width:75%;
+float:right;
+}
+
+.avia_table td{
+cursor: pointer;
+}
+
+div .scn-generated-table{
+
+}
+
+div .scn-options-column{
+float:left;
+clear: both;
+width:24%;
+}
+
+#TB_window .scn-options-column, #TB_window .scn-options-table{
+border-collapse: collapse;
+border-spacing: 0;
+border:none;
+margin:0;
+padding:0;
+position: relative;
+}
+
+#TB_window .scn-options-column select, #TB_window .scn-options-table select{
+
+}
+
+#TB_window .scn-options-table td{
+position: relative;
+height:35px;
+}
+
+#TB_window .scn-options-table select{
+position: absolute;
+top:0;
+}
+
+
+	#TB_window .input-text,
+	#TB_window input[type="text"],
+	#TB_window input[type="input"],
+	#TB_window input[type="password"],
+	#TB_window input[type="email"],
+	#TB_window textarea,
+	#TB_window select {
+		 -webkit-appearance: none;
+		border: 1px solid #e1e1e1;
+		padding: 6px 4px;
+		outline: none;
+		font: 13px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+		color: #777;
+		margin: 0;
+		width: 210px;
+		max-width: 90%;
+		display: block;
+		-webkit-border-radius: 0px;
+		-moz-border-radius: 0px;
+		border-radius: 0px;
+		background: #fff;
+		height:auto;
+		
+		}
+		
+	#TB_window select 
+	{
+		background: #fff url(../../../images/layout/select.png) no-repeat center right;
+		padding-right:35px;
+	}
+
+	#TB_window input[type="text"]:focus,
+	#TB_window input[type="password"]:focus,
+	#TB_window input[type="email"]:focus,
+	#TB_window textarea:focus {
+		border: 1px solid #aaa;
+ 		color: #555;
+ 		-moz-box-shadow: 0 0 3px rgba(0,0,0,.2);
+		-webkit-box-shadow: 0 0 3px rgba(0,0,0,.2);
+		box-shadow:  0 0 3px rgba(0,0,0,.2); }
+	#TB_window textarea {
+		min-height: 60px; line-height:1.5em;}
+	#TB_window label{
+		display: block;
+		font-weight: bold;
+		font-size: 12px;  }
+	#TB_window legend {
+		display: block;
+		font-weight: normal;
+		font-size: 15px;  }
+	
+	#TB_window input[type="checkbox"] {
+		display: inline; }
+	#TB_window label span,
+	#TB_window legend span {
+		font-weight: normal;
+		font-size: 13px;
+		color: #444; }
+
+	
+	
+	#TB_window.table_creator_thickbox textarea{
+	font-size: 12px;
+	text-align: inherit;
+	width:100%;
+	max-width:100%;
+	}
+	
+	#TB_window.table_creator_thickbox #TB_ajaxContent{
+	padding-right:50px;	
+	}
+
+
+
+
+	

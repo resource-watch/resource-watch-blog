@@ -1,0 +1,146 @@
+.brasilia a,
+.brasilia a:active,
+.brasilia a:focus {
+	text-decoration: none;
+    border: none;
+	-webkit-box-shadow: none;
+    box-shadow: none;
+	-webkit-transition: opacity 0.25s ease, color 0.25s ease, -webkit-transform 0.5s cubic-bezier(.39,1.89,.55,1.45);
+	-moz-transition: opacity 0.25s ease, color 0.25s ease, -moz-transform 0.5s cubic-bezier(.39,1.89,.55,1.45);
+	-ms-transition: opacity 0.25s ease, color 0.25s ease, -ms-transform 0.5s cubic-bezier(.39,1.89,.55,1.45);
+	-o-transition: opacity 0.25s ease, color 0.25s ease, -o-transform 0.5s cubic-bezier(.39,1.89,.55,1.45);
+	transition: opacity 0.25s ease, color 0.25s ease, transform 0.5s cubic-bezier(.39,1.89,.55,1.45);
+}
+.brasilia .tg-item-content,
+.brasilia .tg-item-media-holder,
+.brasilia .tg-item-overlay {
+	position: absolute;
+	display: block;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+}
+.brasilia .tg-item-link {
+	position: absolute;
+	display: block;
+	top: -22px;
+    left: -28px;
+    right: -28px;
+    bottom: -22px;
+}
+.brasilia .tg-item-content {
+	margin: 22px 28px;
+}
+.brasilia .tg-item-content,
+.brasilia .tg-item-overlay {
+	opacity: 0;
+}
+.brasilia:hover .tg-item-content,
+.brasilia:hover .tg-item-overlay {
+	opacity: 1;
+}
+.brasilia .tg-cats-holder,
+.brasilia .tg-item-title,
+.brasilia .tg-item-footer {
+	-webkit-transition: -webkit-transform 0.25s ease;
+	-moz-transition: -moz-transform 0.25s ease;
+	-ms-transition: -ms-transform 0.25s ease;
+	-o-transition: -o-transform 0.25s ease;
+	transition: transform 0.25s ease;
+}
+.brasilia .tg-item-title,
+.brasilia .tg-item-title a {
+	position: relative;
+	display: inline-block;
+    font-size: 20px;
+	line-height: 26px;
+	font-weight: 600;
+	margin: 0 !important;
+	padding: 0 !important;
+}
+.tg-layout-justified .brasilia .tg-item-title,
+.tg-layout-justified .brasilia .tg-item-title a {
+    font-size: 15px;
+	line-height: 18px;
+}
+.brasilia .tg-item-title {
+	margin: 0 20px 0 0 !important;
+}
+.brasilia .tg-item-title  {
+	-webkit-transform: translate3d(0,22px,0);
+	-moz-transform: translate3d(0,22px,0);
+	-ms-transform: translate3d(0,22px,0);
+	-o-transform: translate3d(0,22px,0);
+	transform: translate3d(0,22px,0);
+}
+.brasilia .tg-cats-holder {
+	position: relative;
+	display: block;
+	margin: 0 0 10px 0;
+	font-size: 13px;
+	line-height: 18px;
+}
+.brasilia .tg-cats-holder {
+	position: relative;
+	display: block;
+	margin: 0 0 10px 0;
+	font-size: 13px;
+	line-height: 18px;
+	-webkit-transform: translate3d(0,-22px,0);
+	-moz-transform: translate3d(0,-22px,0);
+	-ms-transform: translate3d(0,-22px,0);
+	-o-transform: translate3d(0,-22px,0);
+	transform: translate3d(0,-22px,0);
+}
+.brasilia .tg-item-footer {
+	position: absolute;
+	display: block;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+.brasilia:hover .tg-cats-holder,
+.brasilia:hover .tg-item-title {
+	-webkit-transform: translate3d(0,0,0);
+	-moz-transform: translate3d(0,0,0);
+	-ms-transform: translate3d(0,0,0);
+	-o-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+.brasilia .tg-item-author {
+	position: absolute;
+	display: block;
+	bottom: 0;
+	left: 0;
+    font-size: 13px;
+	line-height: 13px;
+	font-weight: 600;
+}
+.brasilia .tg-media-button {
+	position: absolute;
+	display: block;
+	bottom: 0;
+	right: 0;
+	width: 20px;
+	height: 20px;
+	cursor: pointer;
+	text-align: center;
+}
+.brasilia h2 a:hover,
+.brasilia .tg-cats-holder a:hover,
+.brasilia .tg-media-button:hover {
+	opacity: 0.75;
+}
+.brasilia .tg-media-button i {
+	position: relative;
+	display: block;
+	width: 20px;
+	height: 20px;
+    font-size: 20px;
+	line-height: 20px;
+	cursor: pointer;
+}
+.brasilia .tg-media-button .tg-icon-add {
+    font-size: 28px;
+}

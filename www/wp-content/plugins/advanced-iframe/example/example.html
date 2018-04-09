@@ -1,0 +1,87 @@
+<!DOCTYPE>
+<html>
+  <head>
+    <style>
+    html {visibility:hidden;}
+    div {margin:2px;padding:4px;} 
+    body { color: #555555; font-family: Verdana,"BitStream vera Sans",Tahoma,Helvetica,Sans-serif; font-size: 12px; line-height:16px;}
+    </style>  
+  </head>
+  <body>
+    <div id="iframe-header" style="height:50px;border:2px solid #000;">This is the header div: id="iframe-header" 
+    </div>
+    <div id="iframe-main" style="border:2px solid #f00;">
+      <div id="iframe-navigation" style="border:2px solid #00f;float:left;width:200px;height:500px;">This is the navigation div: id="iframe-navigation" 
+      <br>
+      <p><a id="iframe-right-div-link-1" href="example.html">Link 1</a></p>
+      <p><a id="iframe-right-div-link-2" href="example.html">Link 2</a></p>
+      <p><a id="iframe-right-div-link-3" href="example.html">Link 3</a></p> 
+      Fake register example:  
+      <form action="">
+      <p>
+      E-mail<br />
+      <input type="text" name="login" />
+      Password<br />
+      <input type="password" name="password" />
+      <input type="submit" value="Register" />
+      </p>
+      </form>
+      
+      </div>
+      <div id="iframe-right" style="border:2px solid #0f0;float:right;width:200px;height:500px;">This is the right div: id="iframe-right" 
+        <br>
+      <p>Text 1</p>
+      <p>Text 2</p>
+      <p>Text 3</p>
+      <p>Text 4</p> 
+      <p>This is the example text after the fake registration</p>
+      <p>You where sucessfully registered. Please check your e-mails and use the confirmation link to enable your account.</p>
+      </div>
+      <div id="iframe-content" style="min-width:200px;height:502px;">This is an example page with a common layout where the advanced iframe pro workaround is implemented.<br />This page is used for the advanced iframe pro demo. Please see <a href="http://www.tinywebgallery.com/blog/advanced-iframe/advanced-iframe-pro-demo" target="_blank">here</a> for a working demo.  
+        <p>This is the content div with a height of 500 px and a border of 2px. id="iframe-content"<br />  
+        </p>
+        <p>
+          <a id="iframe-content-div-link" href="example.html">Link to this page </a>
+        </p>
+        <p id="some-images">Some example images that are linked to a biger version:<br />
+        <a href="example_detail1.html"><img src="thumb1.jpg" /></a>
+        <a href="example_detail2.html"><img src="thumb2.jpg" /></a>
+        </p>
+    
+      </div>
+    
+    </div>
+    <div style="clear:both;padding:0px;">
+      <!-- // -->
+    </div>
+    <div id="iframe-footer" style="height:50px;border:2px solid #0ff;">
+      <p>This is the footer div: id="iframe-footer" 
+      </p>   
+    </div>
+<script>
+   /*
+   var updateIframeHeight = "true";
+   // Some example settings  
+   var updateIframeHeight = "true";
+   var keepOverflowHidden = "false";
+   var hide_page_until_loaded_external = "true";
+   */
+   // Pro settings
+   // var iframe_hide_elements = "#iframe-header,#iframe-footer";
+   // var onload_show_element_only = "#iframe-right"; 
+   // var onload_resize_delay = 200;
+   /*
+   var iframe_content_id = "#iframe-content";
+   var iframe_content_styles = "color:#ffff00";
+   */ 
+   /*
+    var change_iframe_links = "#iframe-navigation a";
+    var change_iframe_links_target = "_top"; 
+    
+    var iframe_redirect_url = "http://www.tinywebgallery.com/blog/advanced-iframe/advanced-iframe-pro-demo"; 
+   */ 
+   // var onload_resize_delay = 200;  
+</script>
+<script src="../js/ai_external.js"></script>
+</body>
+</html>

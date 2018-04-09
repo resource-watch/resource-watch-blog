@@ -1,0 +1,60 @@
+/* Footer admin   */
+.footer_st{text-align:center;font-size:.8em;}
+
+/* Block taxonomy  */
+.box-selector-taxonomy{border:1px solid;color:#9F6000;background-color:#FEEFB3;margin:10px 0 0;padding:15px 10px;}
+.box-selector-taxonomy .current-taxonomy{float:right;font-size:16px;font-weight:700;margin:0;}
+.box-selector-taxonomy .change-taxo select{width:200px;}
+
+/* Options Table   */
+.st_wrap fieldset.options legend{display:none;}
+.st_wrap fieldset.options{border:0;}
+.st_wrap .form-table th{width:200px;}
+.st_wrap .stpexplan{font-size:0.9em;}
+.st_wrap .stpexplan ul{list-style:square;margin:0 0 0 20px;padding:0;}
+.st_wrap .stpexplan ul li{margin:0;padding:0;}
+
+/* Options - Input Color   */
+.box_color{display:block;width:20px;height:20px;border:1px solid #ccc;}
+
+/* Auto tags   */
+.st_wrap .adv-tags-input{width:98%;margin:3px 0;padding:3px 5px;}
+
+/* Mass Edit Tags   */
+.st_wrap input.tags_input{width:90%;margin:3px 0 8px;padding:3px 10px;}
+
+/* Suggested Click Tags   */
+a#open_clicktags,a#close_clicktags{font-weight:700;color:red;border:0;text-decoration:none;display:block;margin-bottom:5px;}
+a#close_clicktags{display:none;}
+
+/* Ajax Click Tags   */
+#st-clicks-tags .container_clicktags{border:3px dashed #D1E6EF;display:none;max-height:300px;overflow:auto;margin:3px 0 0;padding:6px;}
+#st-clicks-tags .container_clicktags .used_term{-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";filter: alpha(opacity=50); opacity: 0.5;}
+
+/* Click Tags   */
+.container_clicktags{display:block;}
+.container_clicktags span{display:block;float:left;background:#f0f0ee;border:solid 1px;color:#333;cursor:pointer;border-color:#ccc #999 #999 #ccc;margin:3px;padding:3px 4px 3px 22px;}
+.container_clicktags span:hover{color:#000;background:#b6bdd2;border-color:#0a246a;}
+.container_clicktags span.ttn_topic{background:#f0f0ee url(../images/tag_blue.png) 3px 50% no-repeat;}
+.container_clicktags span.ttn_location{background:#f0f0ee url(../images/map.png) 3px 50% no-repeat;}
+.container_clicktags span.ttn_person{background:#f0f0ee url(../images/user.png) 3px 50% no-repeat;}
+.container_clicktags span.yahoo{background:#f0f0ee url(../images/yahoo_logo.gif) 3px 50% no-repeat;}
+.container_clicktags span.local{background:#f0f0ee url(../images/tag_purple.png) 3px 50% no-repeat;}
+.container_clicktags span.ttn_topic:hover{background:#b6bdd2 url(../images/tag_blue.png) 3px 50% no-repeat;}
+.container_clicktags span.ttn_location:hover{background:#b6bdd2 url(../images/map.png) 3px 50% no-repeat;}
+.container_clicktags span.ttn_person:hover{background:#b6bdd2 url(../images/user.png) 3px 50% no-repeat;}
+.container_clicktags span.yahoo:hover{background:#b6bdd2 url(../images/yahoo_logo.gif) 3px 50% no-repeat;}
+.container_clicktags span.local:hover{background:#b6bdd2 url(../images/tag_purple.png) 3px 50% no-repeat;}
+
+/* Advanced tags input   */
+#adv-tags-input{padding:3px 5px;}
+
+/* Manage page */
+#term-list{float:left;width:20%;}
+#term-list-inner{padding-top:10px;text-align:center;}
+#term-list-inner a{text-decoration:none;}
+#term-list-inner a:hover{text-decoration:underline;}
+#manage-table-terms{float:left;width:75%;clear:none;margin-left:2%;}
+
+/* Autocomplete */
+.ac_over { background-color: #0A246A; color: white !important; }

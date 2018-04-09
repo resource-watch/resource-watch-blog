@@ -1,0 +1,397 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: maintenance\n"
+"POT-Creation-Date: 2017-03-09 17:15+0200\n"
+"PO-Revision-Date: 2017-03-09 17:15+0200\n"
+"Last-Translator: \n"
+"Language-Team: fruitfulcode\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: includes/admin.php:6 includes/admin.php:76 includes/functions.php:618
+msgid "Maintenance"
+msgstr "صيانة"
+
+#: includes/admin.php:76 includes/admin.php:93
+msgid "Save changes"
+msgstr "حفظ التغيرات"
+
+#: includes/functions.php:183
+msgid "Standard Fonts"
+msgstr "مستوى الخطوط"
+
+#: includes/functions.php:190
+msgid "Google Web Fonts"
+msgstr ""
+
+#: includes/functions.php:240
+msgid "General Settings"
+msgstr "الإعدادات العامة"
+
+#: includes/functions.php:241
+msgid "Custom CSS"
+msgstr " حسب الطلب CSS"
+
+#: includes/functions.php:242
+msgid "Exclude pages from maintenance mode"
+msgstr "استبعاد صفحات من وضع الصيانة"
+
+#: includes/functions.php:248
+msgid "Pro version"
+msgstr "نسخة للمحترفين"
+
+#: includes/functions.php:255
+msgid "Fruitful Code projects"
+msgstr "مشاريع كود مثمرة"
+
+#: includes/functions.php:261
+msgid "Support"
+msgstr "الدعم"
+
+#: includes/functions.php:267
+msgid "Translation"
+msgstr "ترجمة"
+
+#: includes/functions.php:290
+msgid "Page title"
+msgstr "عنوان الصفحة"
+
+#: includes/functions.php:291
+msgid "Headline"
+msgstr "عنوان رئيسي"
+
+#: includes/functions.php:292
+msgid "Description"
+msgstr "وصف"
+
+#: includes/functions.php:293
+msgid "Footer Text"
+msgstr "نص تذييل"
+
+#: includes/functions.php:294
+msgid "Set Logo width"
+msgstr "مجموعة عرض الشعار"
+
+#: includes/functions.php:295
+msgid "Set Logo height"
+msgstr "مجموعة ارتفاع الشعار"
+
+#: includes/functions.php:296
+msgid "Logo"
+msgstr "شعار"
+
+#: includes/functions.php:296
+msgid "Upload Logo"
+msgstr "تحميل الشعار"
+
+#: includes/functions.php:297
+msgid "Retina logo"
+msgstr "شبكية العين شعار"
+
+#: includes/functions.php:297
+msgid "Upload Retina Logo"
+msgstr "تحميل الشبكية شعار"
+
+#: includes/functions.php:301
+msgid "Show admin bar"
+msgstr "عرض شريط المشرف"
+
+#: includes/functions.php:302
+msgid "503"
+msgstr "503"
+
+#: includes/functions.php:302
+msgid "Service temporarily unavailable, Google analytics will be disable."
+msgstr "الخدمة غير متوفرة مؤقتا، سيتم تعطيل تحليلات جوجل."
+
+#: includes/functions.php:309
+msgid "Google Analytics ID"
+msgstr "Google Analytics ID"
+
+#: includes/functions.php:309
+msgid "UA-XXXXX-X"
+msgstr "UA-XXXXX-X"
+
+#: includes/functions.php:310
+msgid "Set blur intensity"
+msgstr "تعيين كثافة طمس"
+
+#: includes/functions.php:316
+msgid "Apply background blur"
+msgstr "تطبيق طمس الخلفية"
+
+#: includes/functions.php:317
+msgid "Enable frontend login"
+msgstr "تمكين تسجيل الدخول الواجهة"
+
+#: includes/functions.php:329
+msgid "CSS Code"
+msgstr "كود CSS"
+
+#: includes/functions.php:343
+msgid "Select the page to be displayed:"
+msgstr "حدد الصفحة للظهور:"
+
+#: includes/functions.php:407
+msgid "Background image"
+msgstr "الصورة الخلفية"
+
+#: includes/functions.php:407
+msgid "Upload Background"
+msgstr "تحميل خلفية"
+
+#: includes/functions.php:413
+msgid "Background color"
+msgstr "لون الخلفية"
+
+#: includes/functions.php:414
+msgid "Font color"
+msgstr "لون الخط"
+
+#: includes/functions.php:421
+msgid "Font family"
+msgstr "خط العائلة"
+
+#: includes/functions.php:426
+msgid "Subsets"
+msgstr "فرعية"
+
+#: includes/functions.php:434
+msgid "Have any questions?"
+msgstr "لديك أي أسئلة؟"
+
+#: includes/functions.php:435
+#, php-format
+msgid ""
+"You may find answers to your questions at <a target=\"_blank\" href=\"http://"
+"support.fruitfulcode.com/hc/en-us/sections/200406386\">support forum</"
+"a><br>You may  <a target=\"_blank\" href=\"http://support.fruitfulcode.com/"
+"hc/en-us/requests/new\">contact us</a> with customization requests and "
+"suggestions.<br> Please visit our website to learn about us and our services "
+"<a href=\"%1$s\" title=\"%2$s\">%2$s</a>"
+msgstr ""
+"قد تجد إجابات على أسئلتك في <a target=\"_blank\" href=\"http://support."
+"fruitfulcode.com/hc/en-us/sections/200406386\"> منتدى الدعم  <br></"
+"a>يمكنك    <a target=\"_blank\" href=\"http://support.fruitfulcode.com/hc/en-"
+"us/requests/new\"> اتصل بنا </a> مع طلبات التخصيص والاقتراحات.  <br> يرجى "
+"زيارة موقعنا على الانترنت لمعرفة المزيد عن لنا وخدماتنا <a href=\"%1$s\" "
+"title=\"%2$s\">%2$s</a>"
+
+#: includes/functions.php:446
+msgid "This plugin is translation friendly"
+msgstr "هذا هو البرنامج المساعد الترجمة دية"
+
+#: includes/functions.php:447
+#, php-format
+msgid ""
+"Want to improve translation or make one for your native language? <a href="
+"\"%1$s\" title=\"%2$s\">%2$s</a>"
+msgstr ""
+"ترغب في تحسين الترجمة أو جعل واحدة لغتك الأم؟ <a href=\"%1$s\" title=\"%2$s"
+"\">%2$s</a>"
+
+#: includes/functions.php:449
+msgid "Follow this tutorial"
+msgstr "اتبع هذا البرنامج التعليمي"
+
+#: includes/functions.php:458
+msgid "Premium WordPress themes"
+msgstr "قسط المواضيع وورد"
+
+#: includes/functions.php:464
+msgid "ANAGLYPH - One page / Multi Page WordPress Theme"
+msgstr "ANAGLYPH - صفحة واحدة / متعدد صفحة وورد موضوع"
+
+#: includes/functions.php:469
+msgid "Love.ly - Simple & Elegant WordPress theme"
+msgstr "Love.ly - موضوع بسيط وأنيق وورد"
+
+#: includes/functions.php:475
+msgid "Zoner - Real Estate WordPress theme"
+msgstr "Zoner - عقارات وورد موضوع"
+
+#: includes/functions.php:488
+msgid "Extended functionality"
+msgstr "وظائف الموسعة"
+
+#: includes/functions.php:489
+#, php-format
+msgid ""
+"Purchase <a href=\"http://codecanyon.net/item/maintenance-wordpress-"
+"plugin/2781350?ref=fruitfulcode\" target=\"_blank\">PRO</a> version  with "
+"extended functionality. %1$s If you like our plugin please <a target=\"_blank"
+"\" href=\"http://wordpress.org/support/view/plugin-reviews/maintenance?"
+"filter=5\">rate it</a>, <a title=\"leave feedbacks\" href=\"%2$s\" target="
+"\"_blank\">leave feedbacks</a>."
+msgstr ""
+"شراء <a href=\"http://codecanyon.net/item/maintenance-wordpress-"
+"plugin/2781350?ref=fruitfulcode\" target=\"_blank\"> محترف </a> نسخة مع "
+"وظائف الموسعة.  %1$s إذا كنت ترغب المساعد لدينا من فضلك  <a target=\"_blank"
+"\" href=\"http://wordpress.org/support/view/plugin-reviews/maintenance?"
+"filter=5\"> قيمه </a>,  <a title=\"leave feedbacks\" href=\"%2$s\" target="
+"\"_blank\"> ترك الاصداء .</a>"
+
+#: includes/functions.php:493
+msgid "Demo website"
+msgstr "الموقع التجريبي"
+
+#: includes/functions.php:618
+msgid " is "
+msgstr ""
+
+#: includes/functions.php:683
+msgid "Website is under construction"
+msgstr "الموقع قيد الإنشاء"
+
+#: includes/functions.php:684
+msgid "Maintenance mode is on"
+msgstr "وضع الصيانة على"
+
+#: includes/functions.php:685
+msgid "Website will be available soon"
+msgstr "سيكون الموقع متاحا في وقت قريب"
+
+#: load/functions.php:39
+msgid "Permission access denied!"
+msgstr "وصول تم رفض الإذن!"
+
+#: load/functions.php:53
+msgid "You entered your login are incorrect!"
+msgstr "لقد أدخلت تسجيل الدخول الخاصة بك غير صحيحة!"
+
+#: load/functions.php:57
+msgid "You entered your password are incorrect!"
+msgstr "لقد أدخلت كلمة المرور غير صحيحة!"
+
+#: load/functions.php:60
+msgid "You entered your login and password are incorrect!"
+msgstr "لقد أدخلت اسم المستخدم وكلمة المرور غير صحيحة!"
+
+#: load/functions.php:120
+msgid "Please verify that you are not a robot."
+msgstr ""
+
+#: load/functions.php:308
+msgid "User Login"
+msgstr "دخول المستخدم"
+
+#: load/functions.php:309
+msgid "Username"
+msgstr "اسم المستخدم"
+
+#: load/functions.php:310
+msgid "Password"
+msgstr "كلمه السر"
+
+#: load/functions.php:311
+msgid "Lost Password"
+msgstr "كلمة مرور مفقودة"
+
+#: load/functions.php:312
+msgid "Login"
+msgstr "تسجيل الدخول"
+
+#~ msgid "Not available object."
+#~ msgstr "كائن غير متوفر."
+
+#~ msgid "Exclude pages"
+#~ msgstr "Vyloučit stránky z režimu údržby"
+
+#~ msgid "Choose Logo width"
+#~ msgstr "اختيار عرض الشعار"
+
+#~ msgid "Choose Logo height"
+#~ msgstr "اختيار ارتفاع الشعار"
+
+#~ msgid "Blur intensity"
+#~ msgstr "كثافة طمس"
+
+#~ msgid "Enable login"
+#~ msgstr "تمكين تسجيل الدخول"
+
+#~ msgid "Put Login On"
+#~ msgstr "وضع الدخول في"
+
+#~ msgid "Logo width"
+#~ msgstr "عرض الشعار"
+
+#~ msgid "Logo height"
+#~ msgstr "ارتفاع الشعار"
+
+#~ msgid "Admin bar"
+#~ msgstr "شريط المشرف"
+
+#~ msgid "Background blur"
+#~ msgstr "طمس الخلفية"
+
+#~ msgid "Apply a blur"
+#~ msgstr "تطبيق طمس"
+
+#~ msgid "Login On / Off"
+#~ msgstr "تسجيل الدخول تشغيل / إيقاف"
+
+#~ msgid "Service temporarily unavailable, Google analytics will be disable"
+#~ msgstr "الخدمة غير متوفرة مؤقتا، سيتم تعطيل تحليلات جوجل"
+
+#~ msgid "Sign In"
+#~ msgstr "تسجيل الدخول"
+
+#~ msgid "maintenance"
+#~ msgstr "صيانة"
+
+#~ msgid "Contact support"
+#~ msgstr "اتصل بالدعم"
+
+#~ msgid ""
+#~ "If you faced with any problems, have a question or suggestion you always "
+#~ "can contact us with any request on our website <a href=\"%1$s\" title="
+#~ "\"%2$s\">%2$s</a>"
+#~ msgstr ""
+#~ "إذا كنت تواجه أي مشاكل، لديك سؤال أو اقتراح يمكنك دائما الاتصال بنا مع أي "
+#~ "طلب على موقعنا على الانترنت <a href=\"%1$s\" title=\"%2$s\">%2$s</a>"
+
+#~ msgid ""
+#~ "If you like our plugin please rate it, %1$s <a title=\"leave feedback\" "
+#~ "href=\"%2$s\" target=\"_blank\">leave feedback</a> or purchase extended "
+#~ "version %1$s with more other features."
+#~ msgstr ""
+#~ "إذا كنت ترغب المساعد لدينا يرجى معدل لها  <a title=\"leave feedback\" "
+#~ "href=\"%2$s\" target=\"_blank\"> اترك تقييم للخدمة </a> أو شراء نسخة "
+#~ "موسعة %1$s مع المزيد من الميزات الأخرى."
+
+#~ msgid "Purchase"
+#~ msgstr "شراء"
+
+#~ msgid "We have time until launch"
+#~ msgstr "لدينا الوقت حتى إطلاق"
+
+#~ msgid "Be first of your friends who will know when the website goes live."
+#~ msgstr "كن أول من أصدقائك الذين سوف نعرف متى يذهب الموقع مباشرة."
+
+#~ msgid "Check out our extended version of plugin with new features"
+#~ msgstr "تحقق من نسخة موسعة لدينا من البرنامج المساعد مع ميزات جديدة"
+
+#~ msgid "Your session has expired."
+#~ msgstr "انتهت جلسة العمل الخاصة بك."
+
+#~ msgid "Customer login"
+#~ msgstr "تسجيل الدخول العملاء"
+
+#~ msgid "Please login to see website"
+#~ msgstr "الرجاء الدخول لمعرفة الموقع"
+
+#~ msgid "User roles"
+#~ msgstr "أدوار المستخدمين"
+
+#~ msgid "Choose users access permissions in maintenance mode."
+#~ msgstr "اختيار أذونات للمستخدمين الوصول في وضع الصيانة."

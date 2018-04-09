@@ -1,0 +1,334 @@
+.suva a,
+.suva a:active,
+.suva a:focus,
+.suva .tg-item-cart-button a,
+.suva .tg-item-media-holder,
+.suva .tg-item-content-inner,
+.suva .tg-item-title,
+.suva .tg-item-price,
+.suva .tg-item-on-sale,
+.suva .yith-wcwl-add-to-wishlist,
+.suva .tg-item-cart-button,
+.suva .tg-item-rating {
+	text-decoration: none;
+    border: none;
+	-webkit-box-shadow: none;
+    box-shadow: none;
+	-webkit-transition: opacity 0.5s ease, color 0.35s ease, -webkit-transform 0.5s cubic-bezier(.37,1.02,.44,1.38);
+	-moz-transition: opacity 0.5s ease, color 0.35s ease, -moz-transform 0.5s cubic-bezier(.37,1.02,.44,1.38);
+	-ms-transition: opacity 0.5s ease, color 0.35s ease, -ms-transform 0.5s cubic-bezier(.37,1.02,.44,1.38);
+	-o-transition: opacity 0.5s ease, color 0.35s ease, -o-transform 0.5s cubic-bezier(.37,1.02,.44,1.38);
+	transition: opacity 0.5s ease, color 0.35s ease, transform 0.5s cubic-bezier(.37,1.02,.44,1.38);
+}
+.suva .tg-item-link {
+	position: absolute;
+    display: block;
+    top: -1000%;
+    left: 0;
+    width: 100%;
+    height: 2000%;
+}
+.suva .tg-item-content-inner,
+.suva .tg-item-media-holder,
+.suva .tg-item-overlay {
+	position: absolute;
+	overflow: hidden;
+	display: block;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	text-align: center;
+}
+.suva .tg-item-content-inner {
+	opacity: 0;
+	overflow: hidden;
+}
+.suva:hover .tg-item-content-inner {
+	opacity: 1;
+}
+.suva .tg-alternative-product-image {
+	position: absolute;
+	display: block;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+}
+.suva:hover .tg-alternative-product-image {
+	opacity: 1;
+}
+.suva .tg-item-title,
+.suva .tg-item-title a {
+	position: relative;
+    font-size: 18px;
+	line-height: 24px;
+	font-weight: normal;
+	margin: 0 !important;
+	padding: 0 !important;
+}
+.suva .tg-item-title {
+	opacity: 0;
+	-webkit-transform: translate3d(-70px,0,0);
+	-moz-transform: translate3d(-70px,0,0);
+	-0-transform: translate3d(-70px,0,0);
+    transform: translate3d(-70px,0,0);
+	margin: 5px 30px 5px 30px !important;
+}
+.suva .tg-item-price {
+	opacity: 0;
+	-webkit-transform: translate3d(70px,0,0);
+	-moz-transform: translate3d(70px,0,0);
+	-0-transform: translate3d(70px,0,0);
+    transform: translate3d(70px,0,0);
+}
+.suva .tg-item-rating {
+	opacity: 0;
+	-webkit-transform: translate3d(0,35px,0);
+	-moz-transform: translate3d(0,35px,0);
+	-0-transform: translate3d(0,35px,0);
+    transform: translate3d(0,35px,0);
+}
+.suva .yith-wcwl-add-to-wishlist {
+	-webkit-transform: scale3d(0.5,0.5,0.5);
+	-moz-transform: scale3d(0.5,0.5,0.5);
+	-0-transform: scale3d(0.5,0.5,0.5);
+    transform: scale3d(0.5,0.5,0.5);
+}
+.suva .tg-item-cart-button a {
+	opacity: 0;
+	-webkit-transform: matrix3d(0.8, 0, 0, 0, 0, 0, 0.8, -0.0007, 0, -1, 0, 0, 0, 0, 0, 1);
+	-moz-transform: matrix3d(0.8, 0, 0, 0, 0, 0, 0.8, -0.0007, 0, -1, 0, 0, 0, 0, 0, 1);
+	-ms-transform: matrix3d(0.8, 0, 0, 0, 0, 0, 0.8, -0.0007, 0, -1, 0, 0, 0, 0, 0, 1);
+	-o-transform: matrix3d(0.8, 0, 0, 0, 0, 0, 0.8, -0.0007, 0, -1, 0, 0, 0, 0, 0, 1);
+	transform: matrix3d(0.8, 0, 0, 0, 0, 0, 0.8, -0.0007, 0, -1, 0, 0, 0, 0, 0, 1);
+}
+.suva:hover .yith-wcwl-add-to-wishlist,
+.suva:hover .tg-item-cart-button a,
+.suva:hover .tg-item-rating,
+.suva:hover .tg-item-title,
+.suva:hover .tg-item-price {
+	opacity: 1;
+	-webkit-transform: translate3d(0,0,0);
+	-moz-transform: translate3d(0,0,0);
+	-0-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+}
+.suva .no-margin .tg-item-title {
+	margin: 0 30px 5px 30px !important;
+}
+.suva .tg-cats-holder {
+	position: relative;
+	display: block;
+	margin: 0 30px 10px 30px;
+	font-size: 13px;
+	line-height: 18px;
+}
+.suva .tg-cats-holder span {
+	font-style: italic;
+}
+.suva .tg-item-rating,
+.suva .tg-item-rating .star-rating span {
+	position: absolute;
+	display: block;
+	overflow: hidden;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	bottom: 22px;
+	height: 18px;
+	width: 89px;
+	text-align: center;
+}
+.suva .tg-item-rating .star-rating span {
+	top: 0;
+	bottom: 0;
+	margin: 0;
+}
+.suva .tg-item-rating .star-rating {
+	position: absolute;
+    display: block;
+	overflow: hidden;
+	top: 0;
+	left: 0;
+    height: 100%;
+	width: 100%;  
+}
+.suva .tg-item-rating .star-rating:before,
+.suva .tg-item-rating .star-rating span:before {
+	position: absolute;
+	display: block;
+	overflow: hidden;
+    content: "\e636\e636\e636\e636\e636";
+    top: 0;
+    left: 0;
+	width: 89px;
+	height: 100%;
+    color: #cccccc;
+	text-align: left;
+	letter-spacing: 2px;
+	white-space: nowrap;
+	line-height: 16px;
+    font-size: 16px;
+    font-family: 'the_grid';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+}
+.suva .tg-item-rating .star-rating span:before {
+    color: #FFD700;
+}
+.suva .yith-wcwl-add-to-wishlist {
+	position: absolute;
+    top: 14px;
+    right: 14px;
+    height: 16px;
+    width: 16px;
+	margin: 0;
+	padding: 0;
+}
+.suva .yith-wcwl-add-button img {
+	display: none !important;
+}
+.suva .yith-wcwl-wishlistaddedbrowse:before,
+.suva .yith-wcwl-wishlistexistsbrowse:before {
+	content: "\f004";
+	font-family: FontAwesome;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: normal;
+	text-align: center;
+	height: 29px;
+	line-height: 29px;
+}
+.suva .add_to_wishlist:before {
+    content: "\f08a";
+    font-family: FontAwesome;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: normal;
+    text-align: center;
+    height: 29px;
+    line-height: 29px;
+}
+.suva .yith-wcwl-wishlistaddedbrowse,
+.suva .yith-wcwl-wishlistexistsbrowse {
+	color: #ff6863 !important;
+}
+.suva .yith-wcwl-add-to-wishlist > * {
+	display: none;
+	font-size: 0;
+}
+.suva .yith-wcwl-add-to-wishlist a,
+.suva .yith-wcwl-add-to-wishlist .yith-wcwl-add-button,
+.suva .yith-wcwl-add-to-wishlist .yith-wcwl-wishlistaddedbrowse,
+.suva .yith-wcwl-add-to-wishlist .yith-wcwl-wishlistexistsbrowse,
+.suva .yith-wcwl-add-to-wishlist *:before {
+    position: absolute;
+	overflow: hidden;
+    display: block;
+	z-index: 0;
+    width: 17px;
+    height: 17px;
+    top: 0;
+    left: 0;
+    font-size: 0;
+    line-height: 0;
+    padding: 0;
+    text-align: center;
+    line-height: 17px;
+}
+.suva .yith-wcwl-add-to-wishlist *:before {
+    font-size: 15px;
+}
+.suva .tg-item-cart-button,
+.suva .tg-item-cart-button a {  
+	position: relative;
+    display: block;
+	overflow: hidden;
+	padding: 0 !important;
+    margin: 0 !important;
+    border: none !important;
+    outline: none !important;
+    text-transform: uppercase;
+    font-weight: 600;
+	line-height: 28px !important;
+    background: none !important;
+    box-shadow: none;
+}
+.suva .added_to_cart:before {
+	content: "\e612";
+    font-size: 20px;
+    line-height: 45px;
+    position: relative;
+    display: inline-block;
+	top: 2px;
+    padding: 0 8px 0 0;
+    line-height: 0;
+    text-indent: 0;
+    font-size: 14px;
+    font-size: 16px;
+    text-align: center;
+    font-family: 'the_grid';
+    speak: none;
+    font-style: normal;
+    font-weight: 600;
+    font-variant: normal;
+    text-transform: none;
+}
+.suva .tg-item-cart-button a:hover {
+	opacity: 0.8;
+}
+.suva .add_to_cart_button.added {
+	display: none;
+}
+.suva .tg-item-cart-button {
+	margin: 24px 0 0 0!important;
+}
+.suva .added_to_cart {
+    position: relative;
+    display: block;
+    line-height: 28px;
+}
+.suva .tg-item-price {
+    position: relative;
+    display: block;
+    padding: 0;
+    margin: 0;
+    line-height: 1;
+}
+.suva .tg-item-price span {
+	font-size: 24px;
+	font-weight: 600;
+}
+.suva .tg-item-price del span {
+	font-size: 16px;
+	font-weight: normal;
+	color: inherit !important;
+}
+.suva .tg-item-price ins {
+    text-decoration: none;
+}
+.suva .tg-item-on-sale {
+	position: absolute;
+	opacity: 1;
+	top: 24px;
+	left: 14px;
+	width: auto;
+}
+.suva:hover .tg-item-on-sale {
+	opacity: 0;
+}
+.suva .tg-item-on-sale span {
+	margin: 0;
+	padding: 16px 10px;
+	color: #ffffff !important;
+	background: #FF4F57;
+	font-size: 12px;
+	text-transform: uppercase;
+	font-weight: 600;
+	border-radius: 50%;
+}

@@ -1,0 +1,212 @@
+.maren a,
+.maren a:active,
+.maren a:focus,
+.maren .tg-share-icons i {
+	text-decoration: none;
+    border: none;
+	-webkit-box-shadow: none;
+    box-shadow: none;
+	-webkit-transition: opacity 0.25s ease, color 0.25s ease;
+	-moz-transition: opacity 0.25s ease, color 0.25s ease;
+	-ms-transition: opacity 0.25s ease, color 0.25s ease;
+	-o-transition: opacity 0.25s ease, color 0.25s ease;
+	transition: opacity 0.25s ease, color 0.25s ease;
+}
+.maren a:not(.mejs-volume-slider):hover {
+	opacity: 0.85;
+}
+.maren .tg-center-holder {
+	text-align: center;
+}
+.maren .tg-item-content-holder {
+	position: relative;
+	display: block;
+	padding: 22px 24px 14px 24px;
+	text-align: left;
+}
+.maren .tg-item-date,
+.maren .tg-cats-holder {
+	position: relative;
+	display: inline;
+    padding: 0 10px 0 0;
+	font-size: 13px;
+	font-weight: normal;
+	line-height: 16px;
+}
+.maren .tg-cats-holder * {
+	position: relative;
+}
+.maren .tg-cats-holder:before {
+    position: relative;
+    display: inline-block;
+	padding: 0 10px 0 0;
+    content: '/';
+    line-height: 22px;
+}
+.maren .tg-item-title,
+.maren .tg-item-title a {
+	position: relative;
+    display: block;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 1px;
+    font-weight: 600;
+	margin: 6px 0 0 0 !important;
+	padding: 0 !important;
+    text-transform: uppercase;
+}
+.maren .tg-item-title a {
+	margin: 0 !important;
+}
+.maren .tg-item-excerpt {
+	margin: 18px 0;
+	padding: 0;
+	font-size: 13px;
+	line-height: 23px;
+}
+.maren .tg-item-read-more,
+.maren .tg-item-read-more * {
+	position: relative;
+	display: inline-block;
+	vertical-align: top;
+	font-size: 13px;
+    line-height: 18px;
+    font-weight: 600;
+	padding: 0;
+}
+.maren .tg-item-read-more i {
+	padding: 0 0 0 4px;
+}
+.maren .tg-item-overlay {
+	position: absolute;
+	top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;	
+}
+.maren .tg-media-button,
+.maren .tg-link-button {
+	position: relative;
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	margin: 10px;
+	cursor: pointer;
+	opacity: 0;
+	font-size: 22px;
+	line-height: 40px;
+}
+.maren .tg-media-button i,
+.maren .tg-link-button i {
+	position: absolute;
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    width: 40px;
+}
+.maren .tg-icon-add {
+	font-size: 30px;
+}
+.maren .tg-item-footer {
+	position: relative;
+    display: inline-block;
+    width: 100%;
+	margin: 20px 0 0 0;
+	line-height: 25px;
+}
+.maren .quote-format .tg-item-footer,
+.maren .link-format .tg-item-footer {
+	margin: 38px 0 0 0;
+}
+.maren .tg-item-author {
+	position: relative;
+    display: inline-block;
+	float: left;
+	font-size: 13px;
+	font-style: italic;
+	font-weight: 600;
+}
+.maren .tg-item-comment {
+	position: relative;
+    display: inline-block;
+	float: right;
+	font-size: 13px;
+}
+.maren .tg-item-comment i {
+	position: relative;
+    padding: 0 6px;
+    top: 2px;
+    font-size: 15px;
+}
+.maren .tg-quote-icon,
+.maren .tg-link-icon {
+	position: relative;
+	display: block;
+	font-size: 24px;
+    margin: 0 0 28px 0;	
+}
+.maren .tg-link-content a,
+.maren .tg-quote-content a {
+	display: block;
+	margin: 18px 0 8px 0 !important;
+	text-transform: none;
+	font-size: 18px;
+	font-style: italic;
+	line-height: 24px;
+	letter-spacing: 0.5px;
+}
+.maren .tg-quote-author,
+.maren .tg-link-url {
+	position: relative;
+    display: block;
+    margin: 0;
+    font-size: 13px;
+	font-style: italic; 
+}
+.maren .tg-quote-author:before {
+	content: '\2012';
+	position: relative;
+    display: inline-block;
+    margin: 0;
+	padding: 0 5px 0 0;
+}
+.maren .tg-media-button {	
+	-webkit-transform: translate3d(-40px,0,0);
+	-moz-transform: translate3d(-40px,0,0);
+	-ms-transform: translate3d(-40px,0,0);
+	-o-transform: translate3d(-40px,0,0);
+	transform: translate3d(-40px,0,0);
+}
+.maren .tg-link-button {
+	-webkit-transform: translate3d(40px,0,0);
+	-moz-transform: translate3d(40px,0,0);
+	-ms-transform: translate3d(40px,0,0);
+	-o-transform: translate3d(40px,0,0);
+	transform: translate3d(40px,0,0);
+}
+.maren .tg-item-overlay,
+.maren .tg-media-button,
+.maren .tg-link-button {
+	opacity: 0;
+	-webkit-transition: opacity 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+	-moz-transition: opacity 0.3s ease-in-out, -moz-transform 0.3s ease-in-out;
+	-ms-transition: opacity 0.3s ease-in-out, -ms-transform 0.3s ease-in-out;
+	-o-transition: opacity 0.3s ease-in-out, -o-transform 0.3s ease-in-out;
+	transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+.maren .tg-item-media-holder:hover .tg-item-overlay,
+.maren .tg-item-media-holder:hover .tg-media-button,
+.maren .tg-item-media-holder:hover .tg-link-button {
+	opacity: 1;
+	-webkit-transform: translate3d(0,0,0);
+	-moz-transform: translate3d(0,0,0);
+	-ms-transform: translate3d(0,0,0);
+	-o-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+.maren.tg-is-playing .tg-item-overlay,
+.maren.tg-force-play .tg-item-overlay {
+	pointer-events: none;
+	opacity: 0 !important;
+}

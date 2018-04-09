@@ -1,0 +1,570 @@
+/* ------------------------------------------ */
+/* Icons position
+/* ------------------------------------------ */
+
+.mejs-button button { background-size: 232px 16px; }
+.mejs-play button  { background-position: -96px 0; }
+.mejs-pause button { background-position: -120px 0; }
+.mejs-stop button  { background-position: -144px 0; }
+.mejs-controls .mejs-loop-off button { background-position: -36px 0; }
+.mejs-mute button { background-position: -168px 0; }
+.mejs-unmute button { background-position: -192px 0; }
+.mejs-controls .mejs-fullscreen-button button { background-position: -24px 0; }
+.mejs-controls .mejs-fullscreen-button.mejs-fullscreen button { background-position: -24px 0; }
+.mejs-controls .mejs-fullscreen-button.mejs-unfullscreen button { background-position: -48px 0; }
+.mejs-controls .mejs-sourcechooser-button button { background-position: -72px 0; }
+.mejs-controls .mejs-loop-off button { background-position: 0 0; }
+.mejs-controls .mejs-loop-on button { background-position: 0 0; }
+
+/* ------------------------------------------ */
+/* Colors
+/* ------------------------------------------ */
+.mejs-container,
+.mejs-video .mejs-mediaelement {
+	background-color: #000000;
+}
+.mejs-overlay-button,
+.mejs-overlay-loading,
+.mejs-controls,
+.mejs-controls .mejs-sourcechooser-button .mejs-sourcechooser-selector ul,
+.mejs-controls .mejs-volume-button .mejs-volume-slider {
+    background-color: #2A2A2A;
+}
+/*** accent color ***/
+.mejs-controls .mejs-time-rail .mejs-time-current,
+.mejs-controls .mejs-time-rail .mejs-time-handle,
+.mejs-controls .mejs-volume-slider .mejs-volume-current,
+.mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-current,
+.mejs-controls .mejs-sourcechooser-button .mejs-sourcechooser-selector ul li input:checked + label,
+.mejs-controls .mejs-sourcechooser-button .mejs-sourcechooser-selector ul li:hover label,
+.mejs-controls .mejs-sourcechooser-button .mejs-sourcechooser-selector ul li label.active {
+    background-color: #ffffff !important;
+}
+.mejs-controls .mejs-time-rail .mejs-time-total {
+	background-color: rgba(255, 255, 255, 0.1);
+}
+.mejs-controls .mejs-time-rail .mejs-time-loaded {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+.mejs-controls .mejs-volume-button .mejs-volume-slider .mejs-volume-total,
+.mejs-horizontal-volume-slider .mejs-horizontal-volume-total {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+.mejs-controls .mejs-sourcechooser-button .mejs-sourcechooser-selector:after {
+    border-color: #2A2A2A transparent transparent transparent !important;
+}
+.mejs-controls .mejs-time-rail .mejs-time-float-corner {
+    border-color: #000 transparent transparent transparent !important;
+}
+.mejs-controls .mejs-time-rail .mejs-time-float {
+    background-color: #000000;
+}
+.mejs-controls .mejs-time-rail .mejs-time-float-current,
+.mejs-controls .mejs-time-rail span {
+	color: #f5f6fa !important;
+}
+.mejs-controls .mejs-sourcechooser-button .mejs-sourcechooser-selector ul li label {
+	color: #bbbbbb;
+}
+.mejs-controls span,
+.mejs-controls .mejs-sourcechooser-button .mejs-sourcechooser-selector ul li label.active,
+.mejs-controls .mejs-sourcechooser-button .mejs-sourcechooser-selector ul li input:checked + label,
+.mejs-controls .mejs-sourcechooser-button .mejs-sourcechooser-selector ul li:hover label {
+    color: #444444 !important;
+}
+.mejs-controls .mejs-currenttime,
+.mejs-controls .mejs-duration {
+    color: #ffffff !important;
+}
+
+/* ------------------------------------------ */
+/* For controls bar height
+/* ------------------------------------------ */
+.mejs-wrapper {
+	padding-bottom: 48px;
+}
+.mejs-container * {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    -webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.mejs-container ul {
+	list-style: none;
+}
+
+/* ------------------------------------------ */
+/* $FULLSCREEN MODE
+/* ------------------------------------------ */
+
+.mejs-fullscreen {
+	overflow: hidden !important;
+}
+.mejs-container-fullscreen {
+    position: fixed;
+	overflow: hidden;
+	z-index: 1000;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;   
+}
+.mejs-container-fullscreen .mejs-mediaelement,
+.mejs-container-fullscreen video {
+    width: 100%;
+    height: 100%;
+}
+
+/* ------------------------------------------ */
+/* $EMBEDED VIDEO MODE
+/* ------------------------------------------ */
+
+.mejs-embed, .mejs-embed body  {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+/* ------------------------------------------ */
+/* $MISC
+/* ------------------------------------------ */
+
+.me-plugin {
+	position: absolute;
+}
+.me-cannotplay {}
+.me-cannotplay a {
+	font-weight: bold;
+}
+.me-cannotplay span {
+	padding: 15px;
+	display: none !important;
+}
+
+/* ------------------------------------------------------------------------ */
+/* $MEDIAELEMENT CONTAINER
+/* ------------------------------------------------------------------------ */
+
+.mejs-container {
+    position: relative;
+    text-align: left;
+    vertical-align: top;
+    height: auto;
+    font-family: Helvetica, Arial;
+	outline: none !important;
+}
+.mejs-video .mejs-mediaelement {
+	cursor: pointer;
+}
+
+/* ------------------------------------------ */
+/* $INNER CONTAINER
+/* ------------------------------------------ */
+
+.mejs-inner {
+	position: relative;
+    width: 100%;
+    height: 100%;
+}
+.mejs-mediaelement {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+.mejs-mediaelement audio,
+.mejs-mediaelement video {
+	display: block;
+}
+.mejs-overlay {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100% !important;
+    height: 100% !important;
+}
+.mejs-poster {
+	position: absolute;
+	display: block;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+:root .mejs-poster img { display: none; }
+.mejs-poster img {
+	border: 0;
+	vertical-align: middle;
+}
+.mejs-overlay-loading {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	margin: -30px 0 0 -30px;
+}
+.mejs-overlay-loading span {
+	position: relative;
+	display: block;
+	width: 100%;
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;                    
+}
+.mejs-overlay-play { cursor: pointer; }
+.mejs-overlay-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 60px !important;
+    height: 60px !important;
+    border-radius: 50%;
+    margin-top: -30px !important;
+    margin-left: -30px;
+    background-position: -282px 50%;
+    background-size: 700px;
+    opacity: 1 !important;
+    background-repeat: no-repeat;                  
+}
+.mejs-overlay-loading {
+	display: none !important;
+}
+.mejs-overlay:hover .mejs-overlay-button {  }
+.mejs-controls {
+	position: absolute;
+	height: 48px;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 100% !important;
+	min-width: 100% !important;
+	padding: 0 18px;
+}
+.mejs-container-fullscreen .mejs-controls {
+	bottom: 0;
+}
+.mejs-controls > div {
+	position: relative;
+	display: block;
+	float: left;
+	font-size: 11px;
+}
+.mejs-controls > div,
+.mejs-controls > div + div {
+	margin-left: 18px;
+}
+.mejs-controls > div:first-child {
+	margin-left: 0;
+}
+.mejs-overlay-button,
+.mejs-button button {
+	display: block;
+	height: 16px;
+	width: 16px;
+	margin-top: 16px;
+	padding: 0;
+	border: 0;
+	background-repeat: no-repeat;
+	font-size: 0;
+	line-height: 0;
+	opacity: 0.7;
+	cursor: pointer;
+    background-image: url(sprite.svg);
+	background-color: transparent !important;
+	-webkit-transition: opacity 0.2s linear;
+	-moz-transition: opacity 0.2s linear;
+	-ms-transition: opacity 0.2s linear;
+	-o-transition: opacity 0.2s linear;
+    transition: opacity 0.2s linear;
+}
+.mejs-button button:hover { opacity: 1; }
+.mejs-playpause-button {}
+.mejs-play {} /* Class when playing. */
+.mejs-play {} /* Class when paused. */
+.mejs-stop {} /* Stop button. */
+.mejs-playpause-button button {}
+.mejs-controls .mejs-time {}
+.mejs-time span {
+	display: block;
+	float: left;
+}
+.mejs-time .mejs-currenttime {
+	line-height: 48px;
+}
+/* Loop button (extra plugin) */
+.mejs-controls .mejs-loop-button {}
+.mejs-controls .mejs-loop-off button {
+	opacity: 0.5 !important;
+}
+
+.mejs-controls .mejs-loop-on button,
+.mejs-controls .mejs-loop-off button:hover {
+	opacity: 1 !important;
+}
+.mejs-controls .mejs-time-rail {
+	margin-left: 10px;
+}
+.mejs-controls .mejs-time-rail span {
+	display: block;
+	cursor: pointer;
+}
+.mejs-controls .mejs-time-rail .mejs-time-total {
+	position: relative;
+	margin-top: 21px;
+	height: 6px;
+}
+.mejs-controls .mejs-time-rail .mejs-time-loaded {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	transform-origin: left;
+	transform: scaleX(0);
+}
+.mejs-controls .mejs-time-rail .mejs-time-current {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	transform-origin: left;
+	transform: scaleX(0);
+}
+.mejs-controls .mejs-time-rail .mejs-time-handle {
+	display: none;
+	position: absolute;
+	height: 100%;
+	margin: 0;
+	width: 10px;
+	text-align: center;
+	cursor: pointer;
+}
+.mejs-controls .mejs-time-rail .mejs-time-float {
+	position: absolute;
+    display: none;
+	width: 36px;
+    max-width: 36px;
+    text-align: center;
+    margin-top: -25px;
+    margin-left: -16px; 
+}
+.mejs-time-float-current {
+	padding: 4px;
+    line-height: 11px;
+    font-size: 10px;
+    font-weight: 100;
+    letter-spacing: 0.2px;
+}
+.mejs-controls .mejs-time-rail .mejs-time-float-corner {
+	position: absolute;
+    display: block;
+    margin-left: -6px;
+    width: 0;
+    height: 0;
+    left: 50%;
+    bottom: -10px;
+    border: solid 6px;
+    line-height: 0;
+}
+.mejs-controls .mejs-duration-container {
+	margin-left: 10px;
+	line-height: 48px;
+}
+.mejs-controls .mejs-volume-button {}
+.mejs-controls .mejs-volume-button button {
+	position: relative;
+}
+.mejs-controls .mejs-horizontal-volume-slider {
+	position: relative;
+	display: block !important;
+    float: left;
+	height: 6px;
+	width: 60px;
+	margin-top: 21px;
+	margin-left: 5px;
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.mejs-controls .mejs-horizontal-volume-slider:hover {
+	height: 6px;
+	margin-top: 21px;
+}
+.mejs-horizontal-volume-slider .mejs-horizontal-volume-total {
+	position: absolute;
+	left: 0;
+	height: 100%;
+	width: 60px;
+}
+.mejs-horizontal-volume-slider .mejs-horizontal-volume-current {
+	position: absolute;
+	left: 0;
+	height: 100%;
+	width: 48px;
+	max-width: 100%;
+}
+.mejs-horizontal-volume-slider .mejs-horizontal-volume-handle {
+	display: none;
+}
+.mejs-controls .mejs-volume-button .mejs-volume-slider {
+	position: absolute; 
+    display: none;
+	z-index: 1;
+    height: 85px;
+    width: 24px;
+	top: -85px;
+    left: -6px;
+	margin: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;   
+}
+.mejs-controls .mejs-volume-button .mejs-volume-slider .mejs-volume-total {
+    position: absolute;
+    left: 9px;
+    top: 6px;
+    width: 6px;
+    height: 75px;
+    margin: 0;
+}
+.mejs-controls .mejs-volume-button .mejs-volume-slider .mejs-volume-current {
+    position: absolute;
+    left: 9px;
+    bottom: 4px;
+    width: 6px;
+    height: 60px;
+    margin: 0;
+}
+.mejs-controls .mejs-sourcechooser-button { 
+	position: relative; 
+	height: 48px;
+}
+.mejs-controls .mejs-sourcechooser-button .mejs-sourcechooser-selector { 
+	visibility: hidden;
+	position: absolute;
+	overflow: hidden;
+    bottom: 48px;
+    width: 50px;
+	height: auto !important;
+    right: 50%;
+    margin: 0 -25px 0 0;
+    padding-bottom: 6px;
+	-webkit-transition: opacity 0.2s ease;
+	-moz-transition: opacity 0.2s ease;
+	-ms-transition: opacity 0.2s ease;
+	-o-transition: opacity 0.2s ease;
+	transition: opacity 0.2s ease;
+}
+.mejs-controls .mejs-sourcechooser-button:hover .mejs-sourcechooser-selector { 
+	visibility: visible;
+}
+.mejs-controls .mejs-sourcechooser-button .mejs-sourcechooser-selector:after {
+	content: '';
+	display: block;
+	position: absolute;
+	bottom: -6px;
+	left: 50%;
+	margin-left: -6px;
+	width: 0;
+	height: 0;
+	border: 6px solid;
+	-moz-transform: scale(1.01);
+}
+.mejs-controls .mejs-sourcechooser-button .mejs-sourcechooser-selector ul {
+	display: block;
+	padding: 2px 2px 0 2px;
+}
+.mejs-controls .mejs-sourcechooser-button .mejs-sourcechooser-selector ul li {
+	position: relative;
+	display: block;
+	overflow: hidden;
+	text-align: center;
+	line-height: 1em;
+}
+.mejs-controls .mejs-sourcechooser-button .mejs-sourcechooser-selector ul li input {
+	position: absolute;
+    z-index: 3;
+    opacity: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    border: none;
+	cursor: pointer;
+}
+.mejs-controls .mejs-sourcechooser-button .mejs-sourcechooser-selector ul li input:checked + label,
+.mejs-controls .mejs-sourcechooser-button .mejs-sourcechooser-selector ul li:hover label {
+	cursor: pointer;
+}
+.mejs-controls .mejs-sourcechooser-button .mejs-sourcechooser-selector ul li label {
+	display: block;
+	overflow: hidden;
+	margin-bottom: 2px;
+	padding: 6px;
+	white-space: nowrap;
+	font-size: 11px;
+	letter-spacing: 0.2px;
+	-webkit-transition: background 0.2s linear, color 0.2s linear;
+    -moz-transition: background 0.2s linear, color 0.2s linear;
+    -ms-transition: background 0.2s linear, color 0.2s linear;
+    -o-transition: background 0.2s linear, color 0.2s linear;
+    transition: background 0.2s linear, color 0.2s linear;
+}
+.mejs-clear { clear: both; }
+.mejs-offscreen { display: none; }
+
+@media screen and (max-width: 480px) {
+.mejs-video .mejs-controls .mejs-horizontal-volume-slider,
+.mejs-video .mejs-button.mejs-fullscreen-button,
+.mejs-video .mejs-button.mejs-sourcechooser-button,
+.mejs-video .mejs-button.mejs-loop-button,
+.mejs-video .mejs-button.mejs-stop-button {
+    display: none !important;
+}
+.mejs-video .mejs-time-rail {
+    width: 50% !important;
+}
+.mejs-video .mejs-time-total.mejs-time-slider {
+	width: 100% !important;
+}
+.tg-item .mejs-video .mejs-controls .mejs-time-rail {
+    right: 88px !important;
+}
+}
+@media screen and (max-width: 340px) {
+.mejs-video .mejs-time-rail {
+    width: 40% !important;
+}
+}
+
+/* ------------------------------------------ */
+/* TG-ITEM time rail width
+/* ------------------------------------------ */
+
+.tg-item .mejs-controls .mejs-duration-container,
+.tg-item .mejs-controls .mejs-fullscreen-button,
+.tg-item .mejs-controls .mejs-volume-button {
+	float: right;
+}
+.tg-item .mejs-controls .mejs-time-rail {
+	position: absolute;
+    left: 80px;
+    right: 88px;
+    width: auto !important;	
+}
+.tg-item .mejs-video .mejs-controls .mejs-time-rail {
+    right: 124px;
+}
+.tg-item .mejs-controls .mejs-time-rail .mejs-time-total {
+    width: 100% !important;
+}
+.tg-item .mejs-controls .mejs-time-rail span {
+    max-width: 100% !important;
+}
+.tg-item .mejs-container:not(.mejs-container-fullscreen) .mejs-overlay-play {
+	display: none !important;
+}

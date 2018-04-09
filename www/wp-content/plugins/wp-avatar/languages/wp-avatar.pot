@@ -1,0 +1,65 @@
+# Copyright (C) 2013 TODO
+# This file is distributed under the same license as the TODO package.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Avatar\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/plugins/plugin-name\n"
+"POT-Creation-Date: 2017-11-17 11:26+0700\n"
+"PO-Revision-Date: 2014-07-07 18:52+0100\n"
+"Last-Translator: Mte90 <mte90net@gmail.com>\n"
+"Language-Team: Tomiup <tomiup.com@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.11\n"
+"Plural-Forms: nplurals=2; plural=n == 1 ? 0 : 1;\n"
+"X-Poedit-KeywordsList: __;_e;_n;_x;esc_html_e;esc_html__;esc_attr_e;"
+"esc_attr__;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_x:1,2c;_n:1,2\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: inc/plugin-functions.php:32 inc/plugin-functions.php:404
+msgid "Avatar Upload"
+msgstr ""
+
+#: inc/plugin-functions.php:47
+msgid "Allow anyone can upload avatar"
+msgstr ""
+
+#: inc/plugin-functions.php:80
+msgid "is Avatar"
+msgstr ""
+
+#: inc/plugin-functions.php:291
+msgid "Choose an Image"
+msgstr ""
+
+#: inc/plugin-functions.php:408
+msgid "Your Avatar"
+msgstr ""
+
+#: inc/plugin-functions.php:412
+msgid "Remove"
+msgstr ""
+
+#: inc/plugin-functions.php:414
+msgid "Choose Image"
+msgstr ""
+
+#: inc/plugin-functions.php:418
+msgid "Choose an image from your computer:"
+msgstr ""
+
+#: inc/plugin-functions.php:422
+msgid "Upload"
+msgstr ""
+
+#: inc/plugin-functions.php:510
+msgid ""
+"You can change your profile picture in <strong>Avatar Upload</strong> "
+"section below."
+msgstr ""

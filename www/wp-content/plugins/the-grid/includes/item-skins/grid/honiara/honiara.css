@@ -1,0 +1,189 @@
+.honiara a,
+.honiara a:active,
+.honiara a:focus,
+.honiara .tg-item-title,
+.honiara .tg-button-holder,
+.honiara .tg-item-media-holder,
+.honiara .tg-item-skin-name,
+.honiara .tg-item-content-holder {
+	text-decoration: none;
+    border: none;
+	-webkit-box-shadow: none;
+    box-shadow: none;
+	-webkit-transition: opacity 0.4s ease, color 0.25s ease, -webkit-transform 0.2s ease-in-out;
+	-moz-transition: opacity 0.4s ease, color 0.25s ease, -moz-transform 0.2s ease-in-out;
+	-ms-transition: opacity 0.4s ease, color 0.25s ease, -ms-transform 0.2s ease-in-out;
+	-o-transition: opacity 0.4s ease, color 0.25s ease, -o-transform 0.2s ease-in-out;
+	transition: opacity 0.4s ease, color 0.25s ease, transform 0.2s ease-in-out;
+}
+.tg-grid-holder .honiara {
+    -webkit-transition-property: z-index;
+    -webkit-transition-duration: 0;
+    -webkit-transition-delay:0.2s;
+	-moz-transition-property: z-index;
+    -moz-transition-duration: 0;
+    -moz-transition-delay:0.2s;
+	transition-property: z-index;
+    transition-duration: 0;
+    transition-delay:0.18s;
+}
+.tg-grid-holder .honiara:hover {
+	z-index: 2;
+	-webkit-transition-property: z-index;
+    -webkit-transition-duration: 0;
+    -webkit-transition-delay: 0s;
+	-moz-transition-property: z-index;
+    -moz-transition-duration: 0;
+    -moz-transition-delay: 0s;
+	transition-property: z-index;
+    transition-duration: 0;
+    transition-delay: 0s;
+}
+.honiara .tg-item-content-holder,
+.honiara .tg-item-overlay {
+	position: absolute;
+	display: block;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.honiara .tg-item-overlay {
+	border-radius: 50%;
+}
+.honiara .tg-item-content-holder {
+	position: absolute;
+	display: block;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 120px;
+	padding: 0;
+	-webkit-transition: -webkit-transform 0.2s ease-in-out;
+	-moz-transition: -moz-transform 0.2s ease-in-out;
+	-ms-transition: -ms-transform 0.2s ease-in-out;
+	-o-transition: -o-transform 0.2s ease-in-out;
+	transition: transform 0.2s ease-in-out;
+}
+.honiara .tg-center-holder {
+	padding: 30px;
+}
+.honiara:hover .tg-item-content-holder {
+	-webkit-transform: translateY(60px);
+	-moz-transform: translateY(60px);
+	-ms-transform: translateY(60px);
+	-o-transform: translateY(60px);
+	transform: translateY(60px);
+	-webkit-transition: -webkit-transform 0.2s ease-in-out 0.1s;
+	-moz-transition: -moz-transform 0.2s ease-in-out 0.1s;
+	-ms-transition: -ms-transform 0.2s ease-in-out 0.1s;
+	-o-transition: -o-transform 0.2s ease-in-out 0.1s;
+	transition: transform 0.2s ease-in-out 0.1s;
+}
+.honiara:hover .tg-item-skin-name,
+.honiara:hover .tg-item-media-holder {
+	-webkit-transform: translateY(-60px);
+	-moz-transform: translateY(-60px);
+	-ms-transform: translateY(-60px);
+	-o-transform: translateY(-60px);
+	transform: translateY(-60px);
+}
+.honiara .tg-item-title,
+.honiara .tg-item-title a {
+	position: relative;
+    font-size: 18px !important;
+	line-height: 20px !important;
+	font-weight: 600;
+	margin: 0 !important;
+	padding: 0 !important;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	text-align: center;
+}
+.honiara .tg-cats-holder {
+	position: relative;
+	display: block;
+	margin: 4px 0 0 0;
+	padding: 0;
+	font-size: 13px;
+	line-height: 18px;
+	font-style: italic;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	text-align: center;
+}
+.honiara .tg-button-holder {
+	position: absolute;
+	display: block;
+	overflow: hidden;
+	bottom: -20px;
+	left: 50%;
+	height: 40px;
+	width: 40px;
+	margin: 0 0 0 -20px;
+	border-radius: 50%;
+	opacity: 0;
+	-webkit-transform: matrix3d(0.7,0,0,0,0,0.7,0,0,0,0,1,0,0,-50,0,1);
+	-moz-transform: matrix3d(0.7,0,0,0,0,0.7,0,0,0,0,1,0,0,-50,0,1);
+	-ms-transform: matrix3d(0.7,0,0,0,0,0.7,0,0,0,0,1,0,0,-50,0,1);
+	-o-transform: matrix3d(0.7,0,0,0,0,0.7,0,0,0,0,1,0,0,-50,0,1);
+	transform: matrix3d(0.7,0,0,0,0,0.7,0,0,0,0,1,0,0,-50,0,1);
+}
+.honiara:hover .tg-button-holder {
+	opacity: 1;
+	-webkit-transform: matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1);
+	-moz-transform: matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1);
+	-ms-transform: matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1);
+	-o-transform: matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1);
+	transform: matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1);
+}
+.honiara .tg-link-button,
+.honiara .tg-media-button {
+    position: absolute;
+    display: block;
+    margin: 0 !important;
+	padding: 0 !important;
+    top: 0;
+    right: 0;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    text-align: center;
+}
+.honiara .tg-link-button i,
+.honiara .tg-media-button i {
+	position: relative;
+	display: block;
+	width: 40px;
+	height: 40px;
+    font-size: 18px;
+	line-height: 40px;
+	cursor: pointer;
+}
+.honiara .tg-media-button .tg-icon-add {
+    font-size: 20px;
+}
+.honiara .tg-item-title:hover,
+.honiara .tg-link-button a:hover,
+.honiara .tg-cats-holder a:hover,
+.honiara .tg-button-holder:hover {
+	opacity: 0.75;
+}
+.honiara .tg-item-link {
+	position: absolute;
+	display: block;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.honiara.tg-force-play .tg-item-audio-poster,
+.honiara.tg-is-playing .tg-item-audio-poster {
+	z-index: 0;
+}
+.honiara.tg-force-play .has-media-poster .tg-item-audio-player,
+.honiara.tg-is-playing .has-media-poster .tg-item-audio-player {
+	z-index: 1;
+}

@@ -1,0 +1,333 @@
+/*fix the layout mess twitter bootstrap plugins create*/
+
+div .attachment-preview {
+background: #fff;
+}
+
+div .attachment-preview  .thumbnail{
+padding:0;
+border:none;
+border-radius:0;
+-webkit-border-radius:0;
+-moz-border-radius:0;
+margin: 0 auto;
+background: #fff;
+}
+
+
+
+/*image only uploader*/
+.avia-media-img-only .media-sidebar .attachment-details .attachment-info,  
+.avia-media-img-only .media-frame-menu,
+.avia-media-img-only .media-sidebar .attachment-details .setting[data-setting="caption"],
+.avia-media-img-only .media-sidebar .attachment-details .setting[data-setting="description"]
+{
+display:none;
+}
+
+.avia-media-img-only .attachment-display-settings .setting{
+display:none;
+}
+
+.avia-media-img-only .attachment-display-settings .setting span{
+float:none;
+}
+
+.avia-media-img-only .attachment-display-settings .setting:last-child{
+display:block;
+}
+
+.avia-media-img-only .media-frame-title, .avia-media-img-only .media-frame-router, .avia-media-img-only .media-frame-content, .avia-media-img-only .media-frame-toolbar{
+left: 0;
+}
+
+/*image uploader, id based (hides everything) */
+
+.avia-media-img-only-no-sidebars .media-sidebar, .avia-media-img-only-no-sidebars .attachment-display-settings .setting, .avia-media-img-only-no-sidebars  .media-sidebar .attachment-details,  .avia-media-img-only-no-sidebars  .media-frame-menu {
+display:none;
+}
+
+.avia-media-img-only-no-sidebars .attachments-browser .attachments, .avia-media-img-only-no-sidebars .attachments-browser .uploader-inline, .avia-media-img-only-no-sidebars .attachments-browser .media-toolbar  {
+right: 0;
+}
+
+.avia-media-img-only-no-sidebars .media-frame-title, .avia-media-img-only-no-sidebars .media-frame-router, .avia-media-img-only-no-sidebars .media-frame-content, .avia-media-img-only-no-sidebars .media-frame-toolbar{
+left: 0;
+}
+
+
+/*gallery uploader*/
+
+.avia-media-gallery-insert .media-sidebar .setting[data-setting="caption"],
+.avia-media-gallery-insert .media-sidebar .setting[data-setting="description"],
+.avia-media-gallery-insert .media-sidebar .gallery-settings
+{
+display:none;
+}
+
+
+
+
+/*video uploader*/
+
+div .avia-video-element{
+background: #333;
+text-align: center;
+color:#fff;
+}
+
+div div .avia-video-element img{
+margin:10px 0 2px 0;
+padding:10px;
+background: #fff;
+-webkit-border-radius: 3px; -moz-border-radius: 3px;  border-radius: 3px;
+top:0;
+}
+
+div .avia-video-element .avia-element-url{
+padding-bottom:10px;
+position: relative;
+top:-7px;
+}
+
+div .avia-video-element .avia_inner_shortcode{
+margin: 6px;
+border: 1px solid #666;
+overflow: hidden;
+background: transparent !important;
+}
+
+div .avia-video-element .avia_inner_shortcode .avia-element-label{display:block;}
+
+.avia-blank-insert .attachments-browser .attachments, .avia-blank-insert .attachments-browser .uploader-inline, .avia-blank-insert .attachments-browser .media-toolbar  {
+right: 0;
+}
+
+.avia-blank-insert .media-sidebar, .avia-blank-insert .media-frame-menu {
+display:none;
+}
+
+.avia-blank-insert .media-frame-title, .avia-blank-insert .media-frame-router, .avia-blank-insert .media-frame-content, .avia-blank-insert .media-frame-toolbar{
+left: 0;
+}
+
+.avia-element-video .button, .avia-element-video .button {
+line-height: 32px;
+height: 33px;
+width: 161px;
+text-align: center;
+z-index: 3;
+margin-bottom:10px;
+}
+
+
+/*multi image and audio upload into modal*/
+
+div .avia-element-multi_image.avia-form-element-container,
+div .avia-element-audio_player.avia-form-element-container{
+padding: 0;
+background: transparent;
+border:none;
+}
+
+div .avia-element-multi_image .button,
+div .avia-element-audio_player .button{
+top: 1px;
+}
+
+
+/*additional fields*/
+
+.compat-item .compat-field-av-custom-link{display:none;}
+.av-show-image-custom-link .compat-field-av-custom-link{display:block;}
+
+
+
+
+
+
+
+
+/*preview images*/
+
+div div .avia_image img{
+top:0;
+}
+
+.avia-delete-image {
+-webkit-transition-duration: 0s;
+-moz-transition-duration: 0s;
+transition-duration: 0s;
+height: 24px;
+display: block;
+width: 24px;
+left: 5px;
+line-height: 24px;
+background: white url(../../images/icon-trash.png) top left no-repeat;
+overflow: hidden;
+text-indent: 214%;
+z-index: 10;
+border-top: 1px solid #E1E1E1;
+cursor: pointer;
+position: relative;
+z-index: 100;
+top: -30px;
+border-right: 1px solid #E1E1E1;
+}
+
+.avia-delete-image:hover{
+background: white url(../../images/icon-trash.png) bottom left no-repeat;
+}
+
+.avia-element-gallery .avia-delete-image {
+display:none;
+}
+
+.avia-builder-prev-img-container-wrap{position: relative; margin-top:10px; overflow: hidden;}
+
+.avia-builder-prev-img-container{
+overflow: hidden;
+position: relative;
+}
+
+.avia-builder-prev-img-container img{
+max-width:99%;
+border:1px solid #e1e1e1;
+background: #f8f8f8;
+margin:1px;
+-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;
+display:block;
+float:left;
+min-width:80px;
+min-height:80px;
+cursor: pointer;
+}
+
+div div .attachment-preview .thumbnail{background: #f8f8f8;}
+
+.avia-element-gallery .avia-builder-prev-img-container img{
+height:80px;
+width:80px;
+}
+
+.avia-element-image .avia-builder-prev-img-container img{
+max-height:300px;
+background-color: #f8f8f8;
+background-image: linear-gradient(45deg, #CBCBCB 25%, transparent 25%, transparent 75%, #CBCBCB 75%, #CBCBCB), linear-gradient(45deg, #CBCBCB 25%, transparent 25%, transparent 75%, #CBCBCB 75%, #CBCBCB);
+background-size: 16px 16px;
+background-position: 0 0, 8px 8px;
+}
+
+
+.avia-element-gallery .button, .avia-element-image .button, .avia-element-multi_image .button, .avia-element-audio_player .button{
+line-height: 32px;
+height: auto;
+position: absolute;
+top: 17px;
+width: 161px;
+text-align: center;
+z-index: 3;
+}
+
+.avia-delete-gallery-button.button, .avia-delete-gallery-button.button:hover{
+width:auto;
+margin-left:7px;
+color: #FFF;
+opacity: 1;
+border-color: #D54E21;
+background-color: #D54E21;
+background-image: -webkit-gradient(linear,left top,left bottom,from(#DD7C5C),to(#D54E21));
+background-image: -webkit-linear-gradient(top,#DD7C5C,#D54E21);
+background-image: -moz-linear-gradient(top,#DD7C5C,#D54E21);
+background-image: -ms-linear-gradient(top,#DD7C5C,#D54E21);
+background-image: -o-linear-gradient(top,#DD7C5C,#D54E21);
+background-image: linear-gradient(to bottom,#DD7C5C,#D54E21);
+-moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3);
+-webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3);
+box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3);
+text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
+}
+
+
+.avia-delete-gallery-button.button:hover{
+background-color: #DD7C5C;
+background-image: none;
+}
+
+.avia-style .avia-element-gallery>div, .avia-style .avia-element-image>div{
+width:100%;
+float:none;
+position: static;
+}
+
+.avia-style .avia-element-gallery .avia-name-description, 
+.avia-style .avia-element-image .avia-name-description,
+.avia-style .avia-element-multi_image .avia-name-description{
+margin-left:167px;
+width: auto;
+}
+
+/*gallery  in meta box and not in modal window*/
+.postbox .avia-element-gallery .button{ position: relative; top:0;}
+
+
+/*slideshow*/
+
+.av_slideshow .avia_inner_shortcode img, 
+.av_slideshow .avia_inner_shortcode .avia-element-label,
+.av_slideshow_full .avia_inner_shortcode img, 
+.av_slideshow_full .avia_inner_shortcode .avia-element-label, 
+.av_fullscreen .avia_inner_shortcode img, 
+.av_fullscreen .avia_inner_shortcode .avia-element-label
+{
+display:block; margin:0 auto; top:0;
+}
+
+.avia-modal-group-element-inner .avia_slideshow_image
+{width:40px; height:40px; display:block; float:left; margin-right:10px; border:1px solid #e1e1e1; background: #fff url(../../images/placeholder-image.png) center center no-repeat;}
+.avia-modal-group-element-inner .avia_slideshow_image img{max-width: 100%; height: auto; display: block; padding:3px;  box-sizing:border-box; -moz-box-sizing:border-box; -webkit-box-sizing:border-box; }
+.avia-multi-img .avia-modal-group-element-inner{clear: both; overflow: hidden;}
+.avia-multi-img .avia-modal-group-element-inner>div { overflow: hidden; }
+.avia_slideshow_content{ overflow: hidden;}
+.avia_slideshow_content .avia_title_container_inner{padding:0; margin:0;}
+.avia_slideshow_content .avia_content_container{margin:3px 0 0 0;}
+.avia_slideshow_content .avia_content_container p { padding: 0; margin: 0; }
+.avia_slideshow_content .avia_content_container br{display:none;}
+.avia_slideshow_content .avia_video_url{display:none;}
+
+/*video slide*/
+.avia-modal-group-element-inner .avia-slide_type-video .avia_slideshow_image{ background: #fff url(../../images/placeholder-video.png) center center no-repeat; }
+.avia-modal-group-element-inner .avia-slide_type-video .avia_slideshow_image img{ visibility: hidden; }
+.avia-modal-group-element-inner .avia-slide_type-video .avia_video_url{display:block;}
+
+
+/*layerslider*/
+div .ls-preview .draggable > *{line-height: 1.1em;}
+#ls-import-samples-template h3{}
+#ls-import-samples-template h3 + .inner{display: none;}
+
+
+
+/*multi audio upload into modal*/
+.avia-style .avia-element-audio_player .avia-name-description{
+	margin-left:190px;
+	width: auto;
+}
+
+/*audioplayer*/
+.avia-modal-group-element-inner .avia_audiolist_image {width:40px; height:40px; display:block; float:left; margin-right:10px; border:1px solid #e1e1e1; background: #fff url(../../images/placeholder-audio.png) center center no-repeat;}
+.avia-modal-group-element-inner .avia_audiolist_content{
+	float: left;
+	margin: -3px 0 0 3px;
+	line-height: 0px;
+}
+.avia-modal-group-element-inner .avia_audiolist_content p{
+	line-height: 8px;
+}
+
+.avia-modal-group-element-inner .avia_audiolist_image img{display:none;}
+.avia_audiolist_content .avia_content_description{display:none;}
+.avia_audiolist_content .avia_content_album{display:none;}
+.avia_audio_url{position: relative; top:-4px;}
+
+.avia-media-audio-insert .playlist-settings{display:none;}

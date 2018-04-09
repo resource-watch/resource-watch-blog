@@ -1,0 +1,48 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: TOMB\n"
+"POT-Creation-Date: 2015-06-11 11:06+0100\n"
+"PO-Revision-Date: 2015-06-11 11:06+0100\n"
+"Last-Translator: \n"
+"Language-Team: Themeone <themeone.master@gmail.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.1\n"
+"X-Poedit-KeywordsList: __;_e;_x\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../fields/gallery.php:80
+msgid "Add/Edit Gallery"
+msgstr ""
+
+#: ../fields/gallery.php:81
+msgid "Delete Gallery"
+msgstr ""
+
+#: ../fields/gallery.php:82
+msgid "Select or upload images to create a gallery"
+msgstr ""
+
+#: ../fields/gallery.php:83
+msgid "Insert gallery"
+msgstr ""
+
+#: ../fields/gallery.php:84
+msgid "Are you sure you want to delete the gallery?"
+msgstr ""
+
+#: ../fields/image.php:62 ../fields/image_id.php:62 ../fields/upload.php:49
+msgid "Upload"
+msgstr ""
+
+#: ../fields/image.php:63 ../fields/image_id.php:63 ../fields/upload.php:50
+msgid "Select or upload an image"
+msgstr ""
+
+#: ../fields/image.php:64 ../fields/image_id.php:64 ../fields/upload.php:51
+msgid "Insert image"
+msgstr ""

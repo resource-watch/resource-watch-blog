@@ -1,0 +1,200 @@
+.victoria a,
+.victoria a:active,
+.victoria a:focus,
+.victoria .tg-share-icons i {
+	text-decoration: none;
+    border: none;
+	-webkit-box-shadow: none;
+    box-shadow: none;
+	-webkit-transition: opacity 0.25s ease, color 0.25s ease;
+	-moz-transition: opacity 0.25s ease, color 0.25s ease;
+	-ms-transition: opacity 0.25s ease, color 0.25s ease;
+	-o-transition: opacity 0.25s ease, color 0.25s ease;
+	transition: opacity 0.25s ease, color 0.25s ease;
+}
+.victoria .tg-media-button:hover,
+.victoria a:not(.mejs-volume-slider):hover {
+	opacity: 0.85;
+}
+.victoria .tg-item-content-holder {
+	position: relative;
+	display: block;
+	padding: 18px;
+	text-align: left;
+}
+.victoria .tg-item-content-holder.link-format,
+.victoria .tg-item-content-holder.quote-format {
+	padding: 18px 18px 32px 18px;
+}
+.victoria .tg-item-title,
+.victoria .tg-item-title a {
+	position: relative;
+    overflow: hidden;
+    display: block;
+    font-size: 18px;
+    line-height: 24px;
+	height: 24px;
+    font-weight: 600;
+    margin: 0 !important;
+    padding: 0 !important;
+    white-space: nowrap;
+	text-overflow: ellipsis;
+	-o-text-overflow: ellipsis;
+	-ms-text-overflow: ellipsis;
+	-moz-binding: url('ellipsis.xml#ellipsis');
+}
+.victoria .tg-item-title a {
+	padding: 0 !important;
+}
+.victoria .quote-format .tg-item-title,
+.victoria .quote-format .tg-item-title a,
+.victoria .link-format .tg-item-title,
+.victoria .link-format .tg-item-title a {
+    -webkit-line-clamp: initial;
+}
+.victoria h2.tg-quote-content,
+.victoria h2.tg-quote-content a,
+.victoria h2.tg-link-content,
+.victoria h2.tg-link-content a {
+	line-height: 26px;
+}
+.victoria .tg-item-overlay {
+	position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    width: 75px;
+    height: 75px;
+    margin: 0 auto;
+	border-radius: 50%;
+	-webkit-transform: matrix3d(0.8,0,0,0,0,0.8,0,0,0,0,1,0,0,0,0,1);
+	-moz-transform: matrix3d(0.8,0,0,0,0,0.8,0,0,0,0,1,0,0,0,0,1);
+	-ms-transform: matrix3d(0.8,0,0,0,0,0.8,0,0,0,0,1,0,0,0,0,1);
+	-o-transform: matrix3d(0.8,0,0,0,0,0.8,0,0,0,0,1,0,0,0,0,1);
+	transform: matrix3d(0.8,0,0,0,0,0.8,0,0,0,0,1,0,0,0,0,1);
+}
+.victoria .tg-media-button,
+.victoria .tg-link-button {
+	position: relative;
+    display: block;
+    vertical-align: middle;
+    height: 75px;
+    width: 75px;
+    margin: 0 auto;
+    padding: 0;
+    cursor: pointer;
+}
+.victoria .tg-item-overlay,
+.victoria .tg-media-button,
+.victoria .tg-link-button {
+	opacity: 0;
+	-webkit-transition: all 0.5s cubic-bezier(.39,1.89,.55,1.45);
+	-moz-transition: all 0.5s cubic-bezier(.39,1.89,.55,1.45);
+	-ms-transition: all 0.5s cubic-bezier(.39,1.89,.55,1.45);
+	-o-transition: all 0.5s cubic-bezier(.39,1.89,.55,1.45);
+	transition: all 0.5s cubic-bezier(.39,1.89,.55,1.45);
+}
+.victoria .tg-media-button i,
+.victoria .tg-link-button i {
+	position: relative;
+	display: block;
+	height: 100%;
+	width: 100%;
+	line-height: 75px;
+	font-size: 24px;
+	text-align: center;
+}
+.victoria .tg-media-button,
+.victoria .tg-link-button {	
+	-webkit-transform: matrix3d(1.35,0,0,0,0,1.35,0,0,0,0,1,0,0,0,0,1);
+	-moz-transform: matrix3d(1.35,0,0,0,0,1.35,0,0,0,0,1,0,0,0,0,1);
+	-ms-transform: matrix3d(1.35,0,0,0,0,1.35,0,0,0,0,1,0,0,0,0,1);
+	-o-transform: matrix3d(1.35,0,0,0,0,1.35,0,0,0,0,1,0,0,0,0,1);
+	transform: matrix3d(1.35,0,0,0,0,1.35,0,0,0,0,1,0,0,0,0,1);
+}
+.victoria .tg-item-media-holder:hover .tg-item-overlay,
+.victoria .tg-item-media-holder:hover .tg-media-button,
+.victoria .tg-item-media-holder:hover .tg-link-button {
+	opacity: 1;
+	-webkit-transform: matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1);
+	-moz-transform: matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1);
+	-ms-transform: matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1);
+	-o-transform: matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1);
+	transform: matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1);
+}
+.victoria .tg-item-excerpt {
+	position: relative;
+	display: block;
+    margin: 18px 0;
+    padding: 0;
+    font-size: 14px;
+    line-height: 26px;
+    text-align: left;
+}
+.victoria .tg-quote-icon,
+.victoria .tg-link-icon {
+    position: relative;
+    display: inline-block;
+    font-size: 24px;
+    margin: 0;
+    font-size: 28px;
+    opacity: 0.3;
+    text-align: center;
+}
+.victoria h2.tg-quote-content,
+.victoria h2.tg-link-content {
+	margin: 18px 0 0 0 !important;
+	padding: 0 !important;
+	line-height: 26px;
+}
+.victoria h2.tg-quote-content a,
+.victoria h2.tg-link-content a {
+	font-weight: normal;
+}
+.victoria .tg-quote-author,
+.victoria .tg-link-url {
+	position: relative;
+    display: block;
+	margin: 8px 0 0 0;
+    font-size: 13px;
+	font-style: italic; 
+}
+.victoria .tg-quote-author:before {
+	content: '\2012';
+	position: relative;
+    display: inline-block;
+    margin: 0;
+	padding: 0 5px 0 0;
+}
+.victoria .tg-item-author {
+	font-size: 13px;
+}
+.victoria .tg-item-author .tg-item-author-name {
+	text-decoration: underline;
+}
+.victoria .tg-item-duration {
+    position: absolute;
+    display: block;
+    right: 0;
+    bottom: 0;
+    padding: 8px 18px;
+    background: rgba(87,93,104,0.85);
+    font-size: 11px;
+    line-height: 11px;
+	color: #ffffff;
+	pointer-events: none;
+}
+.victoria .tg-item-views,
+.victoria .tg-item-date {
+    position: relative;
+	display: inline-block;
+	font-size: 13px;
+}
+.victoria .tg-item-views:before,
+.victoria .tg-item-date:before {
+	content: "/";
+    position: relative;
+	display: inline-block;
+	font-size: 13px;
+	margin: 0 6px;
+}

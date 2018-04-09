@@ -1,0 +1,4 @@
+//previously:
+
+- update layerslider.php file:
+	define('LS_ROOT_URL', get_template_directory_uri() . '/config-layerslider/LayerSlider' );

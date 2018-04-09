@@ -1,0 +1,205 @@
+/* Have fun adding your style here :) - PS: At all times this file should contain a comment or a rule, otherwise opera might act buggy :( */
+
+/* General Custom CSS */
+
+
+.avia_textblock body, body p {
+ font-weight: 400 !important;
+ line-height: 30px !important;
+}
+
+.avia_textblock a {
+  color: #2C75B0;
+}
+
+a.iconbox_icon.heading-color {
+  top: -1px !important;
+
+}
+
+body.single-post .main_menu ul li#menu-item-449 a {
+  color: #fab62e;
+}
+
+.avia_textblock h3 {
+  font-size: 42px;
+  line-height: 50px;
+  margin-bottom: 10px;
+  margin-top: 40px;
+  font-weight: 300;
+}
+
+.avia_textblock h6 {
+  font-weight: 400;
+  color: #717171;
+  padding-top: 5px;
+}
+
+.wp-caption-text {
+  font-weight: 400;
+  color: #717171;
+  text-align: left;
+  font-family: Lato, "Open sans";
+  font-size: 14px;
+  font-style: normal;
+}
+
+.text-postmap {
+  line-height: 35px; 
+  font-size: 18px; 
+  font-family: Lato; 
+  color: #393F44; 
+  padding-bottom:41px;
+}
+
+.sub-menu {
+  border-radius: 4px;
+}
+
+ul.sub-menu{
+opacity:1 !important;
+background-color: white !important;
+padding:10px 10px 0px 10px;
+margin:0px;
+
+}
+
+.sub-menu a {
+    background-color: white !important;
+    font-size: 16px !important;
+    color: #393f44 !important;
+    font-weight: 400;
+    border-color:white;
+}
+.av-main-nav #menu-item-6 ul { width: 180px !important; }
+.av-main-nav #menu-item-8 ul { width: 140px !important; }
+.av-main-nav #menu-item-576 ul { width: 120px !important; }
+
+
+.sub-menu li:last-child a {
+padding-bottom: 30px !important;
+}
+
+.main_menu .menu ul { top:60px; }
+.main_menu .menu #menu-item-6 ul { left:-70%; }
+.main_menu .menu #menu-item-8 ul { left:-30%; }
+.main_menu .menu #menu-item-576 ul { left:-50%; }
+.main_menu .menu #menu-item-1121 ul { left:-70%; }
+
+.avia-menu-fx { background: white !important; height: 3px; }
+
+span.avia-sub-menu-fx:after {
+    content: '';
+    height: 10px;
+    width: 10px;
+    display: block;
+    margin: auto;
+    background: white;
+    -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    top: -15px;
+    position: relative;
+}
+
+.slideshow_caption {
+    padding-top: 74px;
+}
+.slideshow_align_caption {
+    vertical-align: top;
+}
+
+.nav-next {
+	float:right;
+	text-align: right;
+}
+   
+.nav-previous:before {
+
+}
+
+.imagen-headpost .avia-slide-wrap {
+max-height: 400px;
+}
+
+.caption_framed .slideshow_caption .avia-caption-content p {
+    min-height: 400px;
+}
+
+/*
+Desktop Styles
+================================================== */
+/* Note: Add new css to the media query below that you want to only effect the desktop view of your site */
+
+@media only screen and (min-width: 1042px) {
+  /* Add your Desktop Styles here */
+
+.strech-footer {
+  width: 960px;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0px 0px;
+  clear: both;
+}
+
+}
+
+@media only screen and (max-width: 1041px) and (min-width: 990px) { 
+  .strech-footer {
+  width: 930px;
+  max-width: 930px;
+  margin: 0 auto;
+  padding: 0px 0px;
+  clear: both;
+}
+  
+}
+
+@media only screen and (max-width: 988px) and (min-width: 768px) { 
+  .strech-footer {
+  width: 840px;
+  max-width: 840px;
+  margin: 0 auto 0 auto;
+  padding: 0px 0px;
+  clear: both;
+}
+
+}
+
+
+
+/*
+Mobile Styles
+================================================== */
+/* Note: Add new css to the media query below that you want to only effect the Mobile and Tablet Portrait view */
+
+
+@media only screen and (max-width: 767px) {
+  /* Add your Mobile Styles here */
+.strech-footer {
+  width: 429px;
+  max-width: 429px;
+  margin: 0 auto;
+  padding: 0px 0px;
+  clear: both;
+}}
+
+@media only screen and (max-width: 480px) {
+.strech-footer {
+  width: 350px;
+  max-width: 350px;
+  margin: 0 auto;
+  padding: 0px 0px;
+  clear: both;
+}
+#footer .av_one_fourth {
+width: 50% !important;
+margin: auto !important;
+}
+.avatar-gridd {
+  margin-top:90% !important;
+}
+
+
+}
+
