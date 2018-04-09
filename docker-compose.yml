@@ -3,6 +3,8 @@ version: '3'
 services:
   db:
     image: mariadb:10.3.2
+    ports:
+      - "3306:3306"
     volumes:
       - .data/db:/var/lib/mysql
     restart: always
@@ -26,7 +28,6 @@ services:
       - ./www/wp-content:/var/www/html/wp-content
       - ./uploads.ini:/usr/local/etc/php/conf.d/uploads.ini
     container_name: rw_blog
-    env_file: .env
     environment:
       WORDPRESS_DB_HOST: db:3306
       WORDPRESS_DB_USER: wordpress
