@@ -1,0 +1,38 @@
+# Mac OS
+.DS_Store
+
+# Text editors
+*.sublime*
+.sublime*
+.vscode*
+
+# Docker
+/.data
+/data
+
+# npm
+/node_modules
+
+# Wordpress
+*.log
+/www/.htaccess
+/www/wp-config.php
+/www/wp-content/cache/
+/www/wp-content/upgrade/
+/www/wp-content/uploads/
+/www/wp-content/wp-cache-config.php
+/www/wp-content/advanced-cache.php
+/www/wp-content/backup-db/
+/www/wp-content/backups/
+/www/wp-content/blogs.dir/
+/www/wp-content/plugins/
+
+# Theme
+/www/wp-content/themes/
+/www/wp-content/themes/ihr-2018
+
+# ENV
+.env
+
+# do not update sql files
+*.sql

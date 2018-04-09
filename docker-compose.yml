@@ -1,0 +1,33 @@
+version: '3'
+
+services:
+  db:
+    image: mariadb:10.3.2
+    volumes:
+      - .data/db:/var/lib/mysql
+    restart: always
+    container_name: rw_blog_db
+    environment:
+      MYSQL_ROOT_PASSWORD: wordpress
+      MYSQL_DATABASE: wordpress
+      MYSQL_USER: wordpress
+      MYSQL_PASSWORD: wordpress
+
+  wordpress:
+    image: wordpress:4.8.2
+    ports:
+      - "8000:80"
+    restart: always
+    depends_on:
+      - db
+    links:
+      - db
+    volumes:
+      - ./www/wp-content:/var/www/html/wp-content
+      - ./uploads.ini:/usr/local/etc/php/conf.d/uploads.ini
+    container_name: rw_blog
+    env_file: .env
+    environment:
+      WORDPRESS_DB_HOST: db:3306
+      WORDPRESS_DB_USER: wordpress
+      WORDPRESS_DB_PASSWORD: wordpress
