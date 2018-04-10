@@ -3,7 +3,9 @@ $( document ).ready(function() {
     const headerContainer = $('body').find('#header_main .container');
     const content = $('body').find('#main');
 
-    const searchTemplate = '<div class="c-search"><form action="/search"><img class="search-icon" src="/blog/wp-content/uploads/2018/02/search.svg" /><input placeholder="Search" name="term"/><div class="close"><img class="close-icon" src="/blog/wp-content/themes/resource-watch/assets/cross.svg" /></div></form></div>';
+    $('body').find('#header_main .logo a').append('<div class="brand-beta">beta</div>');
+
+    const searchTemplate = '<div class="c-search"><form action="/search"><img class="search-icon" src="/blog/wp-content/uploads/2018/02/search.svg" /><input placeholder="Search" name="term"/><div class="close"><img class="close-icon" src="/blog/wp-content/uploads/2018/04/cross.svg" /></div></form></div>';
     const initSearch = function() {
       header.append(searchTemplate);
     }
@@ -42,10 +44,11 @@ $( document ).ready(function() {
     const setUserMenu = function(data) {
       const nav = $('body').find('.main_menu');
       const navLoggedIn = $('body').find('.logged-in-menu .avia-menu-text').first();
+      const userChar = data.name && data.name.charAt(0);
       const userInfo = data.Photo ?
         '<div class="user-info" style="background-image: url(' + data.Photo + ')"></div>'
         :
-        '<div class="user-info">' + data.name && data.name.charAt(0) + '</div>';
+        '<div class="user-info">' + userChar + '</div>';
       nav.addClass('rw-logged-in');
       if (data.role === 'ADMIN') {
         nav.addClass('is-admin');
@@ -62,7 +65,9 @@ $( document ).ready(function() {
       username: 'resourcewatch',
       password: 'password123',
       success: function(data) {
-        setUserMenu(data);
+        if (data) {
+          setUserMenu(data);
+        }
       },
       error: function(msg) {
         console.error(msg);

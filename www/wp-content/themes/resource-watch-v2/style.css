@@ -10,6 +10,21 @@ Template: enfold
 
 /* Your CSS code goes here
 -------------------------------------- */
+/* beta */
+.logo a {
+  overflow: visible;
+}
+
+.logo .brand-beta {
+  font-size: 10px;
+  color: #fff;
+  text-transform: uppercase;
+  position: absolute;
+  right: 0px;
+  top: -6px;
+  margin-top: -32px;
+  font-weight: 400;
+}
 
 /* custom user login */
 .logged-in-menu {
@@ -23,6 +38,9 @@ Template: enfold
 }
 .rw-logged-in .logged-out-menu {
   display: none !important;
+}
+.logged-in-menu .sub-menu {
+  width: 100px !important;
 }
 
 .user-info {
