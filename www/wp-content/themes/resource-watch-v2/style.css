@@ -11,49 +11,56 @@ Template: enfold
 /* Your CSS code goes here
 -------------------------------------- */
 
-.logged-in .user-menu {
-    display: block;
+/* custom user login */
+.logged-in-menu {
+  display: none;
 }
-.logged-in .login-menu {
-    display: none;
+.logged-out-menu {
+  display: block;
 }
-.logged-out .user-menu {
-    display: none;
+.rw-logged-in .logged-in-menu {
+  display: block !important;
 }
-.logged-out .login-menu {
-    display: block;
+.rw-logged-in .logged-out-menu {
+  display: none !important;
 }
 
-.user-menu, .login-menu {
-    z-index: 1;
+.user-info {
+  z-index: 21;
+  width: 32px;
+  height: 32px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 50%;
+  background-color: #393f44;
+  opacity: 1 !important;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+.logged-in-menu > a {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+}
+
+.rw-logged-in .admin {
+  display: none;
+}
+
+.rw-logged-in.is-admin .admin {
+  display: block;
 }
 
 .main_menu .av-main-nav > li > a {
-    margin-right: -10px;
-    margin-left: 15px;
+  margin-right: -10px;
+  margin-left: 15px;
 }
 
-.logged-in .admin {
-    display: none;
-}
-
-.logged-in.is-admin .admin {
-    display: block;
-}
-
-.user-img {
-    position: absolute;
-    right: 0;
-    z-index: 21;
-    top: 21px;
-    width: 32px;
-    height: 32px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 50%;
-}
-
+/* custom search */
 .c-search {
     position: absolute;
     top: 0;

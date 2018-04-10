@@ -25,25 +25,11 @@ function custom_js() {
 
 add_action( 'wp_enqueue_scripts', 'custom_js' );
 
-// get user session info
-function check_user() {
-    global $user_info;
-    // $url_data = file_get_contents('/auth/user');
-    // if ($url_data) {
-    //   $user_info = json_decode($url_data);
-    // }
+add_filter('avf_logo_link', 'avf_redirect_logo_link');
+
+function avf_redirect_logo_link($link) {
+	$link = 'https://resourcewatch.org';
+	return $link;
 }
-
-add_action( 'wp', 'check_user' );
-
-
-// init sessions
-function init_sessions() {
-    if (!session_id()) {
-        session_start();
-    }
-}
-add_action('init', 'init_sessions');
-
 
 ?>

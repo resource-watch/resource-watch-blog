@@ -666,14 +666,6 @@ function jptweak_remove_share() {
 add_action( 'loop_start', 'jptweak_remove_share' );
 
 
-add_filter('avf_logo_link', 'avf_redirect_logo_link');
-
-function avf_redirect_logo_link($link) {
-	$link = 'https://resourcewatch.org';
-	return $link;
-}
-
-
 /*
  *  register custom functions that are not related to the framework but necessary for the theme to run
  */
