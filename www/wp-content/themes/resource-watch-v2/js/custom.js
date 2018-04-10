@@ -45,7 +45,7 @@ $( document ).ready(function() {
       const userInfo = data.Photo ?
         '<div class="user-info" style="background-image: url(' + data.Photo + ')"></div>'
         :
-        '<div class="user-info">' + data.name[0] + '</div>';
+        '<div class="user-info">' + data.name && data.name.charAt(0) + '</div>';
       nav.addClass('rw-logged-in');
       if (data.role === 'ADMIN') {
         nav.addClass('is-admin');
@@ -57,7 +57,7 @@ $( document ).ready(function() {
     // fetch user data
     $.ajax({
       type: 'GET',
-      url: window.location.origin + 'auth/user',
+      url: window.location.origin + '/auth/user',
       dataType: 'json',
       username: 'resourcewatch',
       password: 'password123',
