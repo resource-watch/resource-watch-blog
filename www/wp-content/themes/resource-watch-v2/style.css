@@ -55,11 +55,6 @@ Template: enfold
   display: block;
 }
 
-.main_menu .av-main-nav > li > a {
-  margin-right: -10px;
-  margin-left: 15px;
-}
-
 /* custom search */
 .c-search {
     position: absolute;
