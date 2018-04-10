@@ -44,7 +44,7 @@ $( document ).ready(function() {
     const setUserMenu = function(data) {
       const nav = $('body').find('.main_menu');
       const navLoggedIn = $('body').find('.logged-in-menu .avia-menu-text').first();
-      const userChar = data.name && data.name.charAt(0);
+      const userChar = data.name ? data.name.charAt(0) : '';
       const userInfo = data.Photo ?
         '<div class="user-info" style="background-image: url(' + data.Photo + ')"></div>'
         :
