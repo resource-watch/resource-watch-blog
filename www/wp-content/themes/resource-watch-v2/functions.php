@@ -32,4 +32,9 @@ function avf_redirect_logo_link($link) {
 	return $link;
 }
 
+add_shortcode('wpv-post-coauthors', 'wpv_post_coauthors');
+function wpv_post_coauthors() {
+  return coauthors_posts_links(null, null, null, null, false);
+}
+
 ?>
